@@ -1,0 +1,941 @@
+/*
+Theme Name: Andes
+Version: 1.0
+*/
+
+/* Display setup */
+
+#header, 
+#middle,
+#single-portfolio,
+.form-submit,
+#about,
+#posts_nav {
+	display: block;
+	clear: both;
+	float: none;
+	width: 978px;
+	margin: 0 auto;	
+}	
+
+#header:after,
+#middle:after,
+#single-portfolio:after,
+.form-submit:after,
+#posts_nav:after,
+#about:after {
+	content: " ";
+	display: block;
+	position: relative;
+	clear: both;
+	float: none;
+	width: 100%;
+	height: 1px;
+	margin: -1px 0 0;
+	padding: 0;
+	background: transparent;
+}	
+
+/* Begin Styling */
+
+body {
+width: 978px;
+	margin: 10px auto;
+	font-family: Sans-Serif;
+	color: #003333;
+	font-size: 14px;
+	line-height: 1.25;
+
+}
+
+
+#header {
+	display: block;
+	clear: both;
+	float: none;
+	width: 978px;
+	margin: 0 auto;	
+}	
+#header:after,
+#navigation:after,
+ {
+  content: " ";
+  display: block;
+  position: relative;
+  clear: both;
+  float: none;
+  width: 100%;
+  height: 1px;
+  margin: -1px 0 0;
+  padding: 0;
+  background: transparent;
+}	
+	
+/* = Header
+-------------------------------------------------------------- */
+
+/* Logo */
+#logo {
+  width:200px;
+  clear: both;
+  display:inline;
+}
+
+#logo img {
+  width:7.5em;
+  height:3em;
+}
+/* Site Title */
+
+#navigation {
+	position: relative;
+	display: block;	
+	margin: 0;
+	font-size: 0.857em;
+	padding: 10px 0 0;
+	float: right;
+	font-weight: lighter;
+}
+
+#navigation  li {
+	list-style: none;
+	text-transform: capitalize;
+	float: left;
+}
+
+
+#navigation a {
+	color: #ff6600;
+	text-decoration: none;
+	padding-left: 13px;
+}
+
+#navigation a:after {
+	color: #3399cc;
+	content: "|";
+	padding-left: 13px; 
+	line-height: 2.3em;
+}
+
+#navigation li:hover > a{
+	color: #003333;
+}
+
+#navigation li.current_page_item > a{
+	color: #0099CC;
+	font-family: "HelveticaNeueLT Pro 45 Lt", Sans-Serif;
+	font-weight: lighter;
+}
+
+
+/* = Search
+-----------------------------------------------------------------*/
+
+#search {
+	width: 200px;
+}
+	
+.widget_search label {
+	display: none;
+}
+
+#s:active {
+	border: none;
+}
+
+.widget_search #s {/* This keeps the search inputs in line */
+	background-color: #fff;
+	color: #777;
+	width: 100px;
+	height: 1em;
+	line-height: .714em;
+	padding: 0;
+	border: none;
+	border-bottom: solid thin #b40033;
+	position: relative;
+	top: 20px;
+	left: 65px;
+}
+
+.widget_search #s:hover {
+	background-color: #fff;
+	border-bottom: solid thin #b40033;
+}
+
+.widget_search #s:focus,
+.widget_search #s:active {
+	background-color: #fff;
+	border: solid thin #b40033;
+}
+
+#search input[type=submit] {
+	color: #FF4500;
+	background-color: #fff;
+	font-family: "HelveticaNeueLT Pro 45 Lt", Sans-Serif;
+	font-size: 1em;
+	padding: 0;
+	height: 13px;
+	border: none;
+	position: relative;
+	left: -90px;
+	top: 20px;
+}
+
+
+
+#search input[type=submit]:hover {
+	color: #ccc;
+	cursor: pointer;
+}
+
+.search-title {
+	color: #b40033;
+	font-size: 1.6em;
+	line-height: .8em;
+	background-color: red;
+}
+
+#post-0 p {
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 2em;
+}
+
+.menu {
+	float: left;
+}
+
+
+/* Front Page Content
+-----------------------------------------------------*/
+#home_columns {
+	width: 978px;
+	float: left;
+}
+
+#home_columns .column {
+	width: 275px;
+	height: 350px;
+	display: block;
+	position: relative;
+	margin-top: 2em;
+	float:left;
+	margin-right:30px;
+	border-right:thin solid #F2F2F2;
+	padding:0 15px 0 5px;
+}
+
+/* About Content 
+----------------------------------------------------*/
+
+#about-main-content {
+  width:650px;
+  float: left;
+  display:block;
+  margin-top: 4em;
+}
+
+h2 a {
+  color:#003333;
+  text-decoration:none;
+  font-size: 2em;
+}
+.entry-content h2 {
+  margin-top: 2em;
+  font-size: 2em;
+}
+#info {
+  float:left;
+  width:650px;
+}
+
+#info h2 {
+  font-size: 1.5em;
+}
+
+#info .column {
+  width:190px;
+  height:300px;
+  float:left;
+  margin-right: 15px;
+  border-right:thin solid #F2F2F2;
+  padding-right:10px;
+}
+
+#info .column:last-child {
+  border:none;
+}
+
+#middle .teammates-sidebar {
+  width:180;
+  float:right;
+  border-left:thin solid #F2F2F2;
+  padding:10px 0 0 30px;
+  margin-top:6.5em;
+}
+
+.entry-content-team img {
+  width:150px;
+  height:130px;
+}
+
+#middle .teammates-sidebar a {
+  color:#3399cc;
+  text-decoration: none;
+  font-size: .7em;
+}
+
+#middle .teammates-sidebar a:hover {
+  color:#ff6600;
+}
+
+/* About SIngle Page */
+
+#middle.team-single-main .teammates-sidebar {
+  margin-top:-1.5em;
+}
+
+#middle.team-single-main .entry-title {
+  margin:4em 0 2em 0;
+}
+#middle.team-single-main .entry-content p a img {
+  width:650px;
+  height:400px;
+  margin-bottom:2em;
+}
+#middle.team-single-main .entry-content {
+  margin-bottom:4em;
+  width:650px;
+}
+#middle.team-single-main .entry-content ul li a {
+  text-decoration: none;
+  color:#003333;
+}
+#middle.team-single-main .entry-content ul li a:hover {
+  color:#ff6600;
+}
+#posts_nav {
+  margin:3em 0;
+}
+#posts_nav a {
+  color:#3399cc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: .75em;
+}
+.previous-post-link {
+  float:left;
+  border-right:thin solid #3399cc;
+  padding:0 7px 3px 0;
+  
+}
+.next-post-link {
+  float:right;
+  margin-right:30px;
+  border-left:thin solid #3399cc;
+  padding:0 0px 3px 7px;
+}
+
+/* Portfolio
+----------------------------------------------------*/
+
+#middle.portfolio {
+  margin-top:4em;
+}
+
+.entry-content-portfolio {
+	display: block;
+	width: 222px;
+	float: left;
+	margin-right: 30px;
+	text-decoration: none;
+}
+
+.entry-content-portfolio img {
+	width: 200px;
+	height: 160px;
+	margin-top: 4em;
+}
+
+.entry-content-portfolio img:hover {
+	opacity: 0.5;
+	border: thin solid #ff6600;
+}
+
+.entry-content-portfolio h2 {
+  color:#003333;
+  width:200px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.entry-content-portfolio .entry-title {
+	font-size: 1em;
+	margin-top: 0em;
+}
+
+#portfolio-sidebar {
+	float: right;
+	width: 222px;
+	display: block;
+	font-size: 1em;
+	margin-right: -50px;
+	margin-top:1.8em;
+	list-style: none;	
+	padding: 15px 0 0 49px;
+	border-left: 1px solid #ccc;
+	position: relative;
+}
+
+#portfolio-sidebar h3 {
+  color:#ff6600;
+  font-weight: normal;
+}
+
+#portfolio-sidebar ul {
+  padding:0 0 2em 0;
+  list-style-type: none;
+  line-height:1.5em;
+}
+
+#portfolio-sidebar ul li a {
+  text-decoration: none;
+  color:#3399cc;
+}
+
+#portfolio-sidebar ul li a:before {
+  content: "- ";
+  color:#ff6600;
+}
+#portfolio-sidebar ul li a:hover {
+  color:#ff6600;
+}
+
+/* Portfolio Single */
+
+#middle.single-portfolio #content {	
+	float: left;
+	width: 700px;
+	margin-top: 4.5em;
+}
+
+#middle.single-portfolio #content img {
+  max-width:700px;
+  max-height:500px;
+  margin-bottom:2em;
+}
+
+#middle.single-portfolio #content .meta-info {
+  margin-top:-2px;
+  width:20px;
+  font-weight: lighter;
+  color:#D8D8D8;
+  float:left;
+}
+
+#middle.blog #content .entry-content p a {
+  color:#3399cc;
+  text-decoration: none;
+}
+#middle.blog #content .entry-content p a:hover {
+  color:#ff6600;
+}
+
+
+#portfolio-sidebar-single {
+	float: right;
+	width: 222px;
+	display: block;
+	font-size: 1em;
+	margin-right: -50px;
+	margin-top:7em;
+	list-style: none;	
+	padding: 15px 0 0 49px;
+	border-left: 1px solid #ccc;
+	position: relative;
+}
+
+#portfolio-sidebar-single h3 {
+  color:#ff6600;
+  font-weight: normal;
+}
+
+#portfolio-sidebar-single ul {
+  padding:0 0 2em 0;
+  list-style-type: none;
+  line-height:1.5em;
+}
+
+#portfolio-sidebar-single ul li a {
+  text-decoration: none;
+  color:#3399cc;
+}
+
+#portfolio-sidebar-single ul li a:before {
+  content: "- ";
+  color:#ff6600;
+}
+#portfolio-sidebar-single ul li a:hover {
+  color:#ff6600;
+}
+
+/* Comments 
+----------------------------------------------------*/
+.comments-notice {
+  width:696px;
+  border-bottom:thin solid #ff6600;
+  padding-bottom:3em;
+  margin-bottom:4em;
+}
+.comments-notice a {
+  color:#ff6600;
+  text-decoration: none;
+  float:right;
+}
+
+.commentlist {
+  float:left;
+  width: 318px;
+  list-style-type: none;
+  margin-right:none !important;
+  padding-right:none !important;
+  
+}
+.commentlist li {
+  background-color:#E0F2F7;
+}
+
+.comment-meta {
+  padding: 10px 10px;
+  border-bottom:thin solid #fff;
+}
+.comment-meta a{
+	text-decoration: none;
+	color: #3399cc;
+	font-size: .7em;
+	float:right;
+}
+.comment-meta a:hover {
+  color:#ff6600;
+}
+.comment_author {
+  color:#3399cc;
+}
+.commentlist p {
+  padding:0 0 10px 10px;
+}
+#respond {
+  width:322px;
+  float:left;
+  margin-right:15px;
+}
+
+#reply-title {
+  color:#003333;
+  font-size: 2em;
+  margin-top:9px;
+}
+#respond p {
+  color:#3399cc;
+  clear:both;
+  display:block;
+  margin-bottom:1.5em;
+}
+#respond p:hover {
+  color:#ff6600;
+}
+.required:after {
+  content:"(required)";
+  font-size: 70%;
+  color:#D8D8D8;
+}
+
+input#email, input#author, input#url, textarea#comment {
+  width:326px;
+  border-color:none;
+  clear:both;
+}
+
+#author:hover,
+#email:hover,
+#subject:hover {
+  border-color:#ff6600;
+}
+.form-submit {
+  width:327px;
+}
+input#submit {
+  background-color: #3399cc;
+	color: #fff;
+	border: none;
+	padding: .2em 2em;
+	font-weight: bold;
+	float: right;
+	margin-top: -15px;
+}
+
+input#submit:hover {
+  background-color: #ff6600;
+}
+
+/* Blog
+----------------------------------------------------*/
+#content {	
+	float: left;
+	width: 642px;
+	margin-top: 4em;
+}
+
+.meta-info {
+  margin-bottom:-65px;
+  width:20px;
+  margin-left:705px;
+  font-weight: lighter;
+  color:#D8D8D8;
+}
+
+#content img {
+  max-width:700px;
+  max-height:500px;
+}
+
+#middle.blog #content .entry-content p {
+  color:#003333;
+  font-size: 1em;
+}
+
+#middle.blog #content .entry-content p a {
+  color:#3399cc;
+  text-decoration: none;
+}
+#middle.blog #content .entry-content p a:hover {
+  color:#ff6600;
+}
+
+#blog-sidebar {
+	float: right;
+	width: 222px;
+	display: block;
+	font-size: 1em;
+	margin-right: -50px;
+	margin-top:7em;
+	list-style: none;	
+	padding: 15px 0 0 49px;
+	border-left: 1px solid #ccc;
+	position: relative;
+}
+
+#blog-sidebar h3 {
+  color:#ff6600;
+  font-weight: normal;
+}
+
+#blog-sidebar ul {
+  padding:0 0 2em 0;
+  list-style-type: none;
+  line-height:1.5em;
+}
+
+#blog-sidebar ul li a {
+  text-decoration: none;
+  color:#3399cc;
+}
+
+#blog-sidebar ul li a:before {
+  content: "- ";
+  color:#ff6600;
+}
+#blog-sidebar ul li a:hover {
+  color:#ff6600;
+}
+
+/* = Archive 
+----------------------------------------------------*/
+#middle.archive #content .page-title {
+  color:#3399cc;
+  opacity:.4;
+  margin-bottom:2em;
+}
+
+#middle.archive #content .archive-title {
+  color:#ff6600;
+  font-size: 1.5em;
+}
+
+#middle.archive #content .entry-title {
+  font-size: 1em;
+}
+
+#middle.archive #content .meta-info {
+  font-size: 14px;
+}
+
+#middle.archive #content .entry-content p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#middle.archive #content .entry-content p a {
+  color:#3399cc;
+  text-decoration: none;
+}
+
+#middle.archive #content .entry-content p a:hover {
+  color:#ff6600;
+}
+
+.comments-notice {
+  font-size: 14px;
+  margin-top:4em;
+}
+
+
+
+#sidebar {
+	float: right;
+	width: 222px;
+	display: block;
+	font-size: 1em;
+	margin-right: -50px;
+	margin-top:9em;
+	list-style: none;	
+	padding: 15px 0 0 49px;
+	border-left: 1px solid #ccc;
+	position: relative;
+}
+
+#sidebar h3 {
+  color:#ff6600;
+  font-weight: normal;
+}
+
+#sidebar ul {
+  padding:0 0 2em 0;
+  list-style-type: none;
+  line-height:1.5em;
+}
+
+#sidebar ul li a {
+  text-decoration: none;
+  color:#3399cc;
+}
+
+#sidebar ul li a:before {
+  content: "- ";
+  color:#ff6600;
+}
+
+#sidebar ul li a:hover {
+  color:#ff6600;
+}
+
+/* Contact 
+----------------------------------------------------*/
+.firstname { 
+ left: -9999px; 
+ position: absolute; 
+ top: -9999px;
+}
+
+
+
+#middle.contact_form {
+	list-style: none;
+	width: 978px;
+	margin-top: 4em;
+}
+
+input#email.requiredField.email, input#contactName.requiredField, input#subject.requiredField  {
+  width: 459px;
+	border: thin solid #999;
+	clear:both;
+	display:block;
+}
+input#email.requiredField.email:hover,
+input#contactName.requiredField:hover,
+input#subject.requiredField:hover {
+  border:thin solid #ff6600;
+}
+#commentsText {
+	width: 640px;
+	height: 150px;	
+	border: thin solid #999;
+	clear:both;
+	display:block;  
+}
+
+.forms {
+	margin-top: 3em !important;
+	list-style: none;
+}
+
+ol.forms label:hover {
+  color:#ff6600;
+  
+}
+
+.forms label {
+	font-size: 2em;	
+	line-height: 1.5em;
+	color:#3399cc;
+}
+
+.error {
+	font-size: .8em;
+	color: #ff6600;
+}
+
+.error:before {
+	content: "*";	
+}
+input[type=checkbox] {
+  margin-left:40px;
+  background-color: red;
+}
+#sendcopy {
+	font-size: .8em;	
+}
+
+#submitted {
+	background-color: #3399cc;
+	color: #fff;
+	border: none;
+	font-size: 1.7em;
+	padding: .2em 2em;
+	font-weight: bold;
+	float: right;
+	margin-right:12.6em;
+	position: relative;
+	margin-top: -15px;
+}
+
+#submitted:hover, #submitted:focus {
+  background-color: #ff6600;
+}
+
+.textarea {
+	margin-top: 2em;	
+}
+
+.thanks {
+	margin-top: 6em;
+}
+
+.thanks p {
+	font-size: 1.5em;	
+}
+
+/* Footer
+-----------------------------------------------------*/
+
+#footer {
+	text-align: center;
+	color: #999;
+	font-size: 0.714em;
+	padding: 30px 0 0 0;	
+	margin-top:4em;
+}
+
+.copyright {
+  color:#FF4500;
+}
+
+.andes {
+  color: #0099CC;
+}
+
+.interactive {
+  color:#001A4C;
+}
+
+
+/* Hash Grid
+-----------------------------------------------------*/
+/**
+ * Grid
+ */
+#grid{
+
+    /* Dimensions - same width as your grid with gutters */
+    width: 978px;
+
+    /* Grid (left-aligned)
+    position: absolute;
+    top: 0;
+    left: 0;
+    */
+
+    /* Grid (centered) */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -489px;
+
+}
+
+/**
+ * Vertical grid lines
+ *
+ * Set the column width taking the borders into consideration,
+ * and use margins to set column gutters.
+ */
+#grid div.vert{
+
+    width: 54px;
+    border-width: 0;
+    margin-left: 30px;
+
+}
+
+#grid div.vert.first-line{
+
+    margin-left: 0;
+
+}
+
+
+
+
+/**
+ * Horizontal grid lines, defined by your base line height
+ *
+ * Remember, the CSS properties that define the box model:
+ * visible height = height + borders + margins + padding
+ */
+#grid div.horiz{
+
+    /* 20px line height */
+    height: 19px;
+    border-bottom: 1px dotted darkgray;
+    margin: 0;
+    padding: 0;
+
+}
+
+/**
+* Classes for multiple grids
+*
+* When using more than one grid, remember to set the numberOfGrids 
+* option in the hashgrid.js file.
+*/			
+#grid.grid-1 div.vert{
+
+    /* Vertical grid line colour for grid 1 */
+    background: darkturquoise;
+    opacity: 0.1;
+
+}
+#grid.grid-2{
+
+    /* Adjustments */
+    padding: 0 160px;
+    width: 660px;
+
+}
+#grid.grid-2 div.vert{
+
+    /* Vertical grid line colour for grid 2 */
+    border-color: crimson;
+
+}
+
