@@ -151,35 +151,28 @@ width: 978px;
     width: 150px;
     outline: none;
     border:solid thin #3399cc;
+    background: url(images/search.png) no-repeat 0px 1px;
+    padding: 4px 8px 4px 20px;
+    
 }
-
-
-input#s[type=text]  {
-	color: #3399cc;
+input#s {
+	font-size: 13px;
+	height: 20px;
+	line-height: 1.2em;
+	margin-top: 4px;
+	margin-left:7px;
 }
 input::-webkit-input-placeholder, isindex::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #ff6600;
   font-family: Sans-Serif;
   font-weight: lighter;
 }
+input#s[type=text]  {
+	color: #3399cc;
+	font-family: Sans-Serif;
+	font-weight: lighter;
+}
 
-textarea {
-	padding-left: 3px;
-	width: 98%;
-	color:red;
-}
-input#s {
-	background: url(images/search.png) no-repeat 0px 1px;
-	font-size: 13px;
-	height: 20px;
-	line-height: 1.2em;
-	padding: 4px 8px 4px 28px;
-	margin-top: 4px;
-	margin-left:7px;
-}
-input#searchsubmit {
-	display: none;
-}
 
 
 /* Front Page Content
