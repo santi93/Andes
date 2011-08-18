@@ -131,28 +131,55 @@ width: 978px;
 /* = Search
 -----------------------------------------------------------------*/
 
-input[type=text]:focus,
-textarea:focus {
-	color: #003333;
+#s {
+    border:none;
+    width: 90px;
+    -webkit-transition-duration: 400ms;
+    -webkit-transition-property: width;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-duration: 400ms;
+    -moz-transition-property: width;
+    -moz-transition-timing-function: ease;
+    -o-transition-duration: 400ms;
+    -o-transition-property: width;
+    -o-transition-timing-function: ease;
+    transition-duration: 400ms;
+    transition-property: width;
+    transition-timing-function: ease;
 }
+#s:focus {
+    width: 150px;
+    outline: none;
+    border:solid thin #3399cc;
+}
+
+
+input#s[type=text]  {
+	color: #3399cc;
+}
+input::-webkit-input-placeholder, isindex::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ff6600;
+  font-family: Sans-Serif;
+  font-weight: lighter;
+}
+
 textarea {
 	padding-left: 3px;
 	width: 98%;
+	color:red;
 }
 input#s {
-	background: url(search.png) no-repeat 5px 0px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
+	background: url(images/search.png) no-repeat 0px 1px;
 	font-size: 13px;
 	height: 20px;
 	line-height: 1.2em;
 	padding: 4px 8px 4px 28px;
-	
+	margin-top: 4px;
+	margin-left:7px;
 }
 input#searchsubmit {
 	display: none;
 }
-
 
 
 /* Front Page Content
