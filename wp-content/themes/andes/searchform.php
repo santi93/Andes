@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying search forms in Twenty Eleven
+ * Searchform Template for Andes
 */
 ?>
 	<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
