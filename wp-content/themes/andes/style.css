@@ -82,8 +82,8 @@ width: 978px;
 }
 
 #logo img {
-  width:7.5em;
-  height:3em;
+  width:18em;
+  height:6em;
 }
 /* Site Title */
 
@@ -147,14 +147,15 @@ width: 978px;
     transition-property: width;
     transition-timing-function: ease;
 }
+
 #s:focus {
     width: 150px;
     outline: none;
     border:solid thin #3399cc;
     background: url(images/search.png) no-repeat 0px 1px;
     padding: 4px 8px 4px 20px;
-    
 }
+
 input#s {
 	font-size: 13px;
 	height: 20px;
@@ -162,19 +163,22 @@ input#s {
 	margin-top: 4.3px;
 	margin-left:7px;
 }
+
 input::-webkit-input-placeholder, isindex::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #ff6600;
   font-family: Sans-Serif;
   font-weight: lighter;
   margin-top:1px;
 }
+
 input#s[type=text]  {
 	color: #3399cc;
 	font-family: Sans-Serif;
 	font-weight: lighter;
 }
-
-
+#searchform input-placeholder:hover {
+  color:#003333;
+}
 
 /* Front Page Content
 -----------------------------------------------------*/
@@ -707,16 +711,14 @@ input#submit:hover {
  top: -9999px;
 }
 
-
-
 #middle.contact_form {
 	list-style: none;
 	width: 978px;
-	margin-top: 4em;
+	margin-left:;
 }
 
 input#email.requiredField.email, input#contactName.requiredField, input#subject.requiredField  {
-  width: 459px;
+  width: 474px;
 	border: thin solid #999;
 	clear:both;
 	display:block;
@@ -737,11 +739,11 @@ input#subject.requiredField:hover {
 .forms {
 	margin-top: 3em !important;
 	list-style: none;
+	padding-left:0px !important;
 }
 
 ol.forms label:hover {
   color:#ff6600;
-  
 }
 
 .forms label {
@@ -759,7 +761,6 @@ ol.forms label:hover {
 	content: "*";	
 }
 input[type=checkbox] {
-  margin-left:40px;
   background-color: red;
 }
 #sendcopy {
@@ -774,9 +775,9 @@ input[type=checkbox] {
 	padding: .2em 2em;
 	font-weight: bold;
 	float: right;
-	margin-right:12.6em;
 	position: relative;
 	margin-top: -15px;
+	
 }
 
 #submitted:hover, #submitted:focus {
@@ -785,6 +786,7 @@ input[type=checkbox] {
 
 .textarea {
 	margin-top: 2em;	
+	text-indent: 0px !important;
 }
 
 .thanks {
@@ -879,95 +881,3 @@ input[type=checkbox] {
 	font-family: Sans-Serif;
 	font-weight: lighter;
 }
-
-
-/* Hash Grid
------------------------------------------------------*/
-/**
- * Grid
- */
-#grid{
-
-    /* Dimensions - same width as your grid with gutters */
-    width: 978px;
-
-    /* Grid (left-aligned)
-    position: absolute;
-    top: 0;
-    left: 0;
-    */
-
-    /* Grid (centered) */
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -489px;
-
-}
-
-/**
- * Vertical grid lines
- *
- * Set the column width taking the borders into consideration,
- * and use margins to set column gutters.
- */
-#grid div.vert{
-
-    width: 54px;
-    border-width: 0;
-    margin-left: 30px;
-
-}
-
-#grid div.vert.first-line{
-
-    margin-left: 0;
-
-}
-
-
-
-
-/**
- * Horizontal grid lines, defined by your base line height
- *
- * Remember, the CSS properties that define the box model:
- * visible height = height + borders + margins + padding
- */
-#grid div.horiz{
-
-    /* 20px line height */
-    height: 19px;
-    border-bottom: 1px dotted darkgray;
-    margin: 0;
-    padding: 0;
-
-}
-
-/**
-* Classes for multiple grids
-*
-* When using more than one grid, remember to set the numberOfGrids 
-* option in the hashgrid.js file.
-*/			
-#grid.grid-1 div.vert{
-
-    /* Vertical grid line colour for grid 1 */
-    background: darkturquoise;
-    opacity: 0.1;
-
-}
-#grid.grid-2{
-
-    /* Adjustments */
-    padding: 0 160px;
-    width: 660px;
-
-}
-#grid.grid-2 div.vert{
-
-    /* Vertical grid line colour for grid 2 */
-    border-color: crimson;
-
-}
-

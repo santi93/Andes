@@ -1,0 +1,92 @@
+/* Hash Grid
+-----------------------------------------------------*/
+/**
+ * Grid
+ */
+#grid{
+
+    /* Dimensions - same width as your grid with gutters */
+    width: 978px;
+
+    /* Grid (left-aligned)
+    position: absolute;
+    top: 0;
+    left: 0;
+    */
+
+    /* Grid (centered) */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -489px;
+
+}
+
+/**
+ * Vertical grid lines
+ *
+ * Set the column width taking the borders into consideration,
+ * and use margins to set column gutters.
+ */
+#grid div.vert{
+    
+    display: block !important;
+    float: left !important;
+    width: 54px;
+    border-width: 0;
+    margin-left: 30px;
+
+}
+
+#grid div.vert.first-line{
+
+    margin-left: 0;
+
+}
+
+
+
+
+/**
+ * Horizontal grid lines, defined by your base line height
+ *
+ * Remember, the CSS properties that define the box model:
+ * visible height = height + borders + margins + padding
+ */
+#grid div.horiz{
+
+    /* 20px line height */
+    height: 19px;
+    border-bottom: 1px dotted darkgray;
+    margin: 0;
+    padding: 0;
+
+}
+
+/**
+* Classes for multiple grids
+*
+* When using more than one grid, remember to set the numberOfGrids 
+* option in the hashgrid.js file.
+*/			
+#grid.grid-1 div.vert{
+
+    /* Vertical grid line colour for grid 1 */
+    background: darkturquoise;
+    opacity: 0.1;
+
+}
+#grid.grid-2 div.vert{
+
+  /* Vertical grid line colour for grid 1 */
+  background: darkturquoise;
+  opacity: 0.3;
+
+}
+#grid.grid-3 div.vert{
+
+  /* Vertical grid line colour for grid 1 */
+  background: darkturquoise;
+  opacity: 0.5;
+
+}

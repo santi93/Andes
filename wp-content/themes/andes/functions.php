@@ -14,25 +14,29 @@
 	register_andes_menus();
 
 		if (!is_admin()) {
-			wp_deregister_script('jquery');
-			wp_deregister_script('jquery-ui-core');
-			wp_deregister_script('jquery-ui-tabs');
-			wp_deregister_script('jquery-ui-sortable');
-			wp_deregister_script('jquery-ui-draggable');
-			wp_deregister_script('jquery-ui-droppable');
-			wp_deregister_script('jquery-ui-selectable');
-			wp_deregister_script('jquery-ui-resizable');
-			wp_deregister_script('jquery-ui-dialog');
+  		wp_deregister_script('jquery');
+  		wp_deregister_script('jquery-color');
+  		wp_deregister_script('jquery-form');
+  		wp_deregister_script('jquery-ui-core');
+  		wp_deregister_script('jquery-ui-tabs');
+  		wp_deregister_script('jquery-ui-sortable');
+  		wp_deregister_script('jquery-ui-draggable');
+  		wp_deregister_script('jquery-ui-droppable');
+  		wp_deregister_script('jquery-ui-selectable');
+  		wp_deregister_script('jquery-ui-resizable');
+  		wp_deregister_script('jquery-ui-dialog');
 
-			wp_register_script('jquery', get_bloginfo('template_directory').'/js/jquery-1.5.2.min.js', false, '1.5.2');
-			wp_register_script('jquery-ui', get_bloginfo('template_directory').'/js/jquery-ui-1.8.12.custom.min.js', 'jquery', '1.8.12');
-			wp_register_script('hashgrid', get_bloginfo('template_directory').'/js/hashgrid.js', 'jquery', '5');
+  		wp_register_script('jquery', get_bloginfo('template_directory').'/js/jquery-1.6.2.min.js', false, '1.6.2');
+  		wp_register_script('jquery-ui', get_bloginfo('template_directory').'/js/jquery-ui-1.8.16.custom.min.js', 'jquery', '1.8.16');
+  		wp_register_script('hashgrid', get_bloginfo('template_directory').'/js/hashgrid.js', 'jquery', '7');
+  		wp_register_script('andes', get_bloginfo('template_directory').'/js/andes.js', 'jquery', '1');
 
-			wp_enqueue_script('jquery');
-			wp_enqueue_script('jquery-ui');
-			wp_enqueue_script('hashgrid');
-							}
-						}
+  		wp_enqueue_script('jquery');
+  		wp_enqueue_script('jquery-ui');
+  		wp_enqueue_script('hashgrid');
+  		wp_enqueue_script('andes');
+  	}
+  }
 
 	add_action( 'init', 'andes_init' );
 
@@ -165,7 +169,7 @@
   			'exclude_from_search'	=> false,
   			'hierarchical'			=> true,
   			'query_var' 			=> true, 
-  			'supports'				=> array( 'title', 'editor', 'comments', 'trackbacks', 'excerpt', 'thumbnail' ),
+  			'supports'				=> array( 'title', 'editor', 'comments', 'trackbacks', 'excerpt', 'thumbnail', 'custom-fields' ),
   			'taxonomies'			=> array( 'post_tag', 'category'),
   			'can_export'			=> true,
 

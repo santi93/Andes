@@ -1,0 +1,613 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Slideshow Gallery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-19 09:33+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Antonie Potgieter <antonie@tribulant.com>\n"
+"Language-Team: Tribulant Software <support@tribulant.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: SOUTH AFRICA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../slideshow-gallery-ajax.php:32
+#: ../tags/1.0/slideshow-gallery-ajax.php:28
+msgid "Slides have been ordered"
+msgstr ""
+
+#: ../slideshow-gallery-plugin.php:234
+#: ../tags/1.0/slideshow-gallery-plugin.php:203
+msgid "Uploads folder named \""
+msgstr ""
+
+#: ../slideshow-gallery.php:49
+#: ../tags/1.0/slideshow-gallery.php:32
+msgid "Slideshow"
+msgstr ""
+
+#: ../slideshow-gallery.php:50
+msgid "Manage Slides"
+msgstr ""
+
+#: ../slideshow-gallery.php:51
+#: ../tags/1.0/slideshow-gallery.php:33
+msgid "Configuration"
+msgstr ""
+
+#: ../slideshow-gallery.php:61
+msgid "Save Settings"
+msgstr ""
+
+#: ../slideshow-gallery.php:62
+msgid "General Settings"
+msgstr ""
+
+#: ../slideshow-gallery.php:63
+msgid "Links &amp; Images Overlay"
+msgstr ""
+
+#: ../slideshow-gallery.php:64
+msgid "Appearance &amp; Styles"
+msgstr ""
+
+#: ../slideshow-gallery.php:160
+msgid "Slide has been removed"
+msgstr ""
+
+#: ../slideshow-gallery.php:163
+msgid "Slide cannot be removed"
+msgstr ""
+
+#: ../slideshow-gallery.php:167
+msgid "No slide was specified"
+msgstr ""
+
+#: ../slideshow-gallery.php:175
+#: ../tags/1.0/slideshow-gallery.php:78
+msgid "Slide has been saved"
+msgstr ""
+
+#: ../slideshow-gallery.php:195
+#: ../tags/1.0/slideshow-gallery.php:100
+msgid "Selected slides have been removed"
+msgstr ""
+
+#: ../slideshow-gallery.php:200
+#: ../tags/1.0/slideshow-gallery.php:105
+msgid "No slides were selected"
+msgstr ""
+
+#: ../slideshow-gallery.php:204
+#: ../tags/1.0/slideshow-gallery.php:109
+msgid "No action was specified"
+msgstr ""
+
+#: ../slideshow-gallery.php:226
+#: ../tags/1.0/slideshow-gallery.php:131
+msgid "All configuration settings have been reset to their defaults"
+msgstr ""
+
+#: ../slideshow-gallery.php:230
+#: ../tags/1.0/slideshow-gallery.php:135
+msgid "Configuration settings could not be reset"
+msgstr ""
+
+#: ../slideshow-gallery.php:243
+#: ../tags/1.0/slideshow-gallery.php:148
+msgid "Configuration has been saved"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:24
+msgid "Insert a slideshow"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:80
+msgid "Images From a Post"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:81
+msgid "Custom Added Slides"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:85
+msgid "Post"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:88
+msgid "Select a Post"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:89
+msgid "THIS POST"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:98
+msgid "Exclude"
+msgstr ""
+
+#: ../js/tinymce/dialog.php:100
+msgid "comma separated IDs of attachments to exclude"
+msgstr ""
+
+#: ../models/slide.php:64
+msgid "Please fill in a title"
+msgstr ""
+
+#: ../models/slide.php:65
+msgid "Please fill in a description"
+msgstr ""
+
+#: ../models/slide.php:66
+msgid "Please select an image type"
+msgstr ""
+
+#: ../models/slide.php:80
+msgid "The image did not upload, please try again"
+msgstr ""
+
+#: ../models/slide.php:81
+msgid "Image could not be moved from TMP to \"wp-content/uploads/\", please check permissions"
+msgstr ""
+
+#: ../models/slide.php:101
+msgid "The image file is too large"
+msgstr ""
+
+#: ../models/slide.php:104
+msgid "The image was partially uploaded, please try again"
+msgstr ""
+
+#: ../models/slide.php:107
+msgid "No image was chosen for uploading, please choose an image"
+msgstr ""
+
+#: ../models/slide.php:110
+msgid "No TMP directory has been specified for PHP to use, please ask your hosting provider"
+msgstr ""
+
+#: ../models/slide.php:113
+msgid "Image cannot be written to disc, please ask your hosting provider"
+msgstr ""
+
+#: ../models/slide.php:119
+msgid "Please specify an image"
+msgstr ""
+
+#: ../models/slide.php:147
+msgid "No data was posted"
+msgstr ""
+
+#: ../tags/1.0/trunk/vendors/class.paginate.php:176
+msgid "Displaying"
+msgstr ""
+
+#: ../tags/1.0/trunk/vendors/class.paginate.php:176
+msgid "of"
+msgstr ""
+
+#: ../tags/1.0/trunk/vendors/class.paginate.php:179
+msgid "Previous Page"
+msgstr ""
+
+#: ../tags/1.0/trunk/vendors/class.paginate.php:187
+msgid "Page"
+msgstr ""
+
+#: ../tags/1.0/trunk/vendors/class.paginate.php:198
+msgid "Next Page"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/settings.php:5
+#: ../tags/1.0/views/admin/settings.php:5
+msgid "Styles"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/settings.php:14
+#: ../tags/1.0/views/admin/settings.php:14
+msgid "Configuration Settings"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:4
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:4
+msgid "Auto Slide"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:6
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:53
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:79
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:6
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:53
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:79
+msgid "Yes"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:7
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:54
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:80
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:7
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:54
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:80
+msgid "No"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:17
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:17
+msgid "Auto Speed"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:19
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:113
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:19
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:113
+msgid "speed"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:20
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:20
+msgid "default:10"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:20
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:20
+msgid "lower number for shorter interval between images"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:30
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:30
+msgid "Image Fading Speed"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:33
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:33
+msgid "default:10 recommended:1-20"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:33
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:33
+msgid "lower number for quicker fading of images"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:37
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:37
+msgid "Navigation Default Opacity"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:39
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:46
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:99
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:39
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:46
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:99
+msgid "&#37; <!-- percentage -->"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:40
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:40
+msgid "opacity of the prev/next buttons by default"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:44
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:44
+msgid "Navigation Hover Opacity"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:47
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:47
+msgid "opacity of the prev/next buttons when they are hovered"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:51
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:51
+msgid "Show Information"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:64
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:64
+msgid "Information Speed"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:67
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:67
+msgid "speed at which the information will slide in"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:77
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:77
+msgid "Show Thumbnails"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:90
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:90
+msgid "Thumbnails Position"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:92
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:92
+msgid "Top"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:93
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:93
+msgid "Bottom"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:97
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:97
+msgid "Thumbnail Opacity"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:100
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:100
+msgid "default opacity of thumbnails when they are not hovered"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:104
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:104
+msgid "Thumbnail Active Border"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:107
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:107
+msgid "border color (hexidecimal) for the active image thumbnail. default:#FFFFFF"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:111
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:111
+msgid "Thumbnails Scroll Speed"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:114
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:114
+msgid "default:5 recommended:1-20"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:118
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:118
+msgid "Thumbnail Spacing"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:120
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-styles.php:8
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-styles.php:15
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:120
+msgid "px"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-general.php:121
+#: ../tags/1.0/views/admin/metaboxes/settings-general.php:121
+msgid "horizontal margin/spacing between thumbnails"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-styles.php:6
+msgid "Gallery Width"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-styles.php:9
+msgid "width of the slideshow gallery"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-styles.php:13
+msgid "Gallery Height"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-styles.php:16
+msgid "height of the slideshow gallery"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-styles.php:20
+msgid "Slideshow Border"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-styles.php:26
+msgid "Slideshow Background"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-styles.php:32
+msgid "Information Background"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-styles.php:38
+msgid "Information Text Color"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-submit.php:6
+msgid "Reset all configuration settings to their default values"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-submit.php:6
+msgid "Are you sure you wish to reset all configuration settings?"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-submit.php:6
+msgid "Reset to Defaults"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/metaboxes/settings-submit.php:13
+msgid "Save Configuration"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:2
+msgid "add new"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:7
+msgid "slides"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:14
+msgid "Are you sure you wish to execute this action on the selected slides?"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:17
+msgid "Order all your slides"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:17
+#: ../tags/1.0/trunk/views/admin/slides/order.php:2
+msgid "Order Slides"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:20
+msgid "Bulk Actions"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:21
+msgid "Delete"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:23
+msgid "Apply"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:32
+#: ../tags/1.0/trunk/views/admin/slides/index.php:41
+msgid "Image"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:33
+#: ../tags/1.0/trunk/views/admin/slides/index.php:42
+#: ../tags/1.0/trunk/views/admin/slides/save.php:11
+msgid "Title"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:34
+#: ../tags/1.0/trunk/views/admin/slides/index.php:43
+msgid "Date"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/index.php:35
+#: ../tags/1.0/trunk/views/admin/slides/index.php:44
+msgid "Order"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/order.php:5
+msgid "&larr; Manage All Slides"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/order.php:47
+msgid "No slides found"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/save.php:2
+msgid "Save a Slide"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/save.php:18
+msgid "Description"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/save.php:25
+msgid "Image URL"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/save.php:32
+msgid "Link To"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/admin/slides/save.php:39
+msgid "Save Slide"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/default/gallery.php:24
+#: ../tags/1.0/trunk/views/default/gallery.php:48
+msgid "Slide Left"
+msgstr ""
+
+#: ../tags/1.0/trunk/views/default/gallery.php:28
+#: ../tags/1.0/trunk/views/default/gallery.php:52
+msgid "Slide Right"
+msgstr ""
+
+#: ../tags/1.0.3/views/admin/metaboxes/settings-styles.php:6
+msgid "Resize Images"
+msgstr ""
+
+#: ../tags/1.0.3/views/admin/metaboxes/settings-styles.php:10
+msgid "should images be resized proportionally to fit the width of the slideshow area"
+msgstr ""
+
+#: ../tags/1.0.4/views/admin/slides/index.php:2
+msgid "Add New"
+msgstr ""
+
+#: ../tags/1.0.4/views/admin/slides/save.php:32
+msgid "Use Link"
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/index.php:33
+#: ../tags/1.1/views/admin/slides/index.php:43
+msgid "Link"
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/index.php:59
+msgid "Edit"
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/index.php:60
+msgid "Are you sure you want to permanently remove this slide?"
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:14
+msgid "title/name of your slide as it will be displayed to your users."
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:22
+msgid "description of your slide as it will be displayed to your users below the title."
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:27
+msgid "Image Type"
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:29
+msgid "Upload File (recommended)"
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:30
+msgid "Specify URL"
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:32
+msgid "do you want to upload an image or specify a local/remote image URL?"
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:42
+msgid "Choose Image"
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:45
+msgid "choose your image file from your computer. JPG, PNG, GIF are supported."
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:58
+msgid "Current image. Leave the field above blank to keep this image."
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:79
+msgid "Local or remote image location eg. http://domain.com/path/to/image.jpg"
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:94
+msgid "set this to Yes to link this slide to a link/URL of your choice."
+msgstr ""
+
+#: ../tags/1.1/views/admin/slides/save.php:107
+msgid "link/URL to go to when a user clicks the slide eg. http://www.domain.com/mypage/"
+msgstr ""
+
+#: ../trunk/views/admin/metaboxes/settings-linksimages.php:4
+#: ../views/admin/metaboxes/settings-linksimages.php:4
+msgid "Open Images in Thickbox Overlay"
+msgstr ""
+
+#: ../trunk/views/admin/metaboxes/settings-linksimages.php:8
+#: ../views/admin/metaboxes/settings-linksimages.php:8
+msgid "turning this on (Yes) will open image URLs (.jpg, .png, .gif, .bmp) in a Thickbox image overlay"
+msgstr ""
+
