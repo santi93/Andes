@@ -7,8 +7,8 @@ Template Name: About
   <?php get_header(); ?>
 
 
-  <section id="middle">
-    
+<section id="middle">
+
     <div class="teammates-sidebar">
       <?php $loop = new WP_Query( array( 'post_type' => 'team' ) ); ?>
 
@@ -20,47 +20,46 @@ Template Name: About
       </a>
       <?php endwhile; ?>
     </div>
-    
-    <div id="about-main-content">	
+  
+    <div id="content" class="about">	
 
-			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+  		<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
-			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+  		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-				<h2 class="entry-title">	
-					<?php 
-					the_title('<a href="' . get_permalink() . '" title="' . the_title_attribute('echo=0') . '" rel="bookmark">', '</a>');
-					 ?>
-				</h2>
+  			<h2 class="entry-title">	
+  				<?php 
+  				the_title('<a href="' . get_permalink() . '" title="' . the_title_attribute('echo=0') . '" rel="bookmark">', '</a>');
+  				 ?>
+  			</h2>
 
-				<div class="entry-image"> 
-					<?php echo wp_get_attachment_image( 1 ); ?> 
-				</div>	
+  			<div class="entry-image"> 
+  				<?php echo wp_get_attachment_image( 1 ); ?> 
+  			</div>	
 
-				<div class="entry-content">
-					<?php 							
-					 the_content();
-					 wp_link_pages('before=<p class="pages">' . __('Pages:','example') . '&after=</p>')	
-					 ?>
-				</div>
+  			<div class="entry-content">
+  				<?php 							
+  				 the_content();
+  				 wp_link_pages('before=<p class="pages">' . __('Pages:','example') . '&after=</p>')	
+  				 ?>
+  			</div>
 
-			</div>
-			<?php endwhile; ?>
+  		</div>
+  		<?php endwhile; ?>
 
-			<?php else : ?>
+  		<?php else : ?>
 
-			<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'verone'); ?></p>
+  		<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'verone'); ?></p>
 
-			<?php endif; ?>
+  		<?php endif; ?>
 
-		</div>
-  		
+  	</div>
+		
   	<div id="info">
   			<?php if ( ! dynamic_sidebar( 'about-content-widget-area' ) ) : ?>
   			<?php endif; ?>
   	</div>
+</section>
 
-  </section>
 
-
-  <?php get_footer(); ?>
+<?php get_footer(); ?>

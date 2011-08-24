@@ -5,11 +5,11 @@ Version: 1.0
 
 /* Display setup */
 
+
 #header, 
 #middle,
-#single-portfolio,
+#content,
 .form-submit,
-#about,
 #posts_nav {
 	display: block;
 	clear: both;
@@ -22,8 +22,7 @@ Version: 1.0
 #middle:after,
 #single-portfolio:after,
 .form-submit:after,
-#posts_nav:after,
-#about:after {
+#posts_nav:after  {
 	content: " ";
 	display: block;
 	position: relative;
@@ -39,15 +38,15 @@ Version: 1.0
 /* Begin Styling */
 
 body {
-width: 978px;
+  width: 978px;
 	margin: 10px auto;
-	font-family: Sans-Serif;
+	font: 15px "HelveticaNeueLT Pro 45 Lt", Helvetica, Arial, sans-serif;
 	color: #003333;
 	font-size: 14px;
 	line-height: 1.25;
-
+  margin-top:4em;
+  font-weight: normal;
 }
-
 
 #header {
 	display: block;
@@ -84,6 +83,7 @@ width: 978px;
 #logo img {
   width:18em;
   height:6em;
+  margin-left:-25px;
 }
 /* Site Title */
 
@@ -92,7 +92,7 @@ width: 978px;
 	display: block;	
 	margin: 0;
 	font-size: 0.857em;
-	padding: 10px 0 0;
+	padding: 45px 0 0;
 	float: right;
 	font-weight: lighter;
 }
@@ -108,6 +108,9 @@ width: 978px;
 	color: #ff6600;
 	text-decoration: none;
 	padding-left: 13px;
+}
+#navigation form:hover {
+  color: red;
 }
 
 #navigation a:after {
@@ -126,6 +129,7 @@ width: 978px;
 	font-family: "HelveticaNeueLT Pro 45 Lt", Sans-Serif;
 	font-weight: lighter;
 }
+
 
 
 /* = Searchform
@@ -202,11 +206,13 @@ input#s[type=text]  {
 /* About Content 
 ----------------------------------------------------*/
 
-#about-main-content {
+#content.about {
   width:650px;
   float: left;
   display:block;
   margin-top: 4em;
+  clear:none;
+  font-size: 14px;
 }
 
 h2 a {
@@ -391,6 +397,7 @@ h2 a {
 	float: left;
 	width: 700px;
 	margin-top: 4.5em;
+	clear:none;
 }
 
 #middle.single-portfolio #content img {
@@ -558,6 +565,7 @@ input#submit:hover {
 	float: left;
 	width: 642px;
 	margin-top: 4em;
+	clear:none;
 }
 
 .meta-info {

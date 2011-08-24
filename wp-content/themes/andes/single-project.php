@@ -7,8 +7,6 @@
     <?php if ( ! dynamic_sidebar( 'blog-sidebar-widget-area' ) ) : ?>
   	<?php endif; ?>
   </div>
-
-	
 	
 		<div id="content">	
 		
