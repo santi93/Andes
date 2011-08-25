@@ -3,7 +3,7 @@
 
 <section id="middle" class="single-portfolio">
 
-	<div id="portfolio-sidebar-single">
+	<div id="sidebar">
     <?php if ( ! dynamic_sidebar( 'blog-sidebar-widget-area' ) ) : ?>
   	<?php endif; ?>
   </div>

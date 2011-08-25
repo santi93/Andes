@@ -21,7 +21,7 @@ Template Name: About
       <?php endwhile; ?>
     </div>
   
-    <div id="content" class="about">	
+    <div id="content">	
 
   		<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 

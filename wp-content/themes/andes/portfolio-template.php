@@ -8,7 +8,7 @@ Template Name: Portfolio
 
 <section id="middle" class="portfolio">
 	
-	<div id="portfolio-sidebar">
+	<div id="sidebar" class="portfolio">
     <?php if ( ! dynamic_sidebar( 'blog-sidebar-widget-area' ) ) : ?>
   	<?php endif; ?>
   </div>

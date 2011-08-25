@@ -1,23 +1,21 @@
 <? get_header(); ?>
 
+
+
+
 <section id="middle">
+
+	<div id="content" class="front">
 	
-	<div id="content">
-		
-		<div id="home_columns">
-			<?php if ( ! dynamic_sidebar( 'home-content-widget-area' ) ) : ?>
-			<?php endif; ?>
-		</div>
-		
+
 		
 		<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 		
 			<div id="post_<?php the_ID(); ?>" <?php post_class(); ?>>
-			
-				<div class="entry-image"> <?php echo wp_get_attachment_image( 1 ); ?> </div>
-				
+			  <?php the_content(); ?>
+				<div class="entry-image-front"> <?php echo wp_get_attachment_image( 1 ); ?> </div>
 			</div>
-		
+		    
 		<?php endwhile; ?>
 		
 		<?php else : ?>
@@ -26,8 +24,12 @@
 			
 		
 		<?php endif; ?>
-	
-		
+	  
+	  <div id="home_columns">
+			<?php if ( ! dynamic_sidebar( 'home-content-widget-area' ) ) : ?>
+			<?php endif; ?>
+		</div>
+		  
 	</div>
 </section>
 

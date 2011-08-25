@@ -6,7 +6,7 @@
 
 <section id="middle" class="blog">
 
-  <div id="blog-sidebar">
+  <div id="sidebar" class="blog">
     <?php if ( ! dynamic_sidebar( 'blog-sidebar-widget-area' ) ) : ?>
   	<?php endif; ?>
   </div>
