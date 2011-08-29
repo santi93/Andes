@@ -23,7 +23,7 @@
 				</h2>
 				
 			  <div class="entry-image"> 
-  				<?php echo wp_get_attachment_image( 1 ); ?> 
+  				<?php wp_get_attachment_image(1); ?>
 				</div>
 				
 			  <p class="meta-info">
@@ -32,28 +32,29 @@
 				
 			  <div class="entry-content">
 					<?php 
-					   the_content('read more');
+					   the_content('read more»');
 					   wp_link_pages('before=<p class="pages">' . __('Pages:','example') . '&after=</p>')
 					 ?>
 				</div>
 				
 				<div class="comments-notice">					
-					<?php	comments_popup_link( __( '', '1 Comment', '% Comments' ) );?>	
+					<?php	comments_popup_link( __( 'Post Comment', '1 Comment', '% Comments' ) );?>	
 				</div>	
 							
 				<?php comments_template( $file ); ?>
-				
 			</div>
 						
 		<?php endwhile; ?>
 		<?php else : ?>
-		<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'verone'); ?></p>
+		<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'andes'); ?></p>
 		<?php endif; ?>
 	</div>
-	
-	  <div id="posts_nav">
-    	<span class="previous-post-link"><?php next_posts_link(' Older Posts'); ?> </span>			
-    	<span class="next-post-link"><?php previous_posts_link('More Recent Posts '); ?></span>	
-    </div>
     
 </section>	
+
+<div id="posts_nav">
+  <span class="previous-post-link"><?php previous_post_link('%link', 'Older Posts'); ?> </span>			
+  <span class="next-post-link"><?php next_post_link('%link', 'Newer Posts'); ?></span>
+</div>
+
+<?php get_footer(); ?>

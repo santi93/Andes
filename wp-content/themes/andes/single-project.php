@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<section id="middle" class="single-portfolio">
+<section id="middle" >
 
 	<div id="sidebar">
     <?php if ( ! dynamic_sidebar( 'blog-sidebar-widget-area' ) ) : ?>
@@ -25,7 +25,9 @@
 				</div>	
 									
 				<p class="meta-info">
-					<abbr class="published" title="<?php the_time('m d y'); ?>"><?php the_time(__('m d y', 'example')); ?></abbr>
+					<abbr class="published" title="<?php the_time('m d y'); ?>">
+					  <?php the_time(__('m d y', 'example')); ?>
+					</abbr>
 				</p>
 											
 				<div class="entry-content">
@@ -36,7 +38,7 @@
 				</div>
 								
 				<div class="comments-notice">					
-					<?php	comments_popup_link( __( '', '1 Comment', '% Comments' ) );?>	
+					<?php	comments_popup_link( __( 'No Comments Yet', '1 Comment', '% Comments' ) );?>	
 				</div>	
 							
 				<?php comments_template( $file ); ?>	
@@ -52,11 +54,11 @@
 				
 		</div>
 
-<div id="posts_nav">
-	<span class="previous-post-link"><?php previous_post( '%', ' Previous Post', 'no'); ?> </span>			
-	<span class="next-post-link"><?php next_post('%', 'Next Post ', 'no'); ?></span>	
-</div>	
-
 </section>
+
+<div id="posts_nav">
+	<span class="previous-post-link"><?php previous_post_link(); ?> </span>			
+	<span class="next-post-link"><?php next_post_link(); ?></span>	
+</div>
 
 <?php get_footer(); ?>

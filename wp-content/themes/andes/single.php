@@ -2,7 +2,7 @@
 
 <section id="middle">
 
-  	<div id="blog-sidebar">
+  	<div id="sidebar">
       <?php if ( ! dynamic_sidebar( 'blog-sidebar-widget-area' ) ) : ?>
     	<?php endif; ?>
     </div>
@@ -46,5 +46,12 @@
     	 <p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'verone'); ?></p>
        <?php endif; ?>
   	</div>
-      
+  
 </section>
+
+<div id="posts_nav">
+	<span class="previous-post-link"><?php previous_post_link(); ?> </span>			
+	<span class="next-post-link"><?php next_post_link(); ?></span>	
+</div>
+
+<?php get_footer(); ?>
