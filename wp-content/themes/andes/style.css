@@ -44,6 +44,7 @@ body {
 	font-size: 14px;
 	line-height: 1.25;
   font-weight: normal;
+  background: url(images/background.png);
 }
 
 #content p {
@@ -162,12 +163,9 @@ p a {
 /* = Searchform
 -----------------------------------------------------------------*/
 
-#search .widget_search,
-#search .widget_search:hover {
-  cursor: pointer;
-  color: #003333;
-  
-}
+.search button.btn {
+	cursor: pointer;
+}	
 
 #s {
     border:none;
@@ -274,7 +272,7 @@ input#s[type=text]  {
 }
 
 #home_columns .column {
-  width:295px;
+  width:296px;
   height:auto;
   float:left;
   margin-right: 30px;
@@ -282,11 +280,8 @@ input#s[type=text]  {
   padding-right:10px;
 }
 #home_columns .column:last-child {
-  padding:none;
   border:none;
-  margin:none;
-  float:left;
-  width:288px;
+  width:296px;
 }
 
 #content.front img {
@@ -563,36 +558,43 @@ input#submit:hover {
 
 /* = Archive 
 ----------------------------------------------------*/
-#middle.archive #content .page-title {
+#middle #content.archive .page-title,
+#middle #content.category .page-title {
   color:#3399cc;
   opacity:.4;
-  margin-bottom:2em;
+  margin-bottom:4em;
 }
 
-#middle.archive #content .archive-title {
+#middle #content.archive .archive-title,
+#middle #content.category span  {
   color:#ff6600;
   font-size: 1.5em;
 }
 
-#middle.archive #content .entry-title {
+#middle #content.archive .entry-title,
+#middle #content.category .entry-title {
   font-size: 1em;
 }
 
-#middle.archive #content .meta-info {
+#middle #content.archive .meta-info,
+#middle #content.category .meta-info {
   font-size: 14px;
 }
 
-#middle.archive #content .entry-content p {
+#middle #content.archive .entry-content p,
+#middle #content.category .entry-content p {
   font-size: 14px;
   font-weight: normal;
 }
 
-#middle.archive #content .entry-content p a {
+#middle #content.archive .entry-content p a,
+#middle #content.category .entry-content p a {
   color:#3399cc;
   text-decoration: none;
 }
 
-#middle.archive #content .entry-content p a:hover {
+#middle #content.archive .entry-content p a:hover, 
+#middle #content.category .entry-content p a:hover {
   color:#ff6600;
 }
 
@@ -712,7 +714,6 @@ input[type=checkbox] {
 .next-post-link {
   float:right;
 }
-
 
 
 /* Footer

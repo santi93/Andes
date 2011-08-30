@@ -2,22 +2,12 @@
 
 <section id="middle">
 	<?php get_sidebar(); ?>
-	<div id="content" class="archive">
+	
+	<div id="content" class="category">
 	  
-	  <h1 class="page-title">
-	    <?php if ( is_day() ) : ?>
-            <?php printf( __( 'Daily Archives: <span class="archive-title">%s</span>'), get_the_date() ); ?>
-
-      <?php elseif ( is_month() ) : ?>
-            <?php printf( __( 'Archives Month: <span class="archive-title">%s</span>'), get_the_date( 'F' ) ); ?>
-
-      <?php elseif ( is_year() ) : ?>
-            <?php printf( __( 'Yearly Archives: <span class="archive-title">%s</span>'), get_the_date( 'Y' ) ); ?>
-
-      <?php else : ?>
-            <?php _e( 'Blog Archives'); ?>
-      <?php endif; ?>
-	  <h1>
+	  <h1 class="page-title"><?php
+			printf( __( 'Category: %s' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+		?></h1>
 	  
 	  <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 	  
