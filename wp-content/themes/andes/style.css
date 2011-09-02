@@ -39,12 +39,11 @@ Version: 1.0
 body {
   width: 978px;
 	margin: 10px auto;
-	font-family: "HelveticaNeueLT Pro 45 Lt", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	color: #003333;
 	font-size: 14px;
 	line-height: 1.25;
   font-weight: normal;
-  background: url(images/background.png);
 }
 
 #content p {
@@ -281,6 +280,8 @@ input#s[type=text]  {
 }
 #home_columns .column:last-child {
   border:none;
+  margin:none;
+  padding:none;
   width:296px;
 }
 
