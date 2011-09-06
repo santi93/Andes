@@ -1,0 +1,1648 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flash Album Gallery\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/flash-album-gallery\n"
+"POT-Creation-Date: 2009-10-28 10:59+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Natalija Strazdauskienė <ciuvir@mail.ru>\n"
+"Language-Team: Nata Strazda <nata@epastas.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-Country: LITHUANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: admin/addgallery.php:37
+#: admin/addmoreimages.php:36
+msgid "Upload failed!"
+msgstr "Įkrauti nepavyko!"
+
+#: admin/addgallery.php:49
+#: admin/addmoreimages.php:41
+#: admin/functions.php:453
+#: admin/functions.php:543
+msgid "No gallery selected !"
+msgstr "Galerija nepasirinkta!"
+
+#: admin/addgallery.php:117
+#: admin/addmoreimages.php:88
+msgid "Image Files"
+msgstr "Paveiksliuko failai"
+
+#: admin/addgallery.php:136
+#: admin/addgallery.php:166
+#: admin/addmoreimages.php:107
+#: admin/addmoreimages.php:136
+msgid "remove"
+msgstr "pašalinti"
+
+#: admin/addgallery.php:137
+#: admin/addmoreimages.php:108
+msgid "Browse..."
+msgstr "Apžvalga..."
+
+#: admin/addgallery.php:138
+#: admin/addgallery.php:203
+#: admin/addgallery.php:251
+#: admin/addmoreimages.php:109
+#: admin/addmoreimages.php:168
+msgid "Upload images"
+msgstr "Paveiksliukų įkrovimas"
+
+#: admin/addgallery.php:177
+msgid "Add new gallery"
+msgstr "Pridėti naują galeriją"
+
+#: admin/addgallery.php:178
+msgid "Upload Images"
+msgstr "Įkrauti paveiksliukus"
+
+#: admin/addgallery.php:179
+#: admin/addgallery.php:258
+msgid "Import image folder"
+msgstr "Importuoti paveiksliuko aplanką"
+
+#: admin/addgallery.php:184
+msgid "Create a new gallery"
+msgstr "Sukūrti naują galeriją"
+
+#: admin/addgallery.php:189
+msgid "New Gallery"
+msgstr "Nauja galerija"
+
+#: admin/addgallery.php:193
+msgid "Create a new , empty gallery below the folder"
+msgstr "Sukurti naują, tuščią galeriją žemiau aplanko"
+
+#: admin/addgallery.php:194
+msgid "Allowed characters for file and folder names are"
+msgstr "Failų ir aplankų vardams leidžiami simboliai yra"
+
+#: admin/addgallery.php:195
+msgid "Add gallery"
+msgstr "Pridėti galeriją"
+
+#: admin/addgallery.php:227
+#: admin/addmoreimages.php:156
+msgid "Upload image(s):"
+msgstr "Įkrauti paveiksliuką (-us):"
+
+#: admin/addgallery.php:231
+msgid "in to"
+msgstr "į"
+
+#: admin/addgallery.php:232
+msgid "Choose gallery"
+msgstr "Pasirinkite galeriją"
+
+#: admin/addgallery.php:246
+#: admin/addmoreimages.php:164
+msgid "The batch upload requires Adobe Flash 10, disable it if you have problems"
+msgstr "Šiam paketui įkrauti reikalingas Adobe Flash 10, išjunkite jį, jei turite problemų"
+
+#: admin/addgallery.php:246
+#: admin/addmoreimages.php:164
+msgid "Disable flash upload"
+msgstr "Išjungti Flash įkrovimą"
+
+#: admin/addgallery.php:248
+#: admin/addmoreimages.php:166
+msgid "Upload multiple files at once by ctrl/shift-selecting in dialog"
+msgstr "Įkelti kelis failus vienu metu su Ctrl/Shift, pasirenkant dialoge"
+
+#: admin/addgallery.php:248
+#: admin/addmoreimages.php:166
+msgid "Enable flash based upload"
+msgstr "Įjungti pakrovimą flash pagrindu"
+
+#: admin/addgallery.php:263
+msgid "Import from Server path:"
+msgstr "Importo kelias iš Serverio:"
+
+#: admin/addgallery.php:264
+msgid "Toggle DIR Browser"
+msgstr "Perjungti DIR naršyklę"
+
+#: admin/addgallery.php:267
+msgid " Please note : For safe-mode = ON you need to add the subfolder thumbs manually"
+msgstr "Atkreipkite dėmesį: saugiam režimui = ON, jums reikia rankiniu būdu pridėti Thumbs poaplankį"
+
+#: admin/addgallery.php:270
+msgid "Import folder"
+msgstr "Importuoti aplanką"
+
+#: admin/addmoreimages.php:145
+#, php-format
+msgid "Upload More Images in \"%s\""
+msgstr "Įkelti daugiau paveikslėlių į \"%s\""
+
+#: admin/addmoreimages.php:150
+msgid "Add images to gallery"
+msgstr "Pridėti paveiksliukus į galeriją"
+
+#: admin/addmoreimages.php:158
+#: admin/manage-sort.php:61
+msgid "Back to gallery"
+msgstr "Grįžti į galeriją"
+
+#: admin/admin.php:23
+#: admin/admin.php:24
+msgid "Flash Album Gallery overview"
+msgstr "Flash Albumo Galerijos peržiūra"
+
+#: admin/admin.php:23
+msgid "FlAGallery"
+msgstr "FlAGalerija"
+
+#: admin/admin.php:24
+msgid "Overview"
+msgstr "Peržiūra"
+
+#: admin/admin.php:25
+msgid "FlAG Manage gallery"
+msgstr "FlAG Galerijos valdymas"
+
+#: admin/admin.php:25
+msgid "Manage Galleries"
+msgstr "Galerijų valdymas"
+
+#: admin/admin.php:26
+msgid "FlAG Manage skins"
+msgstr "FlAG skinų valdymas"
+
+#: admin/admin.php:26
+#: admin/skins.php:312
+msgid "Skins"
+msgstr "Skinai"
+
+#: admin/admin.php:27
+msgid "FlAG Change options"
+msgstr "FlAG pakeisti nustatymus"
+
+#: admin/admin.php:27
+msgid "Options"
+msgstr "Parinktys"
+
+#: admin/admin.php:77
+msgid "You do not have the correct permission"
+msgstr "Jūs neturite atitinkamų teisių"
+
+#: admin/admin.php:78
+msgid "Unexpected Error"
+msgstr "Netikėta klaida"
+
+#: admin/admin.php:79
+msgid "A failure occurred"
+msgstr "Įvyko nesėkmė"
+
+#: admin/flag_install.php:24
+msgid "Sorry, Flash Album Gallery works only with a role called administrator"
+msgstr "Atsiprašome, darbui su FlAGallery reikalaujamos administratoriaus teisės"
+
+#: admin/flag_install.php:121
+msgid "Flash Album Gallery : Tables could not created, please check your database settings"
+msgstr "FlA Albumų galerija: lentelė negali būti sukūrta, prašome patikrinti duomenų bazės nustatymus"
+
+#: admin/functions.php:29
+msgid "No valid gallery name!"
+msgstr "Neteisingas galerijos vardas!"
+
+#: admin/functions.php:36
+#: admin/functions.php:45
+#: admin/functions.php:59
+#: admin/functions.php:127
+#: admin/functions.php:134
+msgid "Directory"
+msgstr "Katalogas"
+
+#: admin/functions.php:36
+msgid "didn't exist. Please create first the main gallery folder "
+msgstr "neegzistuoja. Pirmiausia sukūrkite pagrindinį galerijos aplanką"
+
+#: admin/functions.php:37
+#: admin/functions.php:46
+msgid "Check this link, if you didn't know how to set the permission :"
+msgstr "Patikrinkite šią nuorodą, jei jūs nežinote, kaip nustatyti teises:"
+
+#: admin/functions.php:45
+#: admin/functions.php:59
+msgid "is not writeable !"
+msgstr "nėra įrašoma!"
+
+#: admin/functions.php:54
+#: admin/functions.php:64
+#: lib/core.php:99
+msgid "Unable to create directory "
+msgstr "Nepavyko sukurti katalogo"
+
+#: admin/functions.php:68
+msgid "The server setting Safe-Mode is on !"
+msgstr "Serverio saugaus režimo nustatymas įjungtas!"
+
+#: admin/functions.php:69
+msgid "If you have problems, please create directory"
+msgstr "Jei turite problemų, sukurkite katalogą"
+
+#: admin/functions.php:70
+msgid "and the thumbnails directory"
+msgstr "ir eskizų katalogą"
+
+#: admin/functions.php:70
+msgid "with permission 777 manually !"
+msgstr "su teisėmis 777 rankiniu būdu!"
+
+#: admin/functions.php:88
+#: admin/functions.php:155
+#: admin/manage-images.php:139
+#: admin/manage.php:89
+#: admin/overview.php:220
+msgid "Gallery"
+msgid_plural "Galleries"
+msgstr[0] "Galerija"
+msgstr[1] "Galerijos"
+
+#: admin/functions.php:88
+msgid "already exists"
+msgstr "jau egzistuoja"
+
+#: admin/functions.php:93
+#, php-format
+msgid "Gallery '%1$s' successfully created.<br/>You can show this gallery with the tag %2$s.<br/>"
+msgstr "Galerija '%1$s' sėkmingai sukurta. <br/> Galite parodyti šią galeriją su žyma %2$s. <br/>"
+
+#: admin/functions.php:96
+msgid "Edit gallery"
+msgstr "Redaguoti galeriją"
+
+#: admin/functions.php:127
+msgid "doesn&#96;t exist!"
+msgstr "neegzistuoja!"
+
+#: admin/functions.php:134
+msgid "contains no pictures"
+msgstr "Nėra paveikslėlių"
+
+#: admin/functions.php:152
+msgid "Database error. Could not add gallery!"
+msgstr "Duomenų bazės klaida. Negalima sukurti galerijos!"
+
+#: admin/functions.php:155
+msgid "successfully created!"
+msgstr "sėkmingai sukurta!"
+
+#: admin/functions.php:184
+#: admin/functions.php:525
+#: admin/manage-images.php:212
+#: admin/manage.php:137
+msgid "Create new thumbnails"
+msgstr "Sukurti naujus eskizus"
+
+#: admin/functions.php:187
+msgid " picture(s) successfully added"
+msgstr "paveiksliukas (-ai) sėkmingai sukurtas (-i)"
+
+#: admin/functions.php:226
+#: admin/functions.php:305
+msgid "Object didn't contain correct data"
+msgstr "Objektas turi neteisingus duomenis"
+
+#: admin/functions.php:231
+msgid " is not writeable "
+msgstr "nėra įrašoma"
+
+#: admin/functions.php:312
+msgid " is not writeable"
+msgstr "nėra įrašoma"
+
+#: admin/functions.php:461
+#: admin/functions.php:566
+msgid "Failure in database, no gallery path set !"
+msgstr "Klaida duomenų bazėje, nėra nurodytas galerijos kelias!"
+
+#: admin/functions.php:482
+#: admin/functions.php:560
+msgid "is no valid image file!"
+msgstr "nėra teisingas paveiksliuko failas!"
+
+#: admin/functions.php:496
+#: admin/functions.php:666
+#: admin/functions.php:734
+#, php-format
+msgid "Unable to write to directory %s. Is this directory writable by the server?"
+msgstr "Nepavyko įrašyti į katalogą %s. Ar šis katalogas yra įrašomas serveryje?"
+
+#: admin/functions.php:503
+#: admin/functions.php:583
+msgid "Error, the file could not moved to : "
+msgstr "Klaida, failas negali būti perkeltas į:"
+
+#: admin/functions.php:508
+#: admin/functions.php:587
+msgid "Error, the file permissions could not set"
+msgstr "Klaida, failo teisės nėra nustatytos"
+
+#: admin/functions.php:529
+msgid " Image(s) successfully added"
+msgstr "Paveiksliukas (-ai) sėkmingai pridėtas (-i)"
+
+#: admin/functions.php:548
+msgid "Invalid upload. Error Code : "
+msgstr "Neteisingas įkėlimo. Klaidos kodas:"
+
+#: admin/functions.php:613
+#, php-format
+msgid "SAFE MODE Restriction in effect! You need to create the folder <strong>%s</strong> manually"
+msgstr "SAUGAUS REŽIMO apribojimas turi poveikį! Jums reikia sukurti aplanką <strong>%s</strong> rankiniu būdu"
+
+#: admin/functions.php:614
+#, php-format
+msgid "When safe_mode is on, PHP checks to see if the owner (%s) of the current script matches the owner (%s) of the file to be operated on by a file function or its directory"
+msgstr "Kai safe_mode įjungtas, PHP tikrina, kad pamatytų, ar dabartinio skripto savininkas (%s) atitinka savininko (%s) failą, kuris turi būti valdomas failo funkcija arba savo katalogu"
+
+#: admin/functions.php:660
+#: admin/functions.php:728
+msgid "The destination gallery does not exist"
+msgstr "Paskirties galerija neegzistuoja"
+
+#: admin/functions.php:691
+#, php-format
+msgid "Failed to move image %1$s to %2$s"
+msgstr "Nepavyko perkelti paveiksliuką %1$s į %2$s"
+
+#: admin/functions.php:709
+#, php-format
+msgid "Moved %1$s picture(s) to gallery : %2$s ."
+msgstr "Perkelta %1$s paveiksliukas (-ų) į galeriją: %2$s ."
+
+#: admin/functions.php:758
+#, php-format
+msgid "Failed to copy image %1$s to %2$s"
+msgstr "Nepavyko nukopijuoti paveiksliuką %1$s į %2$s"
+
+#: admin/functions.php:770
+#, php-format
+msgid "Failed to copy database row for picture %s"
+msgstr "Nepavyko nukopijuoti paveiksliukui skirtą eilutę %s duomenų bazėje"
+
+#: admin/functions.php:775
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s) &raquo; The file already existed in the destination gallery."
+msgstr "Paveiksliukas %1$s (%2$s) nukopijuotas kaip paveiksliukas %3$s (%4$s) &raquo; Failas jau egzistuoja nurodytoje galerijoje."
+
+#: admin/functions.php:778
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s)"
+msgstr "Paveiksliukas %1$s (%2$s) nukopijuotas kaip paveiksliukas %3$s (%4$s)"
+
+#: admin/functions.php:787
+#, php-format
+msgid "Copied %1$s picture(s) to gallery: %2$s ."
+msgstr "Nukopijuota %1$s paveiksliukų į galeriją: %2$s ."
+
+#: admin/manage-galleries.php:19
+#: admin/manage-images.php:39
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: admin/manage-galleries.php:20
+#: admin/manage-images.php:40
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: admin/manage-galleries.php:27
+msgid "Gallery Overview"
+msgstr "Galerijos peržiūra"
+
+#: admin/manage-galleries.php:30
+#: admin/manage-images.php:202
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Parodyta %s#8211;%s iš %s"
+
+#: admin/manage-galleries.php:42
+#: admin/manage-images.php:234
+#: admin/manage-images.php:243
+#: admin/manage-sort.php:98
+#: admin/manage-sort.php:107
+msgid "ID"
+msgstr "ID"
+
+#: admin/manage-galleries.php:43
+#: admin/manage-images.php:165
+#: lib/meta.php:338
+msgid "Title"
+msgstr "Pavadinimas"
+
+#: admin/manage-galleries.php:44
+#: admin/manage-images.php:169
+#: admin/media-upload.php:185
+#: admin/skins.php:324
+#: admin/skins.php:332
+msgid "Description"
+msgstr "Aprašymas"
+
+#: admin/manage-galleries.php:45
+#: admin/manage-images.php:177
+#: lib/meta.php:339
+msgid "Author"
+msgstr "Autorius"
+
+#: admin/manage-galleries.php:46
+msgid "Quantity"
+msgstr "Kiekis"
+
+#: admin/manage-galleries.php:47
+#: admin/skins.php:23
+#: admin/skins.php:325
+#: admin/skins.php:333
+msgid "Action"
+msgstr "Veiksmas"
+
+#: admin/manage-galleries.php:67
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: admin/manage-galleries.php:76
+msgid "Delete this gallery ?"
+msgstr "Pašalinti galeriją?"
+
+#: admin/manage-galleries.php:76
+#: admin/manage-images.php:293
+#: admin/skins.php:383
+msgid "Delete"
+msgstr "Pašalinti"
+
+#: admin/manage-galleries.php:83
+#: admin/manage-images.php:313
+#: admin/manage-sort.php:139
+msgid "No entries found"
+msgstr "Nerasta įrašų"
+
+#: admin/manage-images.php:16
+msgid "Gallery not found."
+msgstr "Galerija nerasta."
+
+#: admin/manage-images.php:22
+msgid "Sorry, you have no access here"
+msgstr "Atsiprašome, jūs neturite tam teisių"
+
+#: admin/manage-images.php:107
+msgid "No images selected"
+msgstr "Paveiksliukas nepasirinktas"
+
+#: admin/manage-images.php:121
+#, php-format
+msgid ""
+"You are about to start the bulk edit for %s images \n"
+" \n"
+" 'Cancel' to stop, 'OK' to proceed."
+msgstr ""
+"Jūs ruošiatės taisyti %s paveiksliukus \n"
+"\n"
+" 'Atšauktil' - nutraukti, 'Ok' pratęsimui."
+
+#: admin/manage-images.php:141
+msgid "Choose another gallery"
+msgstr "Pasirinkti kitą galeriją"
+
+#: admin/manage-images.php:161
+msgid "Gallery settings"
+msgstr "Galerijos nustatymai"
+
+#: admin/manage-images.php:173
+msgid "Path"
+msgstr "Kelias"
+
+#: admin/manage-images.php:191
+msgid "Scan Folder for new images"
+msgstr "Skanuoti paveiksliukų aplanką"
+
+#: admin/manage-images.php:192
+#: admin/manage-images.php:225
+#: admin/manage-images.php:319
+#: admin/settings.php:100
+#: admin/settings.php:133
+#: admin/settings.php:157
+#: admin/settings.php:187
+#: admin/settings.php:313
+msgid "Save Changes"
+msgstr "Išsaugoti pakeitimus"
+
+#: admin/manage-images.php:211
+msgid "No action"
+msgstr "Jokių veiksmų"
+
+#: admin/manage-images.php:213
+#: admin/manage.php:141
+msgid "Resize images"
+msgstr "Paveiksliukų išmatavimų keitimas"
+
+#: admin/manage-images.php:214
+msgid "Delete images"
+msgstr "Pašalinti paveiksliukus"
+
+#: admin/manage-images.php:215
+msgid "Import metadata"
+msgstr "Meta duomenų importas"
+
+#: admin/manage-images.php:216
+msgid "Copy to..."
+msgstr "Nukopijuoti į..."
+
+#: admin/manage-images.php:217
+msgid "Move to..."
+msgstr "Perkelti į..."
+
+#: admin/manage-images.php:219
+#: admin/manage-images.php:349
+msgid "OK"
+msgstr "Ok"
+
+#: admin/manage-images.php:221
+msgid "Sort gallery"
+msgstr "Rūšiuoti galerijas"
+
+#: admin/manage-images.php:223
+msgid "Add Images"
+msgstr "Pridėti paveiksliukus"
+
+#: admin/manage-images.php:235
+#: admin/manage-images.php:244
+#: admin/media-upload.php:206
+msgid "Thumbnail"
+msgstr "Eskizas"
+
+#: admin/manage-images.php:236
+#: admin/manage-images.php:245
+msgid "Filename / Date"
+msgstr "Failo vardas / Data"
+
+#: admin/manage-images.php:237
+#: admin/manage-images.php:246
+msgid "Alt & Title Text / Description"
+msgstr "Alt & Pavadinimo tekstas  / Aprašymas"
+
+#: admin/manage-images.php:286
+msgid "Size: "
+msgstr "Dydis:"
+
+#: admin/manage-images.php:291
+#, php-format
+msgid "View \"%s\""
+msgstr "Peržiūra \"%s\""
+
+#: admin/manage-images.php:291
+msgid "View"
+msgstr "Peržiūra"
+
+#: admin/manage-images.php:292
+msgid "Customize thumbnail"
+msgstr "Eskizo nustatymas"
+
+#: admin/manage-images.php:292
+msgid "Edit thumb"
+msgstr "Redaguoti eskizą"
+
+#: admin/manage-images.php:293
+#: admin/skins.php:383
+#, php-format
+msgid "Delete \"%s\""
+msgstr "Pašalinti \"%s\""
+
+#: admin/manage-images.php:333
+msgid "Select the destination gallery:"
+msgstr "Pasirinkite galerijos vietą:"
+
+#: admin/manage-images.php:351
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#: admin/manage-sort.php:31
+msgid "Sort order changed"
+msgstr "Pasikeitė rūšiavimo eiliškumas"
+
+#: admin/manage-sort.php:54
+msgid "Sort Gallery"
+msgstr "Rūšiuoti galeriją"
+
+#: admin/manage-sort.php:58
+#: admin/manage-sort.php:145
+msgid "Update Sort Order"
+msgstr "Atnaujinti rūšiavimo tvarką"
+
+#: admin/manage-sort.php:99
+#: admin/manage-sort.php:108
+msgid "Thumb"
+msgstr "Eskizas"
+
+#: admin/manage-sort.php:100
+#: admin/manage-sort.php:109
+msgid "Filename"
+msgstr "Failo vardas"
+
+#: admin/manage-sort.php:101
+#: admin/manage-sort.php:110
+msgid "Date"
+msgstr "Data"
+
+#: admin/manage-sort.php:102
+#: admin/manage-sort.php:111
+msgid "Alt &amp; Title Text"
+msgstr "Alt &amp; Pavadinimo tekstas"
+
+#: admin/manage.php:42
+#: admin/manage_thumbnail.php:17
+#: admin/manage_thumbnail.php:20
+msgid "Cheatin&#8217; uh?"
+msgstr "Sukčiaujam, а?"
+
+#: admin/manage.php:89
+#: admin/manage.php:111
+#: admin/skins.php:226
+msgid "deleted successfully"
+msgstr "sėkmingai pašalinta"
+
+#: admin/manage.php:111
+msgid "Picture"
+msgstr "Paveiksliukas"
+
+#: admin/manage.php:158
+msgid "Pictures deleted successfully "
+msgstr "Paveiksliukai sėkmingai pašalinti"
+
+#: admin/manage.php:164
+msgid "Import metadata finished"
+msgstr "Meta duomenų importas pabaigtas"
+
+#: admin/manage.php:172
+msgid "Operation successful. Please clear your browser cache."
+msgstr "Operacija sėkminga. Prašome išvalyti naršyklės talpyklą."
+
+#: admin/manage.php:216
+msgid "Update successful"
+msgstr "Sėkmingai atnaujinta"
+
+#: admin/manage_thumbnail.php:114
+msgid "Select with the mouse the area for the new thumbnail."
+msgstr "Naudojant pelę pasirinkite vietą naujam eskizui."
+
+#: admin/manage_thumbnail.php:128
+msgid "Thumbnail updated"
+msgstr "Eskizas atnaujintas"
+
+#: admin/manage_thumbnail.php:133
+msgid "Error updating thumbnail."
+msgstr "Eskizo atnaujinimo klaida."
+
+#: admin/manage_thumbnail.php:150
+msgid "Select the area for the thumbnail from the picture on the left."
+msgstr "Pasirinkite plotą iš paveiksliuko eskizams kairėje."
+
+#: admin/manage_thumbnail.php:165
+msgid "Update"
+msgstr "Atnaujinti"
+
+#: admin/media-upload.php:9
+msgid "FlAG Gallery"
+msgstr "FlAG Galerija"
+
+#: admin/media-upload.php:126
+msgid "No gallery"
+msgstr "Nėra galerijos"
+
+#: admin/media-upload.php:138
+msgid "Select &#187;"
+msgstr "Pasirinkti"
+
+#: admin/media-upload.php:169
+msgid "Show"
+msgstr "Parodyti"
+
+#: admin/media-upload.php:170
+msgid "Hide"
+msgstr "Paslėpti"
+
+#: admin/media-upload.php:175
+msgid "Image ID:"
+msgstr "Paveiksliuko ID:"
+
+#: admin/media-upload.php:181
+msgid "Alt/Title text"
+msgstr "Alt/Title tekstas"
+
+#: admin/media-upload.php:189
+msgid "Alignment"
+msgstr "Sureguliavimas"
+
+#: admin/media-upload.php:192
+msgid "None"
+msgstr "Nėra"
+
+#: admin/media-upload.php:194
+msgid "Left"
+msgstr "Iš kairės"
+
+#: admin/media-upload.php:196
+msgid "Center"
+msgstr "Per centrą"
+
+#: admin/media-upload.php:198
+msgid "Right"
+msgstr "Iš dešinės"
+
+#: admin/media-upload.php:202
+msgid "Size"
+msgstr "Dydis"
+
+#: admin/media-upload.php:208
+msgid "Full size"
+msgstr "Pilnas dydis"
+
+#: admin/media-upload.php:216
+msgid "Insert into Post"
+msgstr "Įterpti į žinutę"
+
+#: admin/media-upload.php:226
+msgid "Save all changes"
+msgstr "Išsaugoti visus pakeitimus"
+
+#: admin/overview.php:13
+msgid "FlAG Gallery Overview"
+msgstr "FlAG galerijos peržiūra"
+
+#: admin/overview.php:106
+msgid "Reset all settings to default parameter"
+msgstr "Grąžinti visus parametrus į pradinius"
+
+#: admin/overview.php:117
+msgid "Uninstall sucessful ! Now delete the plugin and enjoy your life ! Good luck !"
+msgstr "Sėkmingai pašalinta! Dabar ištrinkite įskiepį ir džiaukitės gyvenimu! Linkime sėkmės!"
+
+#: admin/overview.php:125
+msgid "Plugin Home"
+msgstr "Įskiepio pagrindinis"
+
+#: admin/overview.php:130
+msgid "Plugin Comments"
+msgstr "Įskiepio komentarai"
+
+#: admin/overview.php:135
+msgid "Rate Plugin"
+msgstr "Vertinti įskiepį"
+
+#: admin/overview.php:140
+msgid "My Plugins"
+msgstr "Mano įskiepiai"
+
+#: admin/overview.php:145
+msgid "Contact Me"
+msgstr "Susisiekti su manimi"
+
+#: admin/overview.php:155
+msgid "Reset settings"
+msgstr "Atkurti nustatymus"
+
+#: admin/overview.php:155
+msgid ""
+"Reset all options to default settings ?\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Atstatyti visas parinktis į numatytuosius nustatymus??\\n"
+"\\n"
+"Paspauskite  [Atšaukti] sustabdymui, [OK] pratęsimui. \\n"
+
+#: admin/overview.php:158
+msgid "Uninstall plugin"
+msgstr "Pašalinti įskiepį"
+
+#: admin/overview.php:158
+msgid ""
+"You are about to Uninstall this plugin from WordPress.\\n"
+"This action is not reversible.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to Uninstall.\\n"
+msgstr ""
+"Jūs ruošiatės ištrinti įskiepį iš WordPress.\\n"
+"Šis veiksmas negrįžtamas\\n"
+"\\n"
+"Paspauskite  [Atšaukti] sustabdymui, [OK] pašalinimui. \\n"
+" "
+
+#: admin/overview.php:184
+msgid "What's new at PhotoGalleryCreator.com"
+msgstr "Kas naujo PhotoGalleryCreator.com"
+
+#: admin/overview.php:208
+msgid "At a Glance"
+msgstr "Trumpa apžvalga"
+
+#: admin/overview.php:214
+msgid "Image"
+msgid_plural "Images"
+msgstr[0] "Paveiksliukas"
+msgstr[1] "Paveiksliukai"
+
+#: admin/overview.php:229
+msgid "Upload pictures"
+msgstr "Įkrauti paveiksliukus"
+
+#: admin/overview.php:230
+msgid "Here you can control your images and galleries."
+msgstr "Čia jūs galite kontroliuoti jūsų paveiksliukus ir galerijas."
+
+#: admin/overview.php:232
+msgid "Gallery Administrator"
+msgstr "Galerijos administratorius"
+
+#: admin/overview.php:232
+msgid "Gallery Editor"
+msgstr "Galerijos redaktorius"
+
+#: admin/overview.php:233
+#, php-format
+msgid "You currently have %s rights."
+msgstr "Jūs turite %s teises"
+
+#: admin/overview.php:239
+msgid "Setup Box"
+msgstr "Setup langelis"
+
+#: admin/overview.php:240
+msgid "News Box"
+msgstr "Naujienų langelis"
+
+#: admin/overview.php:241
+msgid "Welcome to FlAG Gallery !"
+msgstr "Sveiki atvykę į FlAG galeriją!"
+
+#: admin/overview.php:242
+msgid "Server Settings"
+msgstr "Serverio nustatymai"
+
+#: admin/overview.php:243
+msgid "Graphic Library"
+msgstr "Grafinė biblioteka"
+
+#: admin/overview.php:259
+msgid "No GD support"
+msgstr "Nėra GD palaikymo"
+
+#: admin/overview.php:266
+#: admin/overview.php:295
+#: admin/overview.php:297
+#: admin/overview.php:299
+msgid "Yes"
+msgstr "Taip"
+
+#: admin/overview.php:268
+#: admin/overview.php:295
+#: admin/overview.php:297
+#: admin/overview.php:299
+msgid "No"
+msgstr "Ne"
+
+#: admin/overview.php:279
+msgid "Not set"
+msgstr "Nenustatyta"
+
+#: admin/overview.php:281
+#: admin/overview.php:283
+msgid "On"
+msgstr "Įjungta"
+
+#: admin/overview.php:281
+#: admin/overview.php:283
+msgid "Off"
+msgstr "Išjungta"
+
+#: admin/overview.php:285
+#: admin/overview.php:287
+#: admin/overview.php:289
+#: admin/overview.php:291
+#: admin/overview.php:293
+msgid "N/A"
+msgstr "N/A"
+
+#: admin/overview.php:293
+msgid " MByte"
+msgstr " MByte"
+
+#: admin/overview.php:302
+msgid "Operating System"
+msgstr "Operacinė sistema"
+
+#: admin/overview.php:303
+msgid "Server"
+msgstr "Serveris"
+
+#: admin/overview.php:304
+msgid "Memory usage"
+msgstr "Panaudota atminties"
+
+#: admin/overview.php:305
+msgid "MYSQL Version"
+msgstr "MYSQL versija"
+
+#: admin/overview.php:306
+msgid "SQL Mode"
+msgstr "SQL režimas"
+
+#: admin/overview.php:307
+msgid "PHP Version"
+msgstr "PHP versija"
+
+#: admin/overview.php:308
+msgid "PHP Safe Mode"
+msgstr "PHP saugusis režimas"
+
+#: admin/overview.php:309
+msgid "PHP Allow URL fopen"
+msgstr "PHP leidimas URL fopen"
+
+#: admin/overview.php:310
+msgid "PHP Memory Limit"
+msgstr "PHP atminties limitas"
+
+#: admin/overview.php:311
+msgid "PHP Max Upload Size"
+msgstr "PHP maksimalus įkrovimo dydis"
+
+#: admin/overview.php:312
+msgid "PHP Max Post Size"
+msgstr "PHP maksimalus žinutės dydis"
+
+#: admin/overview.php:313
+msgid "PHP Max Script Execute Time"
+msgstr "PHP maksimalus skripto vykdymo laikas"
+
+#: admin/overview.php:314
+msgid "PHP Exif support"
+msgstr "PHP Exif palaikymas"
+
+#: admin/overview.php:315
+msgid "PHP IPTC support"
+msgstr "PHP IPTC palaikymas"
+
+#: admin/overview.php:316
+msgid "PHP XML support"
+msgstr "PHP XML Palaikymas"
+
+#: admin/settings.php:32
+msgid "Update Successfully"
+msgstr "Sėkmingai atnaujinta"
+
+#: admin/settings.php:50
+msgid "Updated capabilities"
+msgstr "Atnaujintos galimybės"
+
+#: admin/settings.php:61
+#: admin/settings.php:74
+msgid "General Options"
+msgstr "Pagrindinės parinktys"
+
+#: admin/settings.php:62
+msgid "Thumbnails"
+msgstr "Eskizai"
+
+#: admin/settings.php:63
+msgid "Images"
+msgstr "Paveiksliukai"
+
+#: admin/settings.php:64
+#: admin/settings.php:164
+msgid "Sorting"
+msgstr "Rūšiavimas"
+
+#: admin/settings.php:66
+#: admin/settings.php:223
+msgid "Colors"
+msgstr "Spalvos"
+
+#: admin/settings.php:68
+msgid "Roles"
+msgstr "Vaidmenys"
+
+#: admin/settings.php:80
+msgid "Gallery path"
+msgstr "Galerijos kelias"
+
+#: admin/settings.php:82
+msgid "This is the default path for all galleries"
+msgstr "Tai yra visų galerijų numatytasis kelias"
+
+#: admin/settings.php:85
+msgid "Default flash size (W x H)"
+msgstr "Flash standartinis dydis (W x H)"
+
+#: admin/settings.php:90
+msgid "Delete image files"
+msgstr "Pašalinti paveiksliukų failus"
+
+#: admin/settings.php:92
+msgid "Delete files, when removing a gallery in the database"
+msgstr "Pašalinti failus, kai šalinama galerija iš duomenų bazės"
+
+#: admin/settings.php:95
+msgid "Activate Media RSS feed"
+msgstr "Aktyvuoti Media RSS prenumeratą"
+
+#: admin/settings.php:97
+msgid "A RSS feed will be added to you blog header."
+msgstr "RSS prenumerata bus pridėta į jūsų blogo antraštę"
+
+#: admin/settings.php:107
+msgid "Thumbnail settings"
+msgstr "Eskizų nustatymai"
+
+#: admin/settings.php:111
+msgid "Please note : If you change the settings, you need to recreate the thumbnails under -> Manage Gallery ."
+msgstr "Prašome atkreipti dėmesį: jeigu jūs pakeisite nustatymus, būtina naujai sukūrti eskizus -> Valdyti galeriją."
+
+#: admin/settings.php:114
+msgid "Width x Height (in pixel)"
+msgstr "Plotis  х Aukštis  (pikseliais)"
+
+#: admin/settings.php:116
+msgid "These values are maximum values "
+msgstr "Šios reikšmės yra maksimalios reikšmės"
+
+#: admin/settings.php:119
+msgid "Set fix dimension"
+msgstr "Nustatyti fiksuotą dydį"
+
+#: admin/settings.php:121
+msgid "Ignore the aspect ratio, no portrait thumbnails"
+msgstr "Ignoruoti eskizo proporcijas"
+
+#: admin/settings.php:124
+msgid "Crop square thumbnail from image"
+msgstr "Iškirpti kvadratinį eskizą iš paveiksliuko"
+
+#: admin/settings.php:126
+msgid "Create square thumbnails, use only the width setting :"
+msgstr "Sukurti kvadratinį eskizą, panaudojant tik pločio nustatymus:"
+
+#: admin/settings.php:129
+msgid "Thumbnail quality"
+msgstr "Eskizų kokybė"
+
+#: admin/settings.php:140
+msgid "Image settings"
+msgstr "Paveiksliuko nustatymai"
+
+#: admin/settings.php:146
+msgid "Resize Images"
+msgstr "Pakeisti paveiksliuko dydį"
+
+#: admin/settings.php:149
+msgid "Width x Height (in pixel). Flash Album Gallery will keep ratio size"
+msgstr "Plotis х Aukštis (pikseliais). FlAGallery išsaugos santykių dydį"
+
+#: admin/settings.php:152
+msgid "Image quality"
+msgstr "Paveiksliuko kokybė"
+
+#: admin/settings.php:168
+msgid "Sort options"
+msgstr "Rūšiavimo parinktys"
+
+#: admin/settings.php:171
+msgid "Sort thumbnails"
+msgstr "Rūšiuoti eskizus"
+
+#: admin/settings.php:173
+msgid "Custom order"
+msgstr "Individualus užsakymas"
+
+#: admin/settings.php:174
+msgid "Image ID"
+msgstr "Paveiksliuko ID"
+
+#: admin/settings.php:175
+msgid "File name"
+msgstr "Failo vardas"
+
+#: admin/settings.php:176
+msgid "Alt / Title text"
+msgstr "Alt / Title tekstas"
+
+#: admin/settings.php:177
+msgid "Date / Time"
+msgstr "Data / Laikas"
+
+#: admin/settings.php:181
+msgid "Sort direction"
+msgstr "Rūšiavimo kryptis"
+
+#: admin/settings.php:182
+msgid "Ascending"
+msgstr "Didėjančia tvarka"
+
+#: admin/settings.php:183
+msgid "Descending"
+msgstr "Mažėjimo tvarka"
+
+#: admin/settings.php:227
+msgid "Background Color"
+msgstr "Fono spalva"
+
+#: admin/settings.php:233
+msgid "Buttons Background Color"
+msgstr "Mygtuko fono spalva"
+
+#: admin/settings.php:239
+msgid "Buttons Text Color"
+msgstr "Mygtuko teksto spalva"
+
+#: admin/settings.php:250
+msgid "Category Buttons Color"
+msgstr "Kategorijos mygtuko spalva"
+
+#: admin/settings.php:261
+msgid "Category Buttons Text Color"
+msgstr "Kategorijos mygtuko teksto spalva"
+
+#: admin/settings.php:272
+msgid "Thumbs Rollover Color"
+msgstr "Eskizo posukio spalva"
+
+#: admin/settings.php:283
+msgid "Main Title"
+msgstr "Pagrindinis pavadinimas"
+
+#: admin/settings.php:289
+msgid "Category Title"
+msgstr "Kategorijos pavadinimas"
+
+#: admin/settings.php:295
+msgid "Item Background"
+msgstr "Instrumentas Fonas"
+
+#: admin/settings.php:301
+msgid "Item Title"
+msgstr "Instrumentas Pavadinimas"
+
+#: admin/settings.php:307
+msgid "Item Description"
+msgstr "Instrumentas Aprašymas"
+
+#: admin/settings.php:322
+msgid "Roles / capabilities"
+msgstr "Vaidmenys / pajėgumai"
+
+#: admin/settings.php:323
+msgid "Select the lowest role which should be able to access the follow capabilities. Flash Album Gallery supports the standard roles from WordPress."
+msgstr "Pasirinkite mažiausią vaidmenį, kuris turėtų galimybę naudotis šiais pajėgumais. Flash Albumo Galerija palaiko standartinius vaidmenis iš WordPress."
+
+#: admin/settings.php:326
+msgid "Main Flash Album Gallery overview"
+msgstr "Pagrindinis Flash Albumo Gallerijos apžvalga"
+
+#: admin/settings.php:330
+msgid "Use TinyMCE Button / Upload tab"
+msgstr "Naudoti TinyMCE mygtuką / Įkelti skirtuką"
+
+#: admin/settings.php:334
+msgid "Add gallery / Upload images"
+msgstr "Pridėti galeriją / Įkrauti paveiksliuką"
+
+#: admin/settings.php:338
+msgid "Manage gallery"
+msgstr "Galerijos valdymas"
+
+#: admin/settings.php:342
+msgid "Manage others gallery"
+msgstr "Kitų galerijų valdymas"
+
+#: admin/settings.php:346
+msgid "Change skin"
+msgstr "Pakeisti skiną"
+
+#: admin/settings.php:350
+msgid "Add skins"
+msgstr "Pridėti skinus"
+
+#: admin/settings.php:354
+msgid "Delete skins"
+msgstr "Pašalinti skinus"
+
+#: admin/settings.php:358
+msgid "Change options"
+msgstr "Pakeisti parinktis"
+
+#: admin/settings.php:362
+msgid "Update capabilities"
+msgstr "Atnaujinti galimybes"
+
+#: admin/skins.php:20
+#: admin/skins.php:28
+msgid "Add new skin"
+msgstr "Pridėti naują skiną"
+
+#: admin/skins.php:21
+msgid "Want more skins?"
+msgstr "Norite daugiau skinų?"
+
+#: admin/skins.php:29
+msgid "Install a skin in .zip format"
+msgstr "Įdiegti skiną .zip formatu"
+
+#: admin/skins.php:30
+msgid "If you have a skin in a .zip format, You may install it by uploading it here."
+msgstr "Jeigu jūs turite skiną .zip formate, jūs galite įdiegti jį, įkrovus čia."
+
+#: admin/skins.php:34
+msgid "Install Now"
+msgstr "Įdiegti dabar"
+
+#: admin/skins.php:39
+msgid "More skins"
+msgstr "Daugiau skinų"
+
+#: admin/skins.php:40
+msgid "If you want more skins, You may get it at."
+msgstr "Jeigu norite daugiau skinų, jūs galite gauti juos."
+
+#: admin/skins.php:47
+msgid "Install info"
+msgstr "Įdiegimo informacija"
+
+#: admin/skins.php:58
+#: admin/skins.php:88
+msgid "No skin Specified"
+msgstr "nėra nurodyto skino"
+
+#: admin/skins.php:61
+#, php-format
+msgid "Installing Skin from file: %s"
+msgstr "Įdiegti skiną iš failo: %s"
+
+#: admin/skins.php:70
+#, php-format
+msgid "The uploaded file could not be moved to %s."
+msgstr "Įkrautas failas negali būti perkeltas į %s"
+
+#: admin/skins.php:117
+msgid "Installation Failed"
+msgstr "Įdiegimas nepavyko"
+
+#: admin/skins.php:119
+msgid "The skin installed successfully."
+msgstr "Skinas sėkmingai įdiegtas"
+
+#: admin/skins.php:122
+#: admin/skins.php:369
+msgid "Activate this skin"
+msgstr "Aktyvuoti šį skiną"
+
+#: admin/skins.php:122
+msgid "Activate Skin"
+msgstr "Aktyvuoti skiną"
+
+#: admin/skins.php:123
+msgid "Goto skin overview"
+msgstr "Peržiūrėti skiną"
+
+#: admin/skins.php:123
+msgid "Skin overview"
+msgstr "Skino peržiūra"
+
+#: admin/skins.php:126
+msgid "Actions:"
+msgstr "Veiksmai:"
+
+#: admin/skins.php:145
+msgid "Could not access filesystem."
+msgstr "Nepavyko prisijungti prie failų sistemos."
+
+#: admin/skins.php:148
+msgid "Filesystem error"
+msgstr "Failų sistemos klaida"
+
+#: admin/skins.php:154
+msgid "Unable to locate FlAGallery Skin directory."
+msgstr "Nepavyko rasti FlAGallery skino katalogo."
+
+#: admin/skins.php:159
+msgid "Unable to locate WordPress Content directory (wp-content)."
+msgstr "Nepavyko rasti WordPress turinio katalogą (wp-content)."
+
+#: admin/skins.php:165
+msgid "Install package not available."
+msgstr "Įdiegimo paketas nepasiekiamas."
+
+#: admin/skins.php:173
+msgid "Unpacking the skin package"
+msgstr "Skinų paketo išpakavima"
+
+#: admin/skins.php:190
+msgid "Folder already exists."
+msgstr "Aplankas jau egzistuoja"
+
+#: admin/skins.php:193
+msgid "Installing the skin"
+msgstr "Įdiegti skiną"
+
+#: admin/skins.php:226
+#: admin/skins.php:281
+#: admin/skins.php:323
+#: admin/skins.php:331
+msgid "Skin"
+msgstr "Skinas"
+
+#: admin/skins.php:228
+msgid "Can't find skin directory "
+msgstr "Nerandamas skino katalogas"
+
+#: admin/skins.php:228
+msgid ". Try delete it manualy via ftp"
+msgstr ". Pamėginkite pašalinti rankiniu būdu per FTP"
+
+#: admin/skins.php:231
+msgid "You need activate another skin before delete it"
+msgstr "Jūs turite aktyvuoti naują skiną prieš ištrinant šį"
+
+#: admin/skins.php:234
+msgid "You do not have sufficient permissions to delete skins of GRAND FlAGallery."
+msgstr "Jūs neturite atitinkamų teisių pašalinti skinus iš GRAND FlAGallery."
+
+#: admin/skins.php:281
+msgid "activated successfully"
+msgstr "sėkmingai aktyvuota"
+
+#: admin/skins.php:342
+msgid "No skins to show"
+msgstr "Nėra skinų parodymui"
+
+#: admin/skins.php:355
+#, php-format
+msgid "Version %s"
+msgstr "Versija %s"
+
+#: admin/skins.php:359
+msgid "Visit author homepage"
+msgstr "Aplankykite autoriaus puslapį"
+
+#: admin/skins.php:360
+#, php-format
+msgid "By %s"
+msgstr " %s"
+
+#: admin/skins.php:363
+msgid "Visit skin site"
+msgstr "Aplankykite skino puslapį"
+
+#: admin/skins.php:369
+msgid "Activate"
+msgstr "Aktyvuoti"
+
+#: admin/skins.php:371
+msgid "Activated"
+msgstr "Aktyvuota"
+
+#: admin/skins.php:383
+msgid "Delete this skin"
+msgstr "Pašalinti šį skiną"
+
+#: admin/tinymce/tinymce.php:114
+#: admin/tinymce/window.php:16
+#: admin/tinymce/window.php:26
+msgid "Insert Flash Album with one or more galleries"
+msgstr "Įterpti Flash albumą su viena ar daugiau galerijų"
+
+#: admin/tinymce/window.php:8
+msgid "You are not allowed to be here"
+msgstr "Jūs neturite teisių būti čia"
+
+#: admin/tinymce/window.php:42
+msgid "Album Name"
+msgstr "Albumo vardas"
+
+#: admin/tinymce/window.php:46
+msgid "Select galleries"
+msgstr "Pasirinki galerijas"
+
+#: admin/tinymce/window.php:46
+msgid "(album categories)"
+msgstr "(albumo kategorijos)"
+
+#: admin/tinymce/window.php:74
+msgid "custom size"
+msgstr "pasirinktinis dydis"
+
+#: admin/tinymce/window.php:85
+#: admin/tinymce/window.php:128
+msgid "Insert"
+msgstr "Įterpti"
+
+#: admin/upgrade.php:20
+msgid "Upgrade database structure..."
+msgstr "Duomenų bazės strukūros atnaujinimas..."
+
+#: admin/upgrade.php:49
+#: admin/upgrade.php:59
+msgid "finished"
+msgstr "pabaigtas"
+
+#: admin/upgrade.php:57
+msgid "Import date and time information..."
+msgstr "Datos ir laiko informacijos importas..."
+
+#: admin/upgrade.php:130
+#: admin/upgrade.php:149
+msgid "Upgrade GRAND FlAGallery"
+msgstr "Atnaujinti GRAND FlAGallery"
+
+#: admin/upgrade.php:131
+msgid "The script detect that you upgrade from a older version."
+msgstr "Skriptas aptiko, kad jūs atsinaujinote iš senos versijos."
+
+#: admin/upgrade.php:132
+msgid "Your database tables for GRAND FlAGallery is out-of-date, and must be upgraded before you can continue."
+msgstr "Jūsų GRAND FlAGallery duomenų bazės lentelės paseno ir turi būti atnaujintos prieš tęsiant."
+
+#: admin/upgrade.php:133
+msgid "If you would like to downgrade later, please make first a complete backup of your database and the images."
+msgstr "Jei norėtumėte grįžti prie ankstesnės versijos vėliau, prašome pirmiausia pasidaryti pilną jūsų duomenų bazės ir paveiksliukų atsarginę kopiją."
+
+#: admin/upgrade.php:134
+msgid "The upgrade process may take a while, so please be patient."
+msgstr "Atnaujinimo procesas gali užtrukti, todėl būkite kantrūs."
+
+#: admin/upgrade.php:135
+msgid "Start upgrade now"
+msgstr "Pradėti atnaujinimą"
+
+#: admin/upgrade.php:151
+msgid "Upgrade sucessful"
+msgstr "Atnaujinimas įvykdytas sėkmingai"
+
+#: admin/upgrade.php:152
+msgid "Continue"
+msgstr "Tęsti"
+
+#: lib/core.php:199
+#, php-format
+msgid "Note : Based on your server memory limit you should not upload larger images then <strong>%d x %d</strong> pixel"
+msgstr "Pastaba: Remiantis serverio atminties limitu, jums nereikėtų įkelti didesnius nei <strong>%d x %d</strong> pikselių paveiksliukus"
+
+#: lib/meta.php:73
+msgid " mm"
+msgstr " mm"
+
+#: lib/meta.php:79
+msgid " sec"
+msgstr " sec"
+
+#: lib/meta.php:329
+msgid "Aperture"
+msgstr "Diafragma"
+
+#: lib/meta.php:330
+#: lib/meta.php:355
+msgid "Credit"
+msgstr "Kreditas"
+
+#: lib/meta.php:331
+msgid "Camera"
+msgstr "Kamera"
+
+#: lib/meta.php:332
+msgid "Caption"
+msgstr "Parašas"
+
+#: lib/meta.php:333
+msgid "Date/Time"
+msgstr "Data/Laikas"
+
+#: lib/meta.php:334
+msgid "Copyright"
+msgstr "Autorinės teisės"
+
+#: lib/meta.php:335
+msgid "Focal length"
+msgstr "Židinio nuotolis"
+
+#: lib/meta.php:336
+msgid "ISO"
+msgstr "ISO"
+
+#: lib/meta.php:337
+msgid "Shutter speed"
+msgstr "Užrakto greitis"
+
+#: lib/meta.php:340
+msgid "Tags"
+msgstr "Žymos"
+
+#: lib/meta.php:341
+msgid "Subject"
+msgstr "Tema"
+
+#: lib/meta.php:342
+msgid "Make"
+msgstr "Padaryti"
+
+#: lib/meta.php:343
+msgid "Edit Status"
+msgstr "Redaguoti statusą"
+
+#: lib/meta.php:344
+msgid "Category"
+msgstr "Kategorija"
+
+#: lib/meta.php:345
+msgid "Keywords"
+msgstr "Raktiniai žodžiai"
+
+#: lib/meta.php:346
+msgid "Date Created"
+msgstr "Sukūrimo data"
+
+#: lib/meta.php:347
+msgid "Time Created"
+msgstr "Sukūrimo laikas"
+
+#: lib/meta.php:348
+msgid "Author Position"
+msgstr "Autoriaus pozicija"
+
+#: lib/meta.php:349
+msgid "City"
+msgstr "Miestas"
+
+#: lib/meta.php:350
+msgid "Location"
+msgstr "Vieta"
+
+#: lib/meta.php:351
+msgid "Province/State"
+msgstr "Provincija/Valstybė"
+
+#: lib/meta.php:352
+msgid "Country code"
+msgstr "Šalies kodas"
+
+#: lib/meta.php:353
+msgid "Country"
+msgstr "Šalis"
+
+#: lib/meta.php:354
+msgid "Headline"
+msgstr "Antraštė"
+
+#: lib/meta.php:356
+msgid "Source"
+msgstr "Šaltinis"
+
+#: lib/meta.php:357
+msgid "Copyright Notice"
+msgstr "Autorinių teisių pranešimas"
+
+#: lib/meta.php:358
+msgid "Contact"
+msgstr "Kontaktai"
+
+#: lib/meta.php:359
+msgid "Last modified"
+msgstr "Paskutiniai pakeitimai"
+
+#: lib/meta.php:360
+msgid "Program tool"
+msgstr "Programiniai instrumentai"
+
+#: lib/meta.php:361
+msgid "Format"
+msgstr "Formatas"
+
+#: lib/shortcodes.php:71
+#: lib/shortcodes.php:86
+msgid "[Gallery not found]"
+msgstr "[Galerija nerasta]"
+
+#: lib/shortcodes.php:80
+#, php-format
+msgid "[Gallery %s not found]"
+msgstr "[Galerija  %s nerasta]"
+
+#: lib/swfobject.php:145
+msgid "The <a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> and a browser with Javascript support are needed.."
+msgstr "Būtini <a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> ir naršyklė su JavaScript palaikymu.."
+
+#: xml/media-rss.php:39
+msgid "No galleries have been yet created."
+msgstr "Dar nėra sukūrtos galerijos."
+
+#: xml/media-rss.php:58
+#, php-format
+msgid "The gallery ID=%s does not exist."
+msgstr "Galerija su ID=%s neegzistuoja."
+
+#: xml/media-rss.php:85
+#, php-format
+msgid "Invalid MediaRSS command (%s)."
+msgstr "Negaliojanti MediaRSS komanda (%s)."
+

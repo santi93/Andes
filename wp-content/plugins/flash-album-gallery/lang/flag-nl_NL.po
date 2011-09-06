@@ -1,0 +1,1643 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flash Album Gallery\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/flash-album-gallery\n"
+"POT-Creation-Date: 2009-10-28 10:59+0000\n"
+"PO-Revision-Date: 2011-01-13 21:53+0100\n"
+"Last-Translator: Erik Wouters <hwmwouters@gmail.com>\n"
+"Language-Team: ErikW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: admin/addgallery.php:37
+#: admin/addmoreimages.php:36
+msgid "Upload failed!"
+msgstr "Upload mislukt!"
+
+#: admin/addgallery.php:49
+#: admin/addmoreimages.php:41
+#: admin/functions.php:453
+#: admin/functions.php:543
+msgid "No gallery selected !"
+msgstr "Geen album gekozen!"
+
+#: admin/addgallery.php:117
+#: admin/addmoreimages.php:88
+msgid "Image Files"
+msgstr "Afbeeldingsbestanden"
+
+#: admin/addgallery.php:136
+#: admin/addgallery.php:166
+#: admin/addmoreimages.php:107
+#: admin/addmoreimages.php:136
+msgid "remove"
+msgstr "verwijderen"
+
+#: admin/addgallery.php:137
+#: admin/addmoreimages.php:108
+msgid "Browse..."
+msgstr "Bladeren..."
+
+#: admin/addgallery.php:138
+#: admin/addgallery.php:203
+#: admin/addgallery.php:251
+#: admin/addmoreimages.php:109
+#: admin/addmoreimages.php:168
+msgid "Upload images"
+msgstr "Afbeeldingen uploaden"
+
+#: admin/addgallery.php:177
+msgid "Add new gallery"
+msgstr "Nieuw album toevoegen"
+
+#: admin/addgallery.php:178
+msgid "Upload Images"
+msgstr "Afbeeldingen Uploaden"
+
+#: admin/addgallery.php:179
+#: admin/addgallery.php:258
+msgid "Import image folder"
+msgstr "Importeer Afbeeldingsmap"
+
+#: admin/addgallery.php:184
+msgid "Create a new gallery"
+msgstr "Maak nieuw Album"
+
+#: admin/addgallery.php:189
+msgid "New Gallery"
+msgstr "Nieuw Album"
+
+#: admin/addgallery.php:193
+msgid "Create a new , empty gallery below the folder"
+msgstr "Maak een nieuw, leeg album in deze map"
+
+#: admin/addgallery.php:194
+msgid "Allowed characters for file and folder names are"
+msgstr "Toegestane karakters voor bestanden en mappen zijn"
+
+#: admin/addgallery.php:195
+msgid "Add gallery"
+msgstr "Album toevoegen"
+
+#: admin/addgallery.php:227
+#: admin/addmoreimages.php:156
+msgid "Upload image(s):"
+msgstr "Afbeelding(en) uploaden"
+
+#: admin/addgallery.php:231
+msgid "in to"
+msgstr "naar"
+
+#: admin/addgallery.php:232
+msgid "Choose gallery"
+msgstr "Kies album"
+
+#: admin/addgallery.php:246
+#: admin/addmoreimages.php:164
+msgid "The batch upload requires Adobe Flash 10, disable it if you have problems"
+msgstr "Deze batch upload vereist Adobe Flash 10, uitschakelen bij problemen"
+
+#: admin/addgallery.php:246
+#: admin/addmoreimages.php:164
+msgid "Disable flash upload"
+msgstr "Flash upload uitschakelen"
+
+#: admin/addgallery.php:248
+#: admin/addmoreimages.php:166
+msgid "Upload multiple files at once by ctrl/shift-selecting in dialog"
+msgstr "Upload meerdere bestanden tegelijk door ctrl/shift-selectie in het scherm"
+
+#: admin/addgallery.php:248
+#: admin/addmoreimages.php:166
+msgid "Enable flash based upload"
+msgstr "Flash upload aanzetten"
+
+#: admin/addgallery.php:263
+msgid "Import from Server path:"
+msgstr "Importeer vanaf Server pad:"
+
+#: admin/addgallery.php:264
+msgid "Toggle DIR Browser"
+msgstr "DIR Browser inschakelen"
+
+#: admin/addgallery.php:267
+msgid " Please note : For safe-mode = ON you need to add the subfolder thumbs manually"
+msgstr "Let op: bij safe-mode = ON dient u de submap-miniaturen handmatig toe te voegen"
+
+#: admin/addgallery.php:270
+msgid "Import folder"
+msgstr "Importeer map"
+
+#: admin/addmoreimages.php:145
+#, php-format
+msgid "Upload More Images in \"%s\""
+msgstr "Upload meer afbeeldingen in \"%s\""
+
+#: admin/addmoreimages.php:150
+msgid "Add images to gallery"
+msgstr "Afbeeldingen aan album toevoegen"
+
+#: admin/addmoreimages.php:158
+#: admin/manage-sort.php:61
+msgid "Back to gallery"
+msgstr "Terug naar album"
+
+#: admin/admin.php:23
+#: admin/admin.php:24
+msgid "Flash Album Gallery overview"
+msgstr "Flash Album Gallery overzicht"
+
+#: admin/admin.php:23
+msgid "FlAGallery"
+msgstr "FLAGalerij"
+
+#: admin/admin.php:24
+msgid "Overview"
+msgstr "Overzicht"
+
+#: admin/admin.php:25
+msgid "FlAG Manage gallery"
+msgstr "FLAG Beheer galerij"
+
+#: admin/admin.php:25
+msgid "Manage Galleries"
+msgstr "Albums beheren"
+
+#: admin/admin.php:26
+msgid "FlAG Manage skins"
+msgstr "FLAG beheer skins"
+
+#: admin/admin.php:26
+#: admin/skins.php:312
+msgid "Skins"
+msgstr "Uiterlijk"
+
+#: admin/admin.php:27
+msgid "FlAG Change options"
+msgstr "FLAG Opties Wijzigen"
+
+#: admin/admin.php:27
+msgid "Options"
+msgstr "Opties"
+
+#: admin/admin.php:77
+msgid "You do not have the correct permission"
+msgstr "Uw hebt onvoldoende rechten"
+
+#: admin/admin.php:78
+msgid "Unexpected Error"
+msgstr "Onverwachte Fout"
+
+#: admin/admin.php:79
+msgid "A failure occurred"
+msgstr "Er is een fout opgetreden"
+
+#: admin/flag_install.php:24
+msgid "Sorry, Flash Album Gallery works only with a role called administrator"
+msgstr "Excuses, uw Flash Album Galerij werkt alleen met een beheerdersrol"
+
+#: admin/flag_install.php:121
+msgid "Flash Album Gallery : Tables could not created, please check your database settings"
+msgstr "Flash Album Galerij: Taballen konden niet worden gemaakt, check uw database-instellingen a.u.b."
+
+#: admin/functions.php:29
+msgid "No valid gallery name!"
+msgstr "Geen geldige albumnaam"
+
+#: admin/functions.php:36
+#: admin/functions.php:45
+#: admin/functions.php:59
+#: admin/functions.php:127
+#: admin/functions.php:134
+msgid "Directory"
+msgstr "Directory"
+
+#: admin/functions.php:36
+msgid "didn't exist. Please create first the main gallery folder "
+msgstr "bestaat niet. Maak eerst de hoofdmap van de galerij"
+
+#: admin/functions.php:37
+#: admin/functions.php:46
+msgid "Check this link, if you didn't know how to set the permission :"
+msgstr "Check deze link, als u niet weet hoe u de rechten moet instellen:"
+
+#: admin/functions.php:45
+#: admin/functions.php:59
+msgid "is not writeable !"
+msgstr "is niet beschrijfbaar!"
+
+#: admin/functions.php:54
+#: admin/functions.php:64
+#: lib/core.php:99
+msgid "Unable to create directory "
+msgstr "Map kan niet worden gemaakt"
+
+#: admin/functions.php:68
+msgid "The server setting Safe-Mode is on !"
+msgstr "De serverinstelling SAFE-MODE is geactiveerd!"
+
+#: admin/functions.php:69
+msgid "If you have problems, please create directory"
+msgstr "Als u problemen hebt, maak dan de map"
+
+#: admin/functions.php:70
+msgid "and the thumbnails directory"
+msgstr "en de miniaturenmap"
+
+#: admin/functions.php:70
+msgid "with permission 777 manually !"
+msgstr "met CHMOD 777 rechten handmatig!"
+
+#: admin/functions.php:88
+#: admin/functions.php:155
+#: admin/manage-images.php:139
+#: admin/manage.php:89
+#: admin/overview.php:220
+msgid "Gallery"
+msgstr "Album"
+
+#: admin/functions.php:88
+msgid "already exists"
+msgstr "bestaat al"
+
+#: admin/functions.php:93
+#, php-format
+msgid "Gallery '%1$s' successfully created.<br/>You can show this gallery with the tag %2$s.<br/>"
+msgstr "Album '%1$s succesvol aangemaakt.<br/>U kunt het album tonen met de volgende code %2$s.<br/>"
+
+#: admin/functions.php:96
+msgid "Edit gallery"
+msgstr "Album wijzigen"
+
+#: admin/functions.php:127
+msgid "doesn&#96;t exist!"
+msgstr "bestaat niet!"
+
+#: admin/functions.php:134
+msgid "contains no pictures"
+msgstr "bevat geen afbeeldingen"
+
+#: admin/functions.php:152
+msgid "Database error. Could not add gallery!"
+msgstr "Database fout. Kon geen album toevoegen!"
+
+#: admin/functions.php:155
+msgid "successfully created!"
+msgstr "succesvol aangemaakt!"
+
+#: admin/functions.php:184
+#: admin/functions.php:525
+#: admin/manage-images.php:212
+#: admin/manage.php:137
+msgid "Create new thumbnails"
+msgstr "Nieuwe miniaturen creëren"
+
+#: admin/functions.php:187
+msgid " picture(s) successfully added"
+msgstr "Afbeelding(en) succesvol toegevoegd"
+
+#: admin/functions.php:226
+#: admin/functions.php:305
+msgid "Object didn't contain correct data"
+msgstr "Object bevatte niet de juiste data"
+
+#: admin/functions.php:231
+msgid " is not writeable "
+msgstr "is niet beschrijfbaar"
+
+#: admin/functions.php:312
+msgid " is not writeable"
+msgstr "is niet beschrijfbaar"
+
+#: admin/functions.php:461
+#: admin/functions.php:566
+msgid "Failure in database, no gallery path set !"
+msgstr "Fout in database, geen album-pad aangegeven!"
+
+#: admin/functions.php:482
+#: admin/functions.php:560
+msgid "is no valid image file!"
+msgstr "is geen gelding afbeeldingsbestand!"
+
+#: admin/functions.php:496
+#: admin/functions.php:666
+#: admin/functions.php:734
+#, php-format
+msgid "Unable to write to directory %s. Is this directory writable by the server?"
+msgstr "Kon niet schrijven naar map %s. Is deze map beschrijfbaar door de server?"
+
+#: admin/functions.php:503
+#: admin/functions.php:583
+msgid "Error, the file could not moved to : "
+msgstr "Fout, het bestand kon niet worden verplaatst naar:"
+
+#: admin/functions.php:508
+#: admin/functions.php:587
+msgid "Error, the file permissions could not set"
+msgstr "Fout de bestandsrechten konden niet worden ingesteld"
+
+#: admin/functions.php:529
+msgid " Image(s) successfully added"
+msgstr "Afbeelding(en) succesvol toegevoegd"
+
+#: admin/functions.php:548
+msgid "Invalid upload. Error Code : "
+msgstr "Ongeldige Upload. Foutcode:"
+
+#: admin/functions.php:613
+#, php-format
+msgid "SAFE MODE Restriction in effect! You need to create the folder <strong>%s</strong> manually"
+msgstr "SAFE MODE beperkingen in werking! U dient de map <strong>%s</strong> handmatig aan te maken"
+
+#: admin/functions.php:614
+#, php-format
+msgid "When safe_mode is on, PHP checks to see if the owner (%s) of the current script matches the owner (%s) of the file to be operated on by a file function or its directory"
+msgstr "Wanneer de SAFE MODE actief is, checkt PHP of de eigenaar (%s) van het huidige script overeenstemt met de eigenaar (%s) van het bestand dat bewerkt wordt door een bestandsfunctie of map"
+
+#: admin/functions.php:660
+#: admin/functions.php:728
+msgid "The destination gallery does not exist"
+msgstr "Het doelalbum bestaat niet"
+
+#: admin/functions.php:691
+#, php-format
+msgid "Failed to move image %1$s to %2$s"
+msgstr "Verplaatsen bestand %1$s naar %2$s mislukt"
+
+#: admin/functions.php:709
+#, php-format
+msgid "Moved %1$s picture(s) to gallery : %2$s ."
+msgstr "%1$s Afbeelding(en) verplaatst naar Album: %2$s ."
+
+#: admin/functions.php:758
+#, php-format
+msgid "Failed to copy image %1$s to %2$s"
+msgstr "Kopieren van afbeelding %1$s naar %2$s mislukt"
+
+#: admin/functions.php:770
+#, php-format
+msgid "Failed to copy database row for picture %s"
+msgstr "Fout bij kopieren van database rij voor afbeelding %s"
+
+#: admin/functions.php:775
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s) &raquo; The file already existed in the destination gallery."
+msgstr "Afbeelding %1$s (%2$s) gekopieerd als afbeelding %3$s (%4$s) &raquo; Het bestand bestond al in het doelalbum."
+
+#: admin/functions.php:778
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s)"
+msgstr "Afbeelding %1$s (%2$s) gekopieerd als afbeelding %3$s (%4$s)"
+
+#: admin/functions.php:787
+#, php-format
+msgid "Copied %1$s picture(s) to gallery: %2$s ."
+msgstr "%1$s Afbeelding(en) gekopieerd naar album: %2$s ."
+
+#: admin/manage-galleries.php:19
+#: admin/manage-images.php:39
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: admin/manage-galleries.php:20
+#: admin/manage-images.php:40
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: admin/manage-galleries.php:27
+msgid "Gallery Overview"
+msgstr "Albumoverzicht"
+
+#: admin/manage-galleries.php:30
+#: admin/manage-images.php:202
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Toont %s&#8211;%s van %s"
+
+#: admin/manage-galleries.php:42
+#: admin/manage-images.php:234
+#: admin/manage-images.php:243
+#: admin/manage-sort.php:98
+#: admin/manage-sort.php:107
+msgid "ID"
+msgstr "ID"
+
+#: admin/manage-galleries.php:43
+#: admin/manage-images.php:165
+#: lib/meta.php:338
+msgid "Title"
+msgstr "Titel"
+
+#: admin/manage-galleries.php:44
+#: admin/manage-images.php:169
+#: admin/media-upload.php:185
+#: admin/skins.php:324
+#: admin/skins.php:332
+msgid "Description"
+msgstr "Beschrijving"
+
+#: admin/manage-galleries.php:45
+#: admin/manage-images.php:177
+#: lib/meta.php:339
+msgid "Author"
+msgstr "Auteur"
+
+#: admin/manage-galleries.php:46
+msgid "Quantity"
+msgstr "Aantal"
+
+#: admin/manage-galleries.php:47
+#: admin/skins.php:23
+#: admin/skins.php:325
+#: admin/skins.php:333
+msgid "Action"
+msgstr "Actie"
+
+#: admin/manage-galleries.php:67
+msgid "Edit"
+msgstr "Bewerken"
+
+#: admin/manage-galleries.php:76
+msgid "Delete this gallery ?"
+msgstr "Dit album verwijderen?"
+
+#: admin/manage-galleries.php:76
+#: admin/manage-images.php:293
+#: admin/skins.php:383
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: admin/manage-galleries.php:83
+#: admin/manage-images.php:313
+#: admin/manage-sort.php:139
+msgid "No entries found"
+msgstr "Geen items gevonden"
+
+#: admin/manage-images.php:16
+msgid "Gallery not found."
+msgstr "Album niet gevonden."
+
+#: admin/manage-images.php:22
+msgid "Sorry, you have no access here"
+msgstr "Excuses, u hebt hier geen toegang"
+
+#: admin/manage-images.php:107
+msgid "No images selected"
+msgstr "Geen afbeeldingen geselecteerd"
+
+#: admin/manage-images.php:121
+#, php-format
+msgid ""
+"You are about to start the bulk edit for %s images \n"
+" \n"
+" 'Cancel' to stop, 'OK' to proceed."
+msgstr ""
+"U staat op het punt om een bulk-bewerking te starten voor %s afbeeldingen \n"
+" \n"
+" 'Annuleren' om te stoppen, 'OK' om te bevestigen."
+
+#: admin/manage-images.php:141
+msgid "Choose another gallery"
+msgstr "Kies een ander album"
+
+#: admin/manage-images.php:161
+msgid "Gallery settings"
+msgstr "Albuminstellingen"
+
+#: admin/manage-images.php:173
+msgid "Path"
+msgstr "Pad"
+
+#: admin/manage-images.php:191
+msgid "Scan Folder for new images"
+msgstr "Scan map voor nieuwe afbeeldingen"
+
+#: admin/manage-images.php:192
+#: admin/manage-images.php:225
+#: admin/manage-images.php:319
+#: admin/settings.php:100
+#: admin/settings.php:133
+#: admin/settings.php:157
+#: admin/settings.php:187
+#: admin/settings.php:313
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: admin/manage-images.php:211
+msgid "No action"
+msgstr "Geen actie"
+
+#: admin/manage-images.php:213
+#: admin/manage.php:141
+msgid "Resize images"
+msgstr "Beeldgrootte wijzigen"
+
+#: admin/manage-images.php:214
+msgid "Delete images"
+msgstr "Verwijder afbeeldingen"
+
+#: admin/manage-images.php:215
+msgid "Import metadata"
+msgstr "Importeer metagegevens"
+
+#: admin/manage-images.php:216
+msgid "Copy to..."
+msgstr "Kopieer naar..."
+
+#: admin/manage-images.php:217
+msgid "Move to..."
+msgstr "Verplaats naar..."
+
+#: admin/manage-images.php:219
+#: admin/manage-images.php:349
+msgid "OK"
+msgstr "OK"
+
+#: admin/manage-images.php:221
+msgid "Sort gallery"
+msgstr "Sorteer album"
+
+#: admin/manage-images.php:223
+msgid "Add Images"
+msgstr "Afbeeldingen toevoegen"
+
+#: admin/manage-images.php:235
+#: admin/manage-images.php:244
+#: admin/media-upload.php:206
+msgid "Thumbnail"
+msgstr "Miniatuur"
+
+#: admin/manage-images.php:236
+#: admin/manage-images.php:245
+msgid "Filename / Date"
+msgstr "Bestandsnaam / Datum"
+
+#: admin/manage-images.php:237
+#: admin/manage-images.php:246
+msgid "Alt & Title Text / Description"
+msgstr "Alternatieve Titel / Beschrijving"
+
+#: admin/manage-images.php:286
+msgid "Size: "
+msgstr "Grootte:"
+
+#: admin/manage-images.php:291
+#, php-format
+msgid "View \"%s\""
+msgstr "Bekijk \"%s\""
+
+#: admin/manage-images.php:291
+msgid "View"
+msgstr "Bekijken"
+
+#: admin/manage-images.php:292
+msgid "Customize thumbnail"
+msgstr "Miniatuur aanpassen"
+
+#: admin/manage-images.php:292
+msgid "Edit thumb"
+msgstr "Miniatuur wijzigen"
+
+#: admin/manage-images.php:293
+#: admin/skins.php:383
+#, php-format
+msgid "Delete \"%s\""
+msgstr "Verwijder \"%s\""
+
+#: admin/manage-images.php:333
+msgid "Select the destination gallery:"
+msgstr "Kies de doelmap voor het album:"
+
+#: admin/manage-images.php:351
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: admin/manage-sort.php:31
+msgid "Sort order changed"
+msgstr "Sorteervolgorde veranderd"
+
+#: admin/manage-sort.php:54
+msgid "Sort Gallery"
+msgstr "Album Sorteren"
+
+#: admin/manage-sort.php:58
+#: admin/manage-sort.php:145
+msgid "Update Sort Order"
+msgstr "Sorteervolgorde updaten"
+
+#: admin/manage-sort.php:99
+#: admin/manage-sort.php:108
+msgid "Thumb"
+msgstr "Miniatuur"
+
+#: admin/manage-sort.php:100
+#: admin/manage-sort.php:109
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+#: admin/manage-sort.php:101
+#: admin/manage-sort.php:110
+msgid "Date"
+msgstr "Datum"
+
+#: admin/manage-sort.php:102
+#: admin/manage-sort.php:111
+msgid "Alt &amp; Title Text"
+msgstr "Alternatieve Titel"
+
+#: admin/manage.php:42
+#: admin/manage_thumbnail.php:17
+#: admin/manage_thumbnail.php:20
+msgid "Cheatin&#8217; uh?"
+msgstr "Vals spelen he?"
+
+#: admin/manage.php:89
+#: admin/manage.php:111
+#: admin/skins.php:226
+msgid "deleted successfully"
+msgstr "succesvol verwijderd"
+
+#: admin/manage.php:111
+msgid "Picture"
+msgstr "Afbeelding"
+
+#: admin/manage.php:158
+msgid "Pictures deleted successfully "
+msgstr "Afbeeldingen succesvol verwijderd"
+
+#: admin/manage.php:164
+msgid "Import metadata finished"
+msgstr "Importeren van Metagegevens geslaagd"
+
+#: admin/manage.php:172
+msgid "Operation successful. Please clear your browser cache."
+msgstr "Handeling geslaagd. Maak uw browser cache leeg a.u.b."
+
+#: admin/manage.php:216
+msgid "Update successful"
+msgstr "Update geslaagd"
+
+#: admin/manage_thumbnail.php:114
+msgid "Select with the mouse the area for the new thumbnail."
+msgstr "Selecteer met de muis de omtrek van de nieuwe miniatuurafbeelding."
+
+#: admin/manage_thumbnail.php:128
+msgid "Thumbnail updated"
+msgstr "Miniatuur bijgewerkt"
+
+#: admin/manage_thumbnail.php:133
+msgid "Error updating thumbnail."
+msgstr "Fout bij het bijwerken van de miniatuurafbeelding."
+
+#: admin/manage_thumbnail.php:150
+msgid "Select the area for the thumbnail from the picture on the left."
+msgstr "Selecteer de omtrek van de miniatuur uit de afbeelding aan de linkerkant."
+
+#: admin/manage_thumbnail.php:165
+msgid "Update"
+msgstr "Update"
+
+#: admin/media-upload.php:9
+msgid "FlAG Gallery"
+msgstr "FLAG Galerij"
+
+#: admin/media-upload.php:126
+msgid "No gallery"
+msgstr "Geen album"
+
+#: admin/media-upload.php:138
+msgid "Select &#187;"
+msgstr "Selecteer &#187;"
+
+#: admin/media-upload.php:169
+msgid "Show"
+msgstr "Toon"
+
+#: admin/media-upload.php:170
+msgid "Hide"
+msgstr "Verbergen"
+
+#: admin/media-upload.php:175
+msgid "Image ID:"
+msgstr "Afbeeldings ID:"
+
+#: admin/media-upload.php:181
+msgid "Alt/Title text"
+msgstr "Alt/Titel tekst"
+
+#: admin/media-upload.php:189
+msgid "Alignment"
+msgstr "Uitlijning"
+
+#: admin/media-upload.php:192
+msgid "None"
+msgstr "Geen"
+
+#: admin/media-upload.php:194
+msgid "Left"
+msgstr "Links"
+
+#: admin/media-upload.php:196
+msgid "Center"
+msgstr "Midden"
+
+#: admin/media-upload.php:198
+msgid "Right"
+msgstr "Rechts"
+
+#: admin/media-upload.php:202
+msgid "Size"
+msgstr "Grootte"
+
+#: admin/media-upload.php:208
+msgid "Full size"
+msgstr "Volledige grootte"
+
+#: admin/media-upload.php:216
+msgid "Insert into Post"
+msgstr "In bericht invoegen"
+
+#: admin/media-upload.php:226
+msgid "Save all changes"
+msgstr "Alle wijzigingen opslaan"
+
+#: admin/overview.php:13
+msgid "FlAG Gallery Overview"
+msgstr "FLAG Albumoverzicht"
+
+#: admin/overview.php:106
+msgid "Reset all settings to default parameter"
+msgstr "Reset alle instellingen naar de standaardwaarden"
+
+#: admin/overview.php:117
+msgid "Uninstall sucessful ! Now delete the plugin and enjoy your life ! Good luck !"
+msgstr "De-installatie geslaagd!"
+
+#: admin/overview.php:125
+msgid "Plugin Home"
+msgstr "Plugin Website"
+
+#: admin/overview.php:130
+msgid "Plugin Comments"
+msgstr "Plugin Opmerkingen"
+
+#: admin/overview.php:135
+msgid "Rate Plugin"
+msgstr "Plugin Beoordelen"
+
+#: admin/overview.php:140
+msgid "My Plugins"
+msgstr "Mijn Plugins"
+
+#: admin/overview.php:145
+msgid "Contact Me"
+msgstr "Contact"
+
+#: admin/overview.php:155
+msgid "Reset settings"
+msgstr "Instellingen resetten"
+
+#: admin/overview.php:155
+msgid ""
+"Reset all options to default settings ?\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Alle instellingen terugzetten naar standaardwaarden?\\n"
+"\\n"
+"Kies [Annuleren] om te stoppen, [OK] om door te gaan.\\n"
+
+#: admin/overview.php:158
+msgid "Uninstall plugin"
+msgstr "De-installeer plugin"
+
+#: admin/overview.php:158
+msgid ""
+"You are about to Uninstall this plugin from WordPress.\\n"
+"This action is not reversible.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to Uninstall.\\n"
+msgstr ""
+"U staat op het punt om de plugin te verwijderen.\\n"
+"Deze wijziging kan niet ongedaan worden gemaakt.\\n"
+"\\n"
+"Kies [Annuleren] om te stoppen, [OK] om te bevestigen.\\n"
+
+#: admin/overview.php:184
+msgid "What's new at PhotoGalleryCreator.com"
+msgstr "Wat is nieuw op PhotoGalleryCreator.com"
+
+#: admin/overview.php:208
+msgid "At a Glance"
+msgstr "In een oogopslag"
+
+#: admin/overview.php:214
+msgid "Image"
+msgstr "Afbeelding"
+
+#: admin/overview.php:229
+msgid "Upload pictures"
+msgstr "Afbeeldingen uploaden"
+
+#: admin/overview.php:230
+msgid "Here you can control your images and galleries."
+msgstr "Hier kunt u uw afbeeldingen en albums beheren."
+
+#: admin/overview.php:232
+msgid "Gallery Administrator"
+msgstr "Galerij Beheerder"
+
+#: admin/overview.php:232
+msgid "Gallery Editor"
+msgstr "Galerij Editor"
+
+#: admin/overview.php:233
+#, php-format
+msgid "You currently have %s rights."
+msgstr "U hebt momenteel %s rechten."
+
+#: admin/overview.php:239
+msgid "Setup Box"
+msgstr "Over de Plugin.."
+
+#: admin/overview.php:240
+msgid "News Box"
+msgstr "Nieuws"
+
+#: admin/overview.php:241
+msgid "Welcome to FlAG Gallery !"
+msgstr "Welkom bij de GRAND Flash Gallery!"
+
+#: admin/overview.php:242
+msgid "Server Settings"
+msgstr "Serverinstellingen"
+
+#: admin/overview.php:243
+msgid "Graphic Library"
+msgstr "Grafische instellingen"
+
+#: admin/overview.php:259
+msgid "No GD support"
+msgstr "Geen GD ondersteuning"
+
+#: admin/overview.php:266
+#: admin/overview.php:295
+#: admin/overview.php:297
+#: admin/overview.php:299
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/overview.php:268
+#: admin/overview.php:295
+#: admin/overview.php:297
+#: admin/overview.php:299
+msgid "No"
+msgstr "Nee"
+
+#: admin/overview.php:279
+msgid "Not set"
+msgstr "Niet ingesteld"
+
+#: admin/overview.php:281
+#: admin/overview.php:283
+msgid "On"
+msgstr "Aan"
+
+#: admin/overview.php:281
+#: admin/overview.php:283
+msgid "Off"
+msgstr "Uit"
+
+#: admin/overview.php:285
+#: admin/overview.php:287
+#: admin/overview.php:289
+#: admin/overview.php:291
+#: admin/overview.php:293
+msgid "N/A"
+msgstr "Niet aanwezig"
+
+#: admin/overview.php:293
+msgid " MByte"
+msgstr "MByte"
+
+#: admin/overview.php:302
+msgid "Operating System"
+msgstr "Besturingssysteem"
+
+#: admin/overview.php:303
+msgid "Server"
+msgstr "Server"
+
+#: admin/overview.php:304
+msgid "Memory usage"
+msgstr "Geheugengebruik"
+
+#: admin/overview.php:305
+msgid "MYSQL Version"
+msgstr "MYSQL Versie"
+
+#: admin/overview.php:306
+msgid "SQL Mode"
+msgstr "SQL Modus"
+
+#: admin/overview.php:307
+msgid "PHP Version"
+msgstr "PHP Versie"
+
+#: admin/overview.php:308
+msgid "PHP Safe Mode"
+msgstr "PHP Safe Mode"
+
+#: admin/overview.php:309
+msgid "PHP Allow URL fopen"
+msgstr "PHP URL fopen toestaan"
+
+#: admin/overview.php:310
+msgid "PHP Memory Limit"
+msgstr "PHP Geheugen Limiet"
+
+#: admin/overview.php:311
+msgid "PHP Max Upload Size"
+msgstr "PHP Maximale upload grootte"
+
+#: admin/overview.php:312
+msgid "PHP Max Post Size"
+msgstr "PHP maximale Bericht grootte"
+
+#: admin/overview.php:313
+msgid "PHP Max Script Execute Time"
+msgstr "PHP Maximale Script Uitvoeringstijd"
+
+#: admin/overview.php:314
+msgid "PHP Exif support"
+msgstr "PHP Exif Ondersteuning"
+
+#: admin/overview.php:315
+msgid "PHP IPTC support"
+msgstr "PHP IPTC Ondersteuning"
+
+#: admin/overview.php:316
+msgid "PHP XML support"
+msgstr "PHP XML Ondersteuning"
+
+#: admin/settings.php:32
+msgid "Update Successfully"
+msgstr "Update Geslaagd"
+
+#: admin/settings.php:50
+msgid "Updated capabilities"
+msgstr "Update mogelijkheden"
+
+#: admin/settings.php:61
+#: admin/settings.php:74
+msgid "General Options"
+msgstr "Algemene Instellingen"
+
+#: admin/settings.php:62
+msgid "Thumbnails"
+msgstr "Miniaturen"
+
+#: admin/settings.php:63
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: admin/settings.php:64
+#: admin/settings.php:164
+msgid "Sorting"
+msgstr "Sorteren"
+
+#: admin/settings.php:66
+#: admin/settings.php:223
+msgid "Colors"
+msgstr "Kleuren"
+
+#: admin/settings.php:68
+msgid "Roles"
+msgstr "Rechten"
+
+#: admin/settings.php:80
+msgid "Gallery path"
+msgstr "Album pad"
+
+#: admin/settings.php:82
+msgid "This is the default path for all galleries"
+msgstr "Dit is het standaardpad voor alle albums"
+
+#: admin/settings.php:85
+msgid "Default flash size (W x H)"
+msgstr "Standaard flashgrootte (Breedte x Hoogte)"
+
+#: admin/settings.php:90
+msgid "Delete image files"
+msgstr "Afbeeldingsbestanden verwijderen"
+
+#: admin/settings.php:92
+msgid "Delete files, when removing a gallery in the database"
+msgstr "Bestanden verwijderen wanneer een album wordt verwijderd uit de database"
+
+#: admin/settings.php:95
+msgid "Activate Media RSS feed"
+msgstr "Media RSS Feed activeren"
+
+#: admin/settings.php:97
+msgid "A RSS feed will be added to you blog header."
+msgstr "Een RSS Feed wordt toegevoegd in de header van uw Blog."
+
+#: admin/settings.php:107
+msgid "Thumbnail settings"
+msgstr "Miniatuur instellingen"
+
+#: admin/settings.php:111
+msgid "Please note : If you change the settings, you need to recreate the thumbnails under -> Manage Gallery ."
+msgstr "Let op: wanneer u de instellingen veranderd, dient u de miniaturen opnieuw aan te maken onder -> Beheer Album."
+
+#: admin/settings.php:114
+msgid "Width x Height (in pixel)"
+msgstr "Breedte x Hoogte (in pixels)"
+
+#: admin/settings.php:116
+msgid "These values are maximum values "
+msgstr "Dit zijn de maximale waardes"
+
+#: admin/settings.php:119
+msgid "Set fix dimension"
+msgstr "Vaste verhouding bepalen"
+
+#: admin/settings.php:121
+msgid "Ignore the aspect ratio, no portrait thumbnails"
+msgstr "Negeer de beeldverhouding, geen portret miniaturen"
+
+#: admin/settings.php:124
+msgid "Crop square thumbnail from image"
+msgstr "Snijd vierkante minatuur uit de afbeelding"
+
+#: admin/settings.php:126
+msgid "Create square thumbnails, use only the width setting :"
+msgstr "Maak vierkante miniaturen, gebruik alleen de breedte-instelling"
+
+#: admin/settings.php:129
+msgid "Thumbnail quality"
+msgstr "Miniatuur kwaliteit"
+
+#: admin/settings.php:140
+msgid "Image settings"
+msgstr "Afbeeldingsinstellingen"
+
+#: admin/settings.php:146
+msgid "Resize Images"
+msgstr "Afbeeldingsgrootte wijzigen"
+
+#: admin/settings.php:149
+msgid "Width x Height (in pixel). Flash Album Gallery will keep ratio size"
+msgstr "Breedte x Hoogte (in pixels). Flash Album Galerij behoudt beeldverhouding"
+
+#: admin/settings.php:152
+msgid "Image quality"
+msgstr "Beeldkwaliteit"
+
+#: admin/settings.php:168
+msgid "Sort options"
+msgstr "Sorteeropties"
+
+#: admin/settings.php:171
+msgid "Sort thumbnails"
+msgstr "Sorteer miniaturen"
+
+#: admin/settings.php:173
+msgid "Custom order"
+msgstr "Aangepaste sorteervolgorde"
+
+#: admin/settings.php:174
+msgid "Image ID"
+msgstr "Afbeeldings ID"
+
+#: admin/settings.php:175
+msgid "File name"
+msgstr "Bestandsnaam"
+
+#: admin/settings.php:176
+msgid "Alt / Title text"
+msgstr "Alt / Titel tekst"
+
+#: admin/settings.php:177
+msgid "Date / Time"
+msgstr "Datum / Tijd"
+
+#: admin/settings.php:181
+msgid "Sort direction"
+msgstr "Sorteerrichting"
+
+#: admin/settings.php:182
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: admin/settings.php:183
+msgid "Descending"
+msgstr "Aflopend"
+
+#: admin/settings.php:227
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: admin/settings.php:233
+msgid "Buttons Background Color"
+msgstr "Buttons Achtergrondkleur"
+
+#: admin/settings.php:239
+msgid "Buttons Text Color"
+msgstr "Buttons Tekstkleur"
+
+#: admin/settings.php:250
+msgid "Category Buttons Color"
+msgstr "Categoriebuttons Kleur"
+
+#: admin/settings.php:261
+msgid "Category Buttons Text Color"
+msgstr "Categoriebuttons Tekstkleur"
+
+#: admin/settings.php:272
+msgid "Thumbs Rollover Color"
+msgstr "Miniaturen 'Mouse Over' Kleur"
+
+#: admin/settings.php:283
+msgid "Main Title"
+msgstr "Hoofdtitel"
+
+#: admin/settings.php:289
+msgid "Category Title"
+msgstr "Categorienaam"
+
+#: admin/settings.php:295
+msgid "Item Background"
+msgstr "Afbeelding Achtergrond"
+
+#: admin/settings.php:301
+msgid "Item Title"
+msgstr "Afbeelding Naam"
+
+#: admin/settings.php:307
+msgid "Item Description"
+msgstr "Afbeelding Toelichting"
+
+#: admin/settings.php:322
+msgid "Roles / capabilities"
+msgstr "Rechten / machtigingen"
+
+#: admin/settings.php:323
+msgid "Select the lowest role which should be able to access the follow capabilities. Flash Album Gallery supports the standard roles from WordPress."
+msgstr "Kies de laagste rol die toegang mag krijgen tot de follow-machtigingen. Flash Album Galerij ondersteunt de standaardrollen van Wordpress."
+
+#: admin/settings.php:326
+msgid "Main Flash Album Gallery overview"
+msgstr "Overzichtsscherm Flash Album Galerij"
+
+#: admin/settings.php:330
+msgid "Use TinyMCE Button / Upload tab"
+msgstr "Benut TinyMCE Button / Upload tabblad"
+
+#: admin/settings.php:334
+msgid "Add gallery / Upload images"
+msgstr "Album toevoegen / Afbeeldingen Uploaden"
+
+#: admin/settings.php:338
+msgid "Manage gallery"
+msgstr "Beheer album"
+
+#: admin/settings.php:342
+msgid "Manage others gallery"
+msgstr "Beheer albums van anderen"
+
+#: admin/settings.php:346
+msgid "Change skin"
+msgstr "Wijzig uiterlijk"
+
+#: admin/settings.php:350
+msgid "Add skins"
+msgstr "Skin toevoegen"
+
+#: admin/settings.php:354
+msgid "Delete skins"
+msgstr "Verwijder skins"
+
+#: admin/settings.php:358
+msgid "Change options"
+msgstr "Wijzig opties"
+
+#: admin/settings.php:362
+msgid "Update capabilities"
+msgstr "Machtigingen wijzigen"
+
+#: admin/skins.php:20
+#: admin/skins.php:28
+msgid "Add new skin"
+msgstr "Nieuwe skin toevoegen"
+
+#: admin/skins.php:21
+msgid "Want more skins?"
+msgstr "Wilt u meer skins?"
+
+#: admin/skins.php:29
+msgid "Install a skin in .zip format"
+msgstr "Installeer een skin in .zip formaat"
+
+#: admin/skins.php:30
+msgid "If you have a skin in a .zip format, You may install it by uploading it here."
+msgstr "Wanneer u een skin hebt in .zip formaat, kunt u deze installeren door hem hier te uploaden"
+
+#: admin/skins.php:34
+msgid "Install Now"
+msgstr "Installeer Nu"
+
+#: admin/skins.php:39
+msgid "More skins"
+msgstr "Meer skins"
+
+#: admin/skins.php:40
+msgid "If you want more skins, You may get it at."
+msgstr "Meer skins zijn verkrijgbaar bij:"
+
+#: admin/skins.php:47
+msgid "Install info"
+msgstr "Installatie-informatie"
+
+#: admin/skins.php:58
+#: admin/skins.php:88
+msgid "No skin Specified"
+msgstr "Geen skin geselecteerd"
+
+#: admin/skins.php:61
+#, php-format
+msgid "Installing Skin from file: %s"
+msgstr "Installeert Skin van bestand: %s"
+
+#: admin/skins.php:70
+#, php-format
+msgid "The uploaded file could not be moved to %s."
+msgstr "Het geuploade bestand kon niet worden verplaatst naar %s."
+
+#: admin/skins.php:117
+msgid "Installation Failed"
+msgstr "Installatie Mislukt"
+
+#: admin/skins.php:119
+msgid "The skin installed successfully."
+msgstr "Installatie van de skin geslaagd."
+
+#: admin/skins.php:122
+#: admin/skins.php:369
+msgid "Activate this skin"
+msgstr "Deze skin activeren."
+
+#: admin/skins.php:122
+msgid "Activate Skin"
+msgstr "Activeer Skin"
+
+#: admin/skins.php:123
+msgid "Goto skin overview"
+msgstr "Ga naar het skin-overzicht"
+
+#: admin/skins.php:123
+msgid "Skin overview"
+msgstr "Skin Overzicht"
+
+#: admin/skins.php:126
+msgid "Actions:"
+msgstr "Acties:"
+
+#: admin/skins.php:145
+msgid "Could not access filesystem."
+msgstr "Geen toegang tot het bestandssysteem."
+
+#: admin/skins.php:148
+msgid "Filesystem error"
+msgstr "Bestandssysteem fout"
+
+#: admin/skins.php:154
+msgid "Unable to locate FlAGallery Skin directory."
+msgstr "Kon FLAGalerij Skin-directory niet vinden."
+
+#: admin/skins.php:159
+msgid "Unable to locate WordPress Content directory (wp-content)."
+msgstr "Kon Wordpress Content-directory niet vinden (wp-content)."
+
+#: admin/skins.php:165
+msgid "Install package not available."
+msgstr "Installatiepakket niet beschikbaar"
+
+#: admin/skins.php:173
+msgid "Unpacking the skin package"
+msgstr "Skin-pakket uitpakken"
+
+#: admin/skins.php:190
+msgid "Folder already exists."
+msgstr "Mapnaam bestaat reeds."
+
+#: admin/skins.php:193
+msgid "Installing the skin"
+msgstr "Installeer de skin"
+
+#: admin/skins.php:226
+#: admin/skins.php:281
+#: admin/skins.php:323
+#: admin/skins.php:331
+msgid "Skin"
+msgstr "Skin"
+
+#: admin/skins.php:228
+msgid "Can't find skin directory "
+msgstr "Kan de skin-directory niet vinden"
+
+#: admin/skins.php:228
+msgid ". Try delete it manualy via ftp"
+msgstr ". Probeer handmatig te verwijderen via ftp"
+
+#: admin/skins.php:231
+msgid "You need activate another skin before delete it"
+msgstr "U dient een andere skin te activeren alvorens te verwijderen"
+
+#: admin/skins.php:234
+msgid "You do not have sufficient permissions to delete skins of GRAND FlAGallery."
+msgstr "U hebt onvoldoende rechten om skins van GRAND FLAGallery te verwijderen."
+
+#: admin/skins.php:281
+msgid "activated successfully"
+msgstr "activeren geslaagd"
+
+#: admin/skins.php:342
+msgid "No skins to show"
+msgstr "Geen skins om te tonen"
+
+#: admin/skins.php:355
+#, php-format
+msgid "Version %s"
+msgstr "Versie %s"
+
+#: admin/skins.php:359
+msgid "Visit author homepage"
+msgstr "Bezoek de website van de auteur"
+
+#: admin/skins.php:360
+#, php-format
+msgid "By %s"
+msgstr "Van %s"
+
+#: admin/skins.php:363
+msgid "Visit skin site"
+msgstr "Bezoek de skin-website"
+
+#: admin/skins.php:369
+msgid "Activate"
+msgstr "Activeren"
+
+#: admin/skins.php:371
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: admin/skins.php:383
+msgid "Delete this skin"
+msgstr "Verwijder deze skin"
+
+#: admin/tinymce/tinymce.php:114
+#: admin/tinymce/window.php:16
+#: admin/tinymce/window.php:26
+msgid "Insert Flash Album with one or more galleries"
+msgstr "Flash Galerij met een of meer albums invoegen"
+
+#: admin/tinymce/window.php:8
+msgid "You are not allowed to be here"
+msgstr "U hebt hier geen rechten"
+
+#: admin/tinymce/window.php:42
+msgid "Album Name"
+msgstr "Albumnaam"
+
+#: admin/tinymce/window.php:46
+msgid "Select galleries"
+msgstr "Kies albums"
+
+#: admin/tinymce/window.php:46
+msgid "(album categories)"
+msgstr "(Album categorieen)"
+
+#: admin/tinymce/window.php:74
+msgid "custom size"
+msgstr "Aangepaste grootte"
+
+#: admin/tinymce/window.php:85
+#: admin/tinymce/window.php:128
+msgid "Insert"
+msgstr "Invoegen"
+
+#: admin/upgrade.php:20
+msgid "Upgrade database structure..."
+msgstr "Databasestructuur upgraden"
+
+#: admin/upgrade.php:49
+#: admin/upgrade.php:59
+msgid "finished"
+msgstr "beëindigd"
+
+#: admin/upgrade.php:57
+msgid "Import date and time information..."
+msgstr "Datum en tijd importeren"
+
+#: admin/upgrade.php:130
+#: admin/upgrade.php:149
+msgid "Upgrade GRAND FlAGallery"
+msgstr "GRAND FLAGallery upgraden"
+
+#: admin/upgrade.php:131
+msgid "The script detect that you upgrade from a older version."
+msgstr "Het script ziet dat u een upgrade doet vanuit een oudere versie"
+
+#: admin/upgrade.php:132
+msgid "Your database tables for GRAND FlAGallery is out-of-date, and must be upgraded before you can continue."
+msgstr "Uw database tabellen voor GRAND FLAGallery zijn gedateerd en moeten geupgrade worden voordat u verder kunt."
+
+#: admin/upgrade.php:133
+msgid "If you would like to downgrade later, please make first a complete backup of your database and the images."
+msgstr "Als u later wilt downgraden, maak dan eerst een complete backup van uw database en afbeeldingen a.u.b."
+
+#: admin/upgrade.php:134
+msgid "The upgrade process may take a while, so please be patient."
+msgstr "Het upgradeproces kan enige tijd duren, dus wees geduldig."
+
+#: admin/upgrade.php:135
+msgid "Start upgrade now"
+msgstr "Start upgrade nu"
+
+#: admin/upgrade.php:151
+msgid "Upgrade sucessful"
+msgstr "Upgrade geslaagd"
+
+#: admin/upgrade.php:152
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: lib/core.php:199
+#, php-format
+msgid "Note : Based on your server memory limit you should not upload larger images then <strong>%d x %d</strong> pixel"
+msgstr "Noot: Afhankelijk van uw servergeheugen kunt u beter geen afbeeldingen groter dan <strong>%d x %d</strong> pixels uploaden"
+
+#: lib/meta.php:73
+msgid " mm"
+msgstr "mm"
+
+#: lib/meta.php:79
+msgid " sec"
+msgstr "sec"
+
+#: lib/meta.php:329
+msgid "Aperture"
+msgstr "Diafragma"
+
+#: lib/meta.php:330
+#: lib/meta.php:355
+msgid "Credit"
+msgstr "Credit"
+
+#: lib/meta.php:331
+msgid "Camera"
+msgstr "Camera"
+
+#: lib/meta.php:332
+msgid "Caption"
+msgstr "Belichting"
+
+#: lib/meta.php:333
+msgid "Date/Time"
+msgstr "Datum/Tijd"
+
+#: lib/meta.php:334
+msgid "Copyright"
+msgstr "Copyright"
+
+#: lib/meta.php:335
+msgid "Focal length"
+msgstr "Brandpuntsafstand"
+
+#: lib/meta.php:336
+msgid "ISO"
+msgstr "ISO"
+
+#: lib/meta.php:337
+msgid "Shutter speed"
+msgstr "Sluitertijd"
+
+#: lib/meta.php:340
+msgid "Tags"
+msgstr "Opmerkingen"
+
+#: lib/meta.php:341
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: lib/meta.php:342
+msgid "Make"
+msgstr "Gemaakt door"
+
+#: lib/meta.php:343
+msgid "Edit Status"
+msgstr "Status aanpassing"
+
+#: lib/meta.php:344
+msgid "Category"
+msgstr "Categorie"
+
+#: lib/meta.php:345
+msgid "Keywords"
+msgstr "Sleutelwoorden"
+
+#: lib/meta.php:346
+msgid "Date Created"
+msgstr "Gemaakt op"
+
+#: lib/meta.php:347
+msgid "Time Created"
+msgstr "Tijd"
+
+#: lib/meta.php:348
+msgid "Author Position"
+msgstr "Functie Auteur"
+
+#: lib/meta.php:349
+msgid "City"
+msgstr "Stad"
+
+#: lib/meta.php:350
+msgid "Location"
+msgstr "Plaats"
+
+#: lib/meta.php:351
+msgid "Province/State"
+msgstr "Provincie"
+
+#: lib/meta.php:352
+msgid "Country code"
+msgstr "Landcode"
+
+#: lib/meta.php:353
+msgid "Country"
+msgstr "Land"
+
+#: lib/meta.php:354
+msgid "Headline"
+msgstr "Titel"
+
+#: lib/meta.php:356
+msgid "Source"
+msgstr "Bron"
+
+#: lib/meta.php:357
+msgid "Copyright Notice"
+msgstr "Copyright opmerking"
+
+#: lib/meta.php:358
+msgid "Contact"
+msgstr "Contact"
+
+#: lib/meta.php:359
+msgid "Last modified"
+msgstr "Laatst gewijzigd"
+
+#: lib/meta.php:360
+msgid "Program tool"
+msgstr "Programma"
+
+#: lib/meta.php:361
+msgid "Format"
+msgstr "Format"
+
+#: lib/shortcodes.php:71
+#: lib/shortcodes.php:86
+msgid "[Gallery not found]"
+msgstr "[Album niet gevonden]"
+
+#: lib/shortcodes.php:80
+#, php-format
+msgid "[Gallery %s not found]"
+msgstr "[Album %s niet gevonden]"
+
+#: lib/swfobject.php:145
+msgid "The <a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> and a browser with Javascript support are needed.."
+msgstr "De <a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> en een browser mit Javascript-ondersteuning zijn vereist..."
+
+#: xml/media-rss.php:39
+msgid "No galleries have been yet created."
+msgstr "Er zijn nog geen albums gemaakt"
+
+#: xml/media-rss.php:58
+#, php-format
+msgid "The gallery ID=%s does not exist."
+msgstr "Het Album ID=%s bestaat niet."
+
+#: xml/media-rss.php:85
+#, php-format
+msgid "Invalid MediaRSS command (%s)."
+msgstr "Ongeldig MediaRSS commando (%s)."
+

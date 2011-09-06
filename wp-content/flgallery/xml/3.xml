@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+	<settings>
+		<image
+			align="center"
+			cornerRadius="10"
+			scaleMode="fill"
+			transitionEffect="fade"
+			useShadow="true"
+		/>
+		<thumbnail
+			width="60"
+			height="40"
+			cornerRadius="0"
+			alpha="70"
+			outlineColor="0xffffff"
+			outlineColorOnRollOver="0xffffff"
+			outlineColorOnClick="0x8b0000"
+			useShadow="true"
+			usePreview="{thumbnail.usePreview}"
+		/>
+		<thumbBar
+			position="bottom"
+			scrollSpeed="10"
+		/>
+		<preview
+			alpha="100"
+			width="200"
+			height="100"
+			outlineColor="0xffffff"
+			useShadow="true"
+			cornerRadius="0"
+		/>
+		<caption
+			visibleMode="never"
+			position="bottom"
+			color="0xffffff"
+			bgColor="0x000000"
+			bgAlpha="30"
+			fontName="Verdana"
+			fontSize="12"
+		/>
+		<slideshow
+			start="false"
+			delay="3"
+			loop="true"
+			stopAutoOnClick="true"
+		/>
+		<preloader
+			usePreloader="true"
+			alpha="100"
+		/>
+		<buttons
+			fullScreenButton="true"
+			navigationButtons="true"
+			slideshowButton="true"
+		/>
+		<sounds
+			onRollOver=""
+			onClick=""
+		/>
+		<loader>true</loader>
+		<flickr><![CDATA[]]></flickr>
+		<picasa user="" albumID="" />
+	</settings>
+	<items>
+		<item source="http://andes/wp-content/flgallery/images/mahlj5r9.jpg" thumb="http://andes/wp-content/flgallery/tmp/img-mahlj5r9.120x80.jpg" description="" link="" target="" />
+		<item source="http://andes/wp-content/flgallery/images/db59wcl4.png" thumb="http://andes/wp-content/flgallery/tmp/img-db59wcl4.120x86.png" description="" link="" target="" />
+		<item source="http://andes/wp-content/flgallery/images/egv4k8w8.png" thumb="http://andes/wp-content/flgallery/tmp/img-egv4k8w8.120x84.png" description="" link="" target="" />
+		<item source="http://andes/wp-content/flgallery/images/f4vdfo0k.jpg" thumb="http://andes/wp-content/flgallery/tmp/img-f4vdfo0k.120x95.jpg" description="" link="" target="" />
+	</items>
+</gallery>

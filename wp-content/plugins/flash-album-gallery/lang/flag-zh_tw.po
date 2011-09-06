@@ -1,0 +1,1647 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flash Album Gallery\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/flash-album-gallery\n"
+"POT-Creation-Date: 2009-12-10 21:59+0000\n"
+"PO-Revision-Date: 2010-01-31 14:48+0200\n"
+"Last-Translator: Kpop'n <kpopn@kpopn.com>\n"
+"Language-Team: Kpop'n <kpopn@kpopn.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: admin/addgallery.php:37
+#: admin/addmoreimages.php:36
+msgid "Upload failed!"
+msgstr "上傳失敗！"
+
+#: admin/addgallery.php:49
+#: admin/addmoreimages.php:41
+#: admin/functions.php:453
+#: admin/functions.php:543
+msgid "No gallery selected !"
+msgstr "尚未選擇相簿！"
+
+#: admin/addgallery.php:117
+#: admin/addmoreimages.php:88
+msgid "Image Files"
+msgstr "圖庫"
+
+#: admin/addgallery.php:136
+#: admin/addgallery.php:166
+#: admin/addmoreimages.php:107
+#: admin/addmoreimages.php:136
+msgid "remove"
+msgstr "刪除"
+
+#: admin/addgallery.php:137
+#: admin/addmoreimages.php:108
+msgid "Browse..."
+msgstr "遊覽"
+
+#: admin/addgallery.php:138
+#: admin/addgallery.php:203
+#: admin/addgallery.php:251
+#: admin/addmoreimages.php:109
+#: admin/addmoreimages.php:168
+msgid "Upload images"
+msgstr "上傳圖檔"
+
+#: admin/addgallery.php:177
+msgid "Add new gallery"
+msgstr "新增相簿"
+
+#: admin/addgallery.php:178
+msgid "Upload Images"
+msgstr "上傳圖檔"
+
+#: admin/addgallery.php:179
+#: admin/addgallery.php:258
+msgid "Import image folder"
+msgstr "匯入圖檔資料夾"
+
+#: admin/addgallery.php:184
+msgid "Create a new gallery"
+msgstr "製作新的相冊"
+
+#: admin/addgallery.php:189
+msgid "New Gallery"
+msgstr "新相簿"
+
+#: admin/addgallery.php:193
+msgid "Create a new , empty gallery below the folder"
+msgstr "在資料夾下製作新的，空的相簿"
+
+#: admin/addgallery.php:194
+msgid "Allowed characters for file and folder names are"
+msgstr "被允許的文字和資料夾名稱為"
+
+#: admin/addgallery.php:195
+msgid "Add gallery"
+msgstr "新增相簿"
+
+#: admin/addgallery.php:227
+#: admin/addmoreimages.php:156
+msgid "Upload image(s):"
+msgstr "上傳圖檔"
+
+#: admin/addgallery.php:231
+msgid "in to"
+msgstr "至"
+
+#: admin/addgallery.php:232
+msgid "Choose gallery"
+msgstr "請選擇相簿"
+
+#: admin/addgallery.php:246
+#: admin/addmoreimages.php:164
+msgid "The batch upload requires Adobe Flash 10, disable it if you have problems"
+msgstr "批量上傳（同時上傳一批圖檔）須要Adboe Flash 10，如有問題，請禁止使用並關掉此功能"
+
+#: admin/addgallery.php:246
+#: admin/addmoreimages.php:164
+msgid "Disable flash upload"
+msgstr "關閉Flash上傳功能"
+
+#: admin/addgallery.php:248
+#: admin/addmoreimages.php:166
+msgid "Upload multiple files at once by ctrl/shift-selecting in dialog"
+msgstr "要同時上傳一批圖檔，可以在視窗內按下ctrl 或 shift 並選擇所有圖檔"
+
+#: admin/addgallery.php:248
+#: admin/addmoreimages.php:166
+msgid "Enable flash based upload"
+msgstr "開啟Flash上傳功能"
+
+#: admin/addgallery.php:263
+msgid "Import from Server path:"
+msgstr "從此路徑匯入："
+
+#: admin/addgallery.php:264
+msgid "Toggle DIR Browser"
+msgstr "切換目錄遊覽"
+
+#: admin/addgallery.php:267
+msgid " Please note : For safe-mode = ON you need to add the subfolder thumbs manually"
+msgstr "請注意：如果開啟安全模式，您必須手動新增次資料夾的縮圖"
+
+#: admin/addgallery.php:270
+msgid "Import folder"
+msgstr "匯入資料夾"
+
+#: admin/addmoreimages.php:145
+#, php-format
+msgid "Upload More Images in \"%s\""
+msgstr "在這裡上傳更多圖檔: \"%s\""
+
+#: admin/addmoreimages.php:150
+msgid "Add images to gallery"
+msgstr "新增圖檔至此相簿"
+
+#: admin/addmoreimages.php:158
+#: admin/manage-sort.php:61
+msgid "Back to gallery"
+msgstr "回相簿"
+
+#: admin/admin.php:23
+#: admin/admin.php:24
+msgid "Flash Album Gallery overview"
+msgstr "Flash相簿相冊概要／總遊覽"
+
+#: admin/admin.php:23
+msgid "FlAGallery"
+msgstr "FlAGallery"
+
+#: admin/admin.php:24
+msgid "Overview"
+msgstr "概要"
+
+#: admin/admin.php:25
+msgid "FlAG Manage gallery"
+msgstr "FlAG相簿管理"
+
+#: admin/admin.php:25
+msgid "Manage Galleries"
+msgstr "相簿管理"
+
+#: admin/admin.php:26
+msgid "FlAG Manage skins"
+msgstr "FlAG外殼管理"
+
+#: admin/admin.php:26
+#: admin/skins.php:312
+msgid "Skins"
+msgstr "外殼"
+
+#: admin/admin.php:27
+msgid "FlAG Change options"
+msgstr "編輯FlAG選項"
+
+#: admin/admin.php:27
+msgid "Options"
+msgstr "選項"
+
+#: admin/admin.php:77
+msgid "You do not have the correct permission"
+msgstr "您尚未得到核准"
+
+#: admin/admin.php:78
+msgid "Unexpected Error"
+msgstr "發生意外錯誤"
+
+#: admin/admin.php:79
+msgid "A failure occurred"
+msgstr "動作失敗"
+
+#: admin/flag_install.php:24
+msgid "Sorry, Flash Album Gallery works only with a role called administrator"
+msgstr "抱歉，只有［管理員］能夠使用 Flash 相簿相冊"
+
+#: admin/flag_install.php:121
+msgid "Flash Album Gallery : Tables could not created, please check your database settings"
+msgstr "Flash Flash相簿相冊：無法製作表格，請檢察您的數據庫設定"
+
+#: admin/functions.php:29
+msgid "No valid gallery name!"
+msgstr "相簿名稱無效！"
+
+#: admin/functions.php:36
+#: admin/functions.php:45
+#: admin/functions.php:59
+#: admin/functions.php:127
+#: admin/functions.php:134
+msgid "Directory"
+msgstr "目錄"
+
+#: admin/functions.php:36
+msgid "didn't exist. Please create first the main gallery folder "
+msgstr "不存在。請先至主庫相簿資料夾製作"
+
+#: admin/functions.php:37
+#: admin/functions.php:46
+msgid "Check this link, if you didn't know how to set the permission :"
+msgstr "請至此閱讀如何設定允許值"
+
+#: admin/functions.php:45
+#: admin/functions.php:59
+msgid "is not writeable !"
+msgstr "無法選寫！"
+
+#: admin/functions.php:54
+#: admin/functions.php:64
+#: lib/core.php:99
+msgid "Unable to create directory "
+msgstr "無法製作目錄"
+
+#: admin/functions.php:68
+msgid "The server setting Safe-Mode is on !"
+msgstr "目前服務器設置為安全模式！"
+
+#: admin/functions.php:69
+msgid "If you have problems, please create directory"
+msgstr "若有問題，請製作目錄"
+
+#: admin/functions.php:70
+msgid "and the thumbnails directory"
+msgstr "和縮圖目錄"
+
+#: admin/functions.php:70
+msgid "with permission 777 manually !"
+msgstr "並手動取得777許可！"
+
+#: admin/functions.php:88
+#: admin/functions.php:155
+#: admin/manage-images.php:139
+#: admin/manage.php:89
+#: admin/overview.php:220
+msgid "Gallery"
+msgid_plural "Galleries"
+msgstr[0] "相簿"
+msgstr[1] "相簿"
+
+#: admin/functions.php:88
+msgid "already exists"
+msgstr "已存在"
+
+#: admin/functions.php:93
+#, php-format
+msgid "Gallery '%1$s' successfully created.<br/>You can show this gallery with the tag %2$s.<br/>"
+msgstr "成功製作'%1$s'相簿。<br/>您現在可使用 %2$s 想是此相簿。<br/>"
+
+#: admin/functions.php:96
+msgid "Edit gallery"
+msgstr "編輯相簿"
+
+#: admin/functions.php:127
+msgid "doesn&#96;t exist!"
+msgstr "不存在！"
+
+#: admin/functions.php:134
+msgid "contains no pictures"
+msgstr "無照片圖檔"
+
+#: admin/functions.php:152
+msgid "Database error. Could not add gallery!"
+msgstr "數據庫發生錯誤，無法新增此相簿。"
+
+#: admin/functions.php:155
+msgid "successfully created!"
+msgstr "已成功製作！"
+
+#: admin/functions.php:184
+#: admin/functions.php:525
+#: admin/manage-images.php:212
+#: admin/manage.php:137
+msgid "Create new thumbnails"
+msgstr "製作新的縮圖"
+
+#: admin/functions.php:187
+msgid " picture(s) successfully added"
+msgstr "已成功加入圖檔"
+
+#: admin/functions.php:226
+#: admin/functions.php:305
+msgid "Object didn't contain correct data"
+msgstr "此件無正確的數據"
+
+#: admin/functions.php:231
+msgid " is not writeable "
+msgstr "無法選寫"
+
+#: admin/functions.php:312
+msgid " is not writeable"
+msgstr "無法選寫"
+
+#: admin/functions.php:461
+#: admin/functions.php:566
+msgid "Failure in database, no gallery path set !"
+msgstr "數據庫動作失敗，無法設定相簿路徑！"
+
+#: admin/functions.php:482
+#: admin/functions.php:560
+msgid "is no valid image file!"
+msgstr "圖檔無效！"
+
+#: admin/functions.php:496
+#: admin/functions.php:666
+#: admin/functions.php:734
+#, php-format
+msgid "Unable to write to directory %s. Is this directory writable by the server?"
+msgstr "無法寫入 %s 相目。是否確定服務器設此相目為可寫的？"
+
+#: admin/functions.php:503
+#: admin/functions.php:583
+msgid "Error, the file could not moved to : "
+msgstr "發生錯誤，檔案無法移動至："
+
+#: admin/functions.php:508
+#: admin/functions.php:587
+msgid "Error, the file permissions could not set"
+msgstr "發生錯誤，該檔案的權限無法設定"
+
+#: admin/functions.php:529
+msgid " Image(s) successfully added"
+msgstr "已成功加入圖檔"
+
+#: admin/functions.php:548
+msgid "Invalid upload. Error Code : "
+msgstr "無效上傳。錯誤代碼："
+
+#: admin/functions.php:613
+#, php-format
+msgid "SAFE MODE Restriction in effect! You need to create the folder <strong>%s</strong> manually"
+msgstr "安全模式限制已開啟，你必須自製資料夾<strong>%s</strong>"
+
+#: admin/functions.php:614
+#, php-format
+msgid "When safe_mode is on, PHP checks to see if the owner (%s) of the current script matches the owner (%s) of the file to be operated on by a file function or its directory"
+msgstr "安全模式開啟時，PHP會查證檔案功能或相目將執行的文件物主 (%s)是否與物主 (%s) 的原件相配"
+
+#: admin/functions.php:660
+#: admin/functions.php:728
+msgid "The destination gallery does not exist"
+msgstr "目標不存在"
+
+#: admin/functions.php:691
+#, php-format
+msgid "Failed to move image %1$s to %2$s"
+msgstr "移動圖檔 %1$s a %2$s 失敗"
+
+#: admin/functions.php:709
+#, php-format
+msgid "Moved %1$s picture(s) to gallery : %2$s ."
+msgstr "已將 %1$s 件圖檔移至： %2$s ."
+
+#: admin/functions.php:758
+#, php-format
+msgid "Failed to copy image %1$s to %2$s"
+msgstr "複製 %1$s a %2$s 失敗"
+
+#: admin/functions.php:770
+#, php-format
+msgid "Failed to copy database row for picture %s"
+msgstr "為圖檔 %s 複製數據庫行失敗"
+
+#: admin/functions.php:775
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s) &raquo; The file already existed in the destination gallery."
+msgstr "因為此檔案名稱已在目標地存在，圖檔 %1$s (%2$s) 已複製成圖檔 %3$s (%4$s) &raquo; "
+
+#: admin/functions.php:778
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s)"
+msgstr "圖檔 %1$s (%2$s) 已複製成圖檔 %3$s (%4$s) "
+
+#: admin/functions.php:787
+#, php-format
+msgid "Copied %1$s picture(s) to gallery: %2$s ."
+msgstr "已複製 %1$s 件圖檔至： %2$s ."
+
+#: admin/manage-galleries.php:19
+#: admin/manage-images.php:39
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: admin/manage-galleries.php:20
+#: admin/manage-images.php:40
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: admin/manage-galleries.php:27
+msgid "Gallery Overview"
+msgstr "相簿概要／總遊覽"
+
+#: admin/manage-galleries.php:30
+#: admin/manage-images.php:202
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "%s&#8211;%s de %s 展示中"
+
+#: admin/manage-galleries.php:42
+#: admin/manage-images.php:234
+#: admin/manage-images.php:243
+#: admin/manage-sort.php:98
+#: admin/manage-sort.php:107
+msgid "ID"
+msgstr "ID"
+
+#: admin/manage-galleries.php:43
+#: admin/manage-images.php:165
+#: lib/meta.php:338
+msgid "Title"
+msgstr "標題"
+
+#: admin/manage-galleries.php:44
+#: admin/manage-images.php:169
+#: admin/media-upload.php:185
+#: admin/skins.php:324
+#: admin/skins.php:332
+msgid "Description"
+msgstr "說明"
+
+#: admin/manage-galleries.php:45
+#: admin/manage-images.php:177
+#: lib/meta.php:339
+msgid "Author"
+msgstr "作者"
+
+#: admin/manage-galleries.php:46
+msgid "Quantity"
+msgstr "數量"
+
+#: admin/manage-galleries.php:47
+#: admin/skins.php:23
+#: admin/skins.php:325
+#: admin/skins.php:333
+msgid "Action"
+msgstr "動作"
+
+#: admin/manage-galleries.php:67
+msgid "Edit"
+msgstr "編輯"
+
+#: admin/manage-galleries.php:76
+msgid "Delete this gallery ?"
+msgstr "確定要刪除此相簿"
+
+#: admin/manage-galleries.php:76
+#: admin/manage-images.php:293
+#: admin/skins.php:383
+msgid "Delete"
+msgstr "刪除"
+
+#: admin/manage-galleries.php:83
+#: admin/manage-images.php:313
+#: admin/manage-sort.php:139
+msgid "No entries found"
+msgstr "找不到項目"
+
+#: admin/manage-images.php:16
+msgid "Gallery not found."
+msgstr "找不到相簿"
+
+#: admin/manage-images.php:22
+msgid "Sorry, you have no access here"
+msgstr "抱歉，您沒有使用權"
+
+#: admin/manage-images.php:107
+msgid "No images selected"
+msgstr "尚未選擇圖檔"
+
+#: admin/manage-images.php:121
+#, php-format
+msgid ""
+"You are about to start the bulk edit for %s images \n"
+" \n"
+" 'Cancel' to stop, 'OK' to proceed."
+msgstr ""
+"您即將進入 %s 件圖檔的批量編輯 \n"
+" \n"
+" '取消' 終止, 'OK' 進行."
+
+#: admin/manage-images.php:141
+msgid "Choose another gallery"
+msgstr "請選擇另一個相簿"
+
+#: admin/manage-images.php:161
+msgid "Gallery settings"
+msgstr "相簿設定"
+
+#: admin/manage-images.php:173
+msgid "Path"
+msgstr "路徑"
+
+#: admin/manage-images.php:191
+msgid "Scan Folder for new images"
+msgstr "取得此資料夾裡新的圖檔"
+
+#: admin/manage-images.php:192
+#: admin/manage-images.php:225
+#: admin/manage-images.php:319
+#: admin/settings.php:100
+#: admin/settings.php:133
+#: admin/settings.php:157
+#: admin/settings.php:187
+#: admin/settings.php:313
+msgid "Save Changes"
+msgstr "更變儲存"
+
+#: admin/manage-images.php:211
+msgid "No action"
+msgstr "無動作"
+
+#: admin/manage-images.php:213
+#: admin/manage.php:141
+msgid "Resize images"
+msgstr "調整圖檔大小"
+
+#: admin/manage-images.php:214
+msgid "Delete images"
+msgstr "刪除圖檔"
+
+#: admin/manage-images.php:215
+msgid "Import metadata"
+msgstr "匯入元數據"
+
+#: admin/manage-images.php:216
+msgid "Copy to..."
+msgstr "複製到..."
+
+#: admin/manage-images.php:217
+msgid "Move to..."
+msgstr "移動到..."
+
+#: admin/manage-images.php:219
+#: admin/manage-images.php:349
+msgid "OK"
+msgstr "OK"
+
+#: admin/manage-images.php:221
+msgid "Sort gallery"
+msgstr "排序相簿"
+
+#: admin/manage-images.php:223
+msgid "Add Images"
+msgstr "新增圖檔"
+
+#: admin/manage-images.php:235
+#: admin/manage-images.php:244
+#: admin/media-upload.php:206
+msgid "Thumbnail"
+msgstr "縮圖"
+
+#: admin/manage-images.php:236
+#: admin/manage-images.php:245
+msgid "Filename / Date"
+msgstr "檔名 / 日期"
+
+#: admin/manage-images.php:237
+#: admin/manage-images.php:246
+msgid "Alt & Title Text / Description"
+msgstr "備選案文 & 標題文字 / 說明"
+
+#: admin/manage-images.php:286
+msgid "Size: "
+msgstr "大小："
+
+#: admin/manage-images.php:291
+#, php-format
+msgid "View \"%s\""
+msgstr "查看 \"%s\""
+
+#: admin/manage-images.php:291
+msgid "View"
+msgstr "查看"
+
+#: admin/manage-images.php:292
+msgid "Customize thumbnail"
+msgstr "自訂縮圖"
+
+#: admin/manage-images.php:292
+msgid "Edit thumb"
+msgstr "編輯縮圖"
+
+#: admin/manage-images.php:293
+#: admin/skins.php:383
+#, php-format
+msgid "Delete \"%s\""
+msgstr "刪除 \"%s\""
+
+#: admin/manage-images.php:333
+msgid "Select the destination gallery:"
+msgstr "選擇目標相簿"
+
+#: admin/manage-images.php:351
+msgid "Cancel"
+msgstr "取消"
+
+#: admin/manage-sort.php:31
+msgid "Sort order changed"
+msgstr "排序以更變的順序"
+
+#: admin/manage-sort.php:54
+msgid "Sort Gallery"
+msgstr "排序相簿"
+
+#: admin/manage-sort.php:58
+#: admin/manage-sort.php:145
+msgid "Update Sort Order"
+msgstr "更新排序順序"
+
+#: admin/manage-sort.php:99
+#: admin/manage-sort.php:108
+msgid "Thumb"
+msgstr "縮圖"
+
+#: admin/manage-sort.php:100
+#: admin/manage-sort.php:109
+msgid "Filename"
+msgstr "檔名"
+
+#: admin/manage-sort.php:101
+#: admin/manage-sort.php:110
+msgid "Date"
+msgstr "日期"
+
+#: admin/manage-sort.php:102
+#: admin/manage-sort.php:111
+msgid "Alt &amp; Title Text"
+msgstr "備選案文 &amp; 標題文字"
+
+#: admin/manage.php:42
+#: admin/manage_thumbnail.php:17
+#: admin/manage_thumbnail.php:20
+msgid "Cheatin&#8217; uh?"
+msgstr "Cheatin&#8217; uh?"
+
+#: admin/manage.php:89
+#: admin/manage.php:111
+#: admin/skins.php:226
+msgid "deleted successfully"
+msgstr "已成功刪除"
+
+#: admin/manage.php:111
+msgid "Picture"
+msgstr "圖檔"
+
+#: admin/manage.php:158
+msgid "Pictures deleted successfully "
+msgstr "已成功刪除圖檔"
+
+#: admin/manage.php:164
+msgid "Import metadata finished"
+msgstr "匯入元數據已完成"
+
+#: admin/manage.php:172
+msgid "Operation successful. Please clear your browser cache."
+msgstr "操作成功。請清除瀏覽器緩存。"
+
+#: admin/manage.php:216
+msgid "Update successful"
+msgstr "完成更新"
+
+#: admin/manage_thumbnail.php:114
+msgid "Select with the mouse the area for the new thumbnail."
+msgstr "請利用滑鼠選擇縮圖範圍"
+
+#: admin/manage_thumbnail.php:128
+msgid "Thumbnail updated"
+msgstr "縮圖已更新"
+
+#: admin/manage_thumbnail.php:133
+msgid "Error updating thumbnail."
+msgstr "更新縮圖發生錯誤"
+
+#: admin/manage_thumbnail.php:150
+msgid "Select the area for the thumbnail from the picture on the left."
+msgstr "請從左邊圖選擇縮圖範圍"
+
+#: admin/manage_thumbnail.php:165
+msgid "Update"
+msgstr "更新"
+
+#: admin/media-upload.php:9
+msgid "FlAG Gallery"
+msgstr "FlAG 相簿"
+
+#: admin/media-upload.php:126
+msgid "No gallery"
+msgstr "無相簿"
+
+#: admin/media-upload.php:138
+msgid "Select &#187;"
+msgstr "選擇 &#187;"
+
+#: admin/media-upload.php:169
+msgid "Show"
+msgstr "顯示"
+
+#: admin/media-upload.php:170
+msgid "Hide"
+msgstr "隱藏"
+
+#: admin/media-upload.php:175
+msgid "Image ID:"
+msgstr "圖檔ID："
+
+#: admin/media-upload.php:181
+msgid "Alt/Title text"
+msgstr "備選案文／標題文字"
+
+#: admin/media-upload.php:189
+msgid "Alignment"
+msgstr "對齊"
+
+#: admin/media-upload.php:192
+msgid "None"
+msgstr "無"
+
+#: admin/media-upload.php:194
+msgid "Left"
+msgstr "左"
+
+#: admin/media-upload.php:196
+msgid "Center"
+msgstr "中"
+
+#: admin/media-upload.php:198
+msgid "Right"
+msgstr "右"
+
+#: admin/media-upload.php:202
+msgid "Size"
+msgstr "大小"
+
+#: admin/media-upload.php:208
+msgid "Full size"
+msgstr "全尺寸"
+
+#: admin/media-upload.php:216
+msgid "Insert into Post"
+msgstr "插入文章"
+
+#: admin/media-upload.php:226
+msgid "Save all changes"
+msgstr "儲存更改"
+
+#: admin/overview.php:13
+msgid "FlAG Gallery Overview"
+msgstr "Flash相簿概要／總遊覽"
+
+#: admin/overview.php:106
+msgid "Reset all settings to default parameter"
+msgstr "重置所有設置為默認參數"
+
+#: admin/overview.php:117
+msgid "Uninstall sucessful ! Now delete the plugin and enjoy your life ! Good luck !"
+msgstr "移除成功！請刪除此外掛並享受新生活！祝您好運！"
+
+#: admin/overview.php:125
+msgid "Plugin Home"
+msgstr "外掛官網"
+
+#: admin/overview.php:130
+msgid "Plugin Comments"
+msgstr "外掛評語"
+
+#: admin/overview.php:135
+msgid "Rate Plugin"
+msgstr "給此外掛評價"
+
+#: admin/overview.php:140
+msgid "My Plugins"
+msgstr "我的外掛"
+
+#: admin/overview.php:145
+msgid "Contact Me"
+msgstr "與我聯絡"
+
+#: admin/overview.php:155
+msgid "Reset settings"
+msgstr "復位設置"
+
+#: admin/overview.php:155
+msgid ""
+"Reset all options to default settings ?\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"重置所有設置為默認參數嗎？\\n"
+"\\n"
+"選擇［取消］停止，［OK］繼續\\n"
+
+#: admin/overview.php:158
+msgid "Uninstall plugin"
+msgstr "卸載外掛"
+
+#: admin/overview.php:158
+msgid ""
+"You are about to Uninstall this plugin from WordPress.\\n"
+"This action is not reversible.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to Uninstall.\\n"
+msgstr ""
+"您即將從WordPress中卸載此外掛。\\n"
+"此動作無法逆轉。\\n"
+"\\n"
+"選擇［取消］停止，［OK］繼續\\n"
+
+#: admin/overview.php:184
+msgid "What's new at PhotoGalleryCreator.com"
+msgstr "PhotoGalleryCreator.com 新事件"
+
+#: admin/overview.php:208
+msgid "At a Glance"
+msgstr "一眼望去"
+
+#: admin/overview.php:214
+msgid "Image"
+msgid_plural "Images"
+msgstr[0] "圖檔"
+msgstr[1] "圖檔"
+
+#: admin/overview.php:229
+msgid "Upload pictures"
+msgstr "上傳圖檔"
+
+#: admin/overview.php:230
+msgid "Here you can control your images and galleries."
+msgstr "在這裡您可以控制您的圖檔與相簿."
+
+#: admin/overview.php:232
+msgid "Gallery Administrator"
+msgstr "相簿管理員"
+
+#: admin/overview.php:232
+msgid "Gallery Editor"
+msgstr "相簿編輯"
+
+#: admin/overview.php:233
+#, php-format
+msgid "You currently have %s rights."
+msgstr "您目前有 % s 權利"
+
+#: admin/overview.php:239
+msgid "Setup Box"
+msgstr "設置盒"
+
+#: admin/overview.php:240
+msgid "News Box"
+msgstr "新聞盒"
+
+#: admin/overview.php:241
+msgid "Welcome to FlAG Gallery !"
+msgstr "歡迎來到 FIAG相簿！"
+
+#: admin/overview.php:242
+msgid "Server Settings"
+msgstr "服務器設定"
+
+#: admin/overview.php:243
+msgid "Graphic Library"
+msgstr "圖樣文庫"
+
+#: admin/overview.php:259
+msgid "No GD support"
+msgstr "無GD支助"
+
+#: admin/overview.php:266
+#: admin/overview.php:295
+#: admin/overview.php:297
+#: admin/overview.php:299
+msgid "Yes"
+msgstr "是"
+
+#: admin/overview.php:268
+#: admin/overview.php:295
+#: admin/overview.php:297
+#: admin/overview.php:299
+msgid "No"
+msgstr "否"
+
+#: admin/overview.php:279
+msgid "Not set"
+msgstr "無設定"
+
+#: admin/overview.php:281
+#: admin/overview.php:283
+msgid "On"
+msgstr "開啟"
+
+#: admin/overview.php:281
+#: admin/overview.php:283
+msgid "Off"
+msgstr "關閉"
+
+#: admin/overview.php:285
+#: admin/overview.php:287
+#: admin/overview.php:289
+#: admin/overview.php:291
+#: admin/overview.php:293
+msgid "N/A"
+msgstr "N/A"
+
+#: admin/overview.php:293
+msgid " MByte"
+msgstr " MByte"
+
+#: admin/overview.php:302
+msgid "Operating System"
+msgstr "操作系統"
+
+#: admin/overview.php:303
+msgid "Server"
+msgstr "伺服器"
+
+#: admin/overview.php:304
+msgid "Memory usage"
+msgstr "內存使用"
+
+#: admin/overview.php:305
+msgid "MYSQL Version"
+msgstr "MySQL版本"
+
+#: admin/overview.php:306
+msgid "SQL Mode"
+msgstr "SQL模式"
+
+#: admin/overview.php:307
+msgid "PHP Version"
+msgstr "PHP版本"
+
+#: admin/overview.php:308
+msgid "PHP Safe Mode"
+msgstr "PHP安全模式"
+
+#: admin/overview.php:309
+msgid "PHP Allow URL fopen"
+msgstr "PHP允許 URL fopen"
+
+#: admin/overview.php:310
+msgid "PHP Memory Limit"
+msgstr "PHP記憶極限"
+
+#: admin/overview.php:311
+msgid "PHP Max Upload Size"
+msgstr "PHP最大上傳大小"
+
+#: admin/overview.php:312
+msgid "PHP Max Post Size"
+msgstr "PHP最大PO文大小"
+
+#: admin/overview.php:313
+msgid "PHP Max Script Execute Time"
+msgstr "PHP最長執行時間"
+
+#: admin/overview.php:314
+msgid "PHP Exif support"
+msgstr "PHP Exif 支援"
+
+#: admin/overview.php:315
+msgid "PHP IPTC support"
+msgstr "PHP IPTC 支援"
+
+#: admin/overview.php:316
+msgid "PHP XML support"
+msgstr "PHP XML 支援"
+
+#: admin/settings.php:32
+msgid "Update Successfully"
+msgstr "成功的上傳"
+
+#: admin/settings.php:50
+msgid "Updated capabilities"
+msgstr "更新的功能"
+
+#: admin/settings.php:61
+#: admin/settings.php:74
+msgid "General Options"
+msgstr "一般選項"
+
+#: admin/settings.php:62
+msgid "Thumbnails"
+msgstr "縮圖"
+
+#: admin/settings.php:63
+msgid "Images"
+msgstr "圖檔"
+
+#: admin/settings.php:64
+#: admin/settings.php:164
+msgid "Sorting"
+msgstr "排序"
+
+#: admin/settings.php:66
+#: admin/settings.php:223
+msgid "Colors"
+msgstr "顏色"
+
+#: admin/settings.php:68
+msgid "Roles"
+msgstr "角色"
+
+#: admin/settings.php:80
+msgid "Gallery path"
+msgstr "相簿途徑"
+
+#: admin/settings.php:82
+msgid "This is the default path for all galleries"
+msgstr "這是所有相簿默認的途徑"
+
+#: admin/settings.php:85
+msgid "Default flash size (W x H)"
+msgstr "默認flash大小 (W x H)"
+
+#: admin/settings.php:90
+msgid "Delete image files"
+msgstr "刪除圖檔"
+
+#: admin/settings.php:92
+msgid "Delete files, when removing a gallery in the database"
+msgstr "從數據庫移除相簿時，刪除檔案"
+
+#: admin/settings.php:95
+msgid "Activate Media RSS feed"
+msgstr "開啟RSS訂閱"
+
+#: admin/settings.php:97
+msgid "A RSS feed will be added to you blog header."
+msgstr "RSS 將加在您的部落格首頁header"
+
+#: admin/settings.php:107
+msgid "Thumbnail settings"
+msgstr "縮圖設定"
+
+#: admin/settings.php:111
+msgid "Please note : If you change the settings, you need to recreate the thumbnails under -> Manage Gallery ."
+msgstr "注意事項：如果您更變設定，您必須重新製作縮圖，請至相簿管理"
+
+#: admin/settings.php:114
+msgid "Width x Height (in pixel)"
+msgstr "寬 x 高 (pixel)"
+
+#: admin/settings.php:116
+msgid "These values are maximum values "
+msgstr "這些值是最高值"
+
+#: admin/settings.php:119
+msgid "Set fix dimension"
+msgstr "設置固定尺寸"
+
+#: admin/settings.php:121
+msgid "Ignore the aspect ratio, no portrait thumbnails"
+msgstr "忽略長寬比，無人像縮圖"
+
+#: admin/settings.php:124
+msgid "Crop square thumbnail from image"
+msgstr "從此圖修剪方形縮圖"
+
+#: admin/settings.php:126
+msgid "Create square thumbnails, use only the width setting :"
+msgstr "製作方形縮圖，只用此寬度設定："
+
+#: admin/settings.php:129
+msgid "Thumbnail quality"
+msgstr "縮圖品質"
+
+#: admin/settings.php:140
+msgid "Image settings"
+msgstr "圖檔設定"
+
+#: admin/settings.php:146
+msgid "Resize Images"
+msgstr "調整圖檔大小"
+
+#: admin/settings.php:149
+msgid "Width x Height (in pixel). Flash Album Gallery will keep ratio size"
+msgstr "寬 x 高 (pixel)。Flash相簿相冊將保持此大小比例"
+
+#: admin/settings.php:152
+msgid "Image quality"
+msgstr "圖檔品質"
+
+#: admin/settings.php:168
+msgid "Sort options"
+msgstr "排序選項"
+
+#: admin/settings.php:171
+msgid "Sort thumbnails"
+msgstr "排序縮圖"
+
+#: admin/settings.php:173
+msgid "Custom order"
+msgstr "自定命令"
+
+#: admin/settings.php:174
+msgid "Image ID"
+msgstr "圖檔ID"
+
+#: admin/settings.php:175
+msgid "File name"
+msgstr "檔案名稱"
+
+#: admin/settings.php:176
+msgid "Alt / Title text"
+msgstr "備選案文 / 標題文字"
+
+#: admin/settings.php:177
+msgid "Date / Time"
+msgstr "日期 / 時間"
+
+#: admin/settings.php:181
+msgid "Sort direction"
+msgstr "排序方向"
+
+#: admin/settings.php:182
+msgid "Ascending"
+msgstr "上升"
+
+#: admin/settings.php:183
+msgid "Descending"
+msgstr "下降"
+
+#: admin/settings.php:227
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: admin/settings.php:233
+msgid "Buttons Background Color"
+msgstr "按鈕背景顏色"
+
+#: admin/settings.php:239
+msgid "Buttons Text Color"
+msgstr "按鈕文字顏色"
+
+#: admin/settings.php:250
+msgid "Category Buttons Color"
+msgstr "分類按鈕顏色"
+
+#: admin/settings.php:261
+msgid "Category Buttons Text Color"
+msgstr "分類按鈕文字顏色"
+
+#: admin/settings.php:272
+msgid "Thumbs Rollover Color"
+msgstr "縮圖滑鼠rollover顏色"
+
+#: admin/settings.php:283
+msgid "Main Title"
+msgstr "主標題"
+
+#: admin/settings.php:289
+msgid "Category Title"
+msgstr "分類標題"
+
+#: admin/settings.php:295
+msgid "Item Background"
+msgstr "項目背景"
+
+#: admin/settings.php:301
+msgid "Item Title"
+msgstr "項目標題"
+
+#: admin/settings.php:307
+msgid "Item Description"
+msgstr "項目說明"
+
+#: admin/settings.php:322
+msgid "Roles / capabilities"
+msgstr "角色／能力"
+
+#: admin/settings.php:323
+msgid "Select the lowest role which should be able to access the follow capabilities. Flash Album Gallery supports the standard roles from WordPress."
+msgstr "選擇能使用以下功能最低的角色。Flash相簿相冊支援WordPress的標準角色。"
+
+#: admin/settings.php:326
+msgid "Main Flash Album Gallery overview"
+msgstr "Flash相簿相冊概要主畫面"
+
+#: admin/settings.php:330
+msgid "Use TinyMCE Button / Upload tab"
+msgstr "使用 TinyMCE 按鈕 / 上傳標籤"
+
+#: admin/settings.php:334
+msgid "Add gallery / Upload images"
+msgstr "新增相簿／圖檔"
+
+#: admin/settings.php:338
+msgid "Manage gallery"
+msgstr "相簿管理"
+
+#: admin/settings.php:342
+msgid "Manage others gallery"
+msgstr "管理其他相簿"
+
+#: admin/settings.php:346
+msgid "Change skin"
+msgstr "更變外殼"
+
+#: admin/settings.php:350
+msgid "Add skins"
+msgstr "新增外殼"
+
+#: admin/settings.php:354
+msgid "Delete skins"
+msgstr "刪除外殼"
+
+#: admin/settings.php:358
+msgid "Change options"
+msgstr "更變選項"
+
+#: admin/settings.php:362
+msgid "Update capabilities"
+msgstr "功能更新"
+
+#: admin/skins.php:20
+#: admin/skins.php:28
+msgid "Add new skin"
+msgstr "新增外殼"
+
+#: admin/skins.php:21
+msgid "Want more skins?"
+msgstr "想要更多的外殼嗎？"
+
+#: admin/skins.php:29
+msgid "Install a skin in .zip format"
+msgstr "上傳 .zip 格式外殼"
+
+#: admin/skins.php:30
+msgid "If you have a skin in a .zip format, You may install it by uploading it here."
+msgstr "您可以在此上傳並安裝 .zip 格式的外殼"
+
+#: admin/skins.php:34
+msgid "Install Now"
+msgstr "現在安裝"
+
+#: admin/skins.php:39
+msgid "More skins"
+msgstr "更多外殼"
+
+#: admin/skins.php:40
+msgid "If you want more skins, You may get it at."
+msgstr "若您想要更多外殼，可至這裡取得："
+
+#: admin/skins.php:47
+msgid "Install info"
+msgstr "安裝知識"
+
+#: admin/skins.php:58
+#: admin/skins.php:88
+msgid "No skin Specified"
+msgstr "無指定外殼"
+
+#: admin/skins.php:61
+#, php-format
+msgid "Installing Skin from file: %s"
+msgstr "外殼安裝中： %s"
+
+#: admin/skins.php:70
+#, php-format
+msgid "The uploaded file could not be moved to %s."
+msgstr "上傳的檔案無法移至 %s."
+
+#: admin/skins.php:117
+msgid "Installation Failed"
+msgstr "安裝失敗"
+
+#: admin/skins.php:119
+msgid "The skin installed successfully."
+msgstr "外殼安裝成功"
+
+#: admin/skins.php:122
+#: admin/skins.php:369
+msgid "Activate this skin"
+msgstr "使用此外殼"
+
+#: admin/skins.php:122
+msgid "Activate Skin"
+msgstr "使用外殼"
+
+#: admin/skins.php:123
+msgid "Goto skin overview"
+msgstr "至外殼概要"
+
+#: admin/skins.php:123
+msgid "Skin overview"
+msgstr "外殼概要"
+
+#: admin/skins.php:126
+msgid "Actions:"
+msgstr "動作："
+
+#: admin/skins.php:145
+msgid "Could not access filesystem."
+msgstr "無法取得文件系統"
+
+#: admin/skins.php:148
+msgid "Filesystem error"
+msgstr "發生文件系統錯誤"
+
+#: admin/skins.php:154
+msgid "Unable to locate FlAGallery Skin directory."
+msgstr "找不到 FlAGallery 外殼目錄"
+
+#: admin/skins.php:159
+msgid "Unable to locate WordPress Content directory (wp-content)."
+msgstr "找不到 WordPress內容目錄 (wp-content)"
+
+#: admin/skins.php:165
+msgid "Install package not available."
+msgstr "安裝組件無法使用"
+
+#: admin/skins.php:173
+msgid "Unpacking the skin package"
+msgstr "外殼組件解壓中"
+
+#: admin/skins.php:190
+msgid "Folder already exists."
+msgstr "資料夾已存在"
+
+#: admin/skins.php:193
+msgid "Installing the skin"
+msgstr "外殼安裝中"
+
+#: admin/skins.php:226
+#: admin/skins.php:281
+#: admin/skins.php:323
+#: admin/skins.php:331
+msgid "Skin"
+msgstr "外殼"
+
+#: admin/skins.php:228
+msgid "Can't find skin directory "
+msgstr "搜尋不到外殼目錄"
+
+#: admin/skins.php:228
+msgid ". Try delete it manualy via ftp"
+msgstr ". 請嘗試在 ftp 中自行刪除"
+
+#: admin/skins.php:231
+msgid "You need activate another skin before delete it"
+msgstr "在刪除前，你必須先開啟另一個外殼。"
+
+#: admin/skins.php:234
+msgid "You do not have sufficient permissions to delete skins of GRAND FlAGallery."
+msgstr "您沒有刪除GRAND FlAGallery外殼的權利。"
+
+#: admin/skins.php:281
+msgid "activated successfully"
+msgstr "已成功開啟"
+
+#: admin/skins.php:342
+msgid "No skins to show"
+msgstr "無可顯示外殼"
+
+#: admin/skins.php:355
+#, php-format
+msgid "Version %s"
+msgstr "版本 %s"
+
+#: admin/skins.php:359
+msgid "Visit author homepage"
+msgstr "至作者個人網站"
+
+#: admin/skins.php:360
+#, php-format
+msgid "By %s"
+msgstr "By %s"
+
+#: admin/skins.php:363
+msgid "Visit skin site"
+msgstr "至外殼網站"
+
+#: admin/skins.php:369
+msgid "Activate"
+msgstr "開啟"
+
+#: admin/skins.php:371
+msgid "Activated"
+msgstr "已開啟"
+
+#: admin/skins.php:383
+msgid "Delete this skin"
+msgstr "刪除此外殼"
+
+#: admin/tinymce/tinymce.php:114
+#: admin/tinymce/window.php:16
+#: admin/tinymce/window.php:26
+msgid "Insert Flash Album with one or more galleries"
+msgstr "插入複數的 Flash 相簿"
+
+#: admin/tinymce/window.php:8
+msgid "You are not allowed to be here"
+msgstr "您沒有進入權"
+
+#: admin/tinymce/window.php:42
+msgid "Album Name"
+msgstr "相簿名稱"
+
+#: admin/tinymce/window.php:46
+msgid "Select galleries"
+msgstr "選擇相簿"
+
+#: admin/tinymce/window.php:46
+msgid "(album categories)"
+msgstr "(相簿分類)"
+
+#: admin/tinymce/window.php:74
+msgid "custom size"
+msgstr "自訂大小"
+
+#: admin/tinymce/window.php:85
+#: admin/tinymce/window.php:128
+msgid "Insert"
+msgstr "插入"
+
+#: admin/upgrade.php:20
+msgid "Upgrade database structure..."
+msgstr "數據庫結構升級"
+
+#: admin/upgrade.php:49
+#: admin/upgrade.php:59
+msgid "finished"
+msgstr "完成"
+
+#: admin/upgrade.php:57
+msgid "Import date and time information..."
+msgstr "匯入日期與時間資料"
+
+#: admin/upgrade.php:130
+#: admin/upgrade.php:149
+msgid "Upgrade GRAND FlAGallery"
+msgstr "GRAND FlAGallery 升級"
+
+#: admin/upgrade.php:131
+msgid "The script detect that you upgrade from a older version."
+msgstr "稱測到您已升級"
+
+#: admin/upgrade.php:132
+msgid "Your database tables for GRAND FlAGallery is out-of-date, and must be upgraded before you can continue."
+msgstr "您的 GRAND FlAGallery 數據庫已過時，繼續前必升級"
+
+#: admin/upgrade.php:133
+msgid "If you would like to downgrade later, please make first a complete backup of your database and the images."
+msgstr "若未來要進行降級，請先製作數據庫和圖檔備份"
+
+#: admin/upgrade.php:134
+msgid "The upgrade process may take a while, so please be patient."
+msgstr "升級過程需要一段時間，請耐心等待。"
+
+#: admin/upgrade.php:135
+msgid "Start upgrade now"
+msgstr "開始升級"
+
+#: admin/upgrade.php:151
+msgid "Upgrade sucessful"
+msgstr "已成功升級"
+
+#: admin/upgrade.php:152
+msgid "Continue"
+msgstr "繼續"
+
+#: lib/core.php:199
+#, php-format
+msgid "Note : Based on your server memory limit you should not upload larger images then <strong>%d x %d</strong> pixel"
+msgstr "注意事項：根據您的數據庫記憶極限，建議您上傳的檔案不要超過 <strong>%d x %d</ strong> pixel"
+
+#: lib/meta.php:73
+msgid " mm"
+msgstr " mm"
+
+#: lib/meta.php:79
+msgid " sec"
+msgstr "秒"
+
+#: lib/meta.php:329
+msgid "Aperture"
+msgstr "Aperture"
+
+#: lib/meta.php:330
+#: lib/meta.php:355
+msgid "Credit"
+msgstr "Credit"
+
+#: lib/meta.php:331
+msgid "Camera"
+msgstr "相機"
+
+#: lib/meta.php:332
+msgid "Caption"
+msgstr "照片說明"
+
+#: lib/meta.php:333
+msgid "Date/Time"
+msgstr "日期／時間"
+
+#: lib/meta.php:334
+msgid "Copyright"
+msgstr "版權"
+
+#: lib/meta.php:335
+msgid "Focal length"
+msgstr "焦距"
+
+#: lib/meta.php:336
+msgid "ISO"
+msgstr "ISO"
+
+#: lib/meta.php:337
+msgid "Shutter speed"
+msgstr "快門速度"
+
+#: lib/meta.php:340
+msgid "Tags"
+msgstr "標籤"
+
+#: lib/meta.php:341
+msgid "Subject"
+msgstr "主題"
+
+#: lib/meta.php:342
+msgid "Make"
+msgstr "製造"
+
+#: lib/meta.php:343
+msgid "Edit Status"
+msgstr "編輯狀態"
+
+#: lib/meta.php:344
+msgid "Category"
+msgstr "分類"
+
+#: lib/meta.php:345
+msgid "Keywords"
+msgstr "關鍵字"
+
+#: lib/meta.php:346
+msgid "Date Created"
+msgstr "製造日期"
+
+#: lib/meta.php:347
+msgid "Time Created"
+msgstr "製造時間"
+
+#: lib/meta.php:348
+msgid "Author Position"
+msgstr "作者位置"
+
+#: lib/meta.php:349
+msgid "City"
+msgstr "城市"
+
+#: lib/meta.php:350
+msgid "Location"
+msgstr "地點"
+
+#: lib/meta.php:351
+msgid "Province/State"
+msgstr "省／州"
+
+#: lib/meta.php:352
+msgid "Country code"
+msgstr "國家代碼"
+
+#: lib/meta.php:353
+msgid "Country"
+msgstr "國家"
+
+#: lib/meta.php:354
+msgid "Headline"
+msgstr "標題"
+
+#: lib/meta.php:356
+msgid "Source"
+msgstr "來源"
+
+#: lib/meta.php:357
+msgid "Copyright Notice"
+msgstr "版權聲明"
+
+#: lib/meta.php:358
+msgid "Contact"
+msgstr "聯絡"
+
+#: lib/meta.php:359
+msgid "Last modified"
+msgstr "上次修改"
+
+#: lib/meta.php:360
+msgid "Program tool"
+msgstr "程序工具"
+
+#: lib/meta.php:361
+msgid "Format"
+msgstr "格式"
+
+#: lib/shortcodes.php:71
+#: lib/shortcodes.php:86
+msgid "[Gallery not found]"
+msgstr "［找不到此相簿］"
+
+#: lib/shortcodes.php:80
+#, php-format
+msgid "[Gallery %s not found]"
+msgstr "[找不到相簿 %s ]"
+
+#: lib/swfobject.php:145
+msgid "The <a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> and a browser with Javascript support are needed.."
+msgstr "需要<a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a>和 Javascript 支援"
+
+#: xml/media-rss.php:39
+msgid "No galleries have been yet created."
+msgstr "尚未建立相簿"
+
+#: xml/media-rss.php:58
+#, php-format
+msgid "The gallery ID=%s does not exist."
+msgstr "尚未建立 ID =%s 不存在"
+
+#: xml/media-rss.php:85
+#, php-format
+msgid "Invalid MediaRSS command (%s)."
+msgstr "MediaRSS 指令 (%s) 無效"
+

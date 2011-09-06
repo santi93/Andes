@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <section id="middle">
-	<?php get_sidebar(); ?>
 	<div id="content" class="archive">
 	  
 	  <h1 class="page-title">
@@ -15,7 +14,7 @@
             <?php printf( __( 'Yearly Archives: <span class="archive-title">%s</span>'), get_the_date( 'Y' ) ); ?>
 
       <?php else : ?>
-            <?php _e( 'Blog Archives'); ?>
+          <?php _e( 'Blog Archives'); ?>
       <?php endif; ?>
 	  <h1>
 	  

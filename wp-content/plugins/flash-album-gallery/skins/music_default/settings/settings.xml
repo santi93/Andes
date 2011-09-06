@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel title="Music Box Skin 1.1">
+	<item type="textInput" name="width">
+		<title><![CDATA[Width]]></title>
+		<maxChars>0</maxChars>
+		<restrict><![CDATA[0-9%]]></restrict>
+		<text><![CDATA[400]]></text>
+	</item>
+	<item type="textInput" name="height">
+		<title><![CDATA[Height]]></title>
+		<maxChars>0</maxChars>
+		<restrict><![CDATA[0-9%]]></restrict>
+		<text><![CDATA[144]]></text>
+	</item>
+	<item type="comboBox" name="property0">
+		<title><![CDATA[Flash Object WMode]]></title>
+		<description><![CDATA[If 'transparent' - "Background Color" option is ignored, but you can position the absolute elements over the flash.]]></description>
+		<data>
+			<label name="Window"><![CDATA[window]]></label>
+			<label name="Transparent"><![CDATA[transparent]]></label>
+			<label name="Opaque"><![CDATA[opaque]]></label>
+		</data>
+		<prompt><![CDATA[]]></prompt>
+		<rowCount>2</rowCount>
+		<value><![CDATA[opaque]]></value>
+	</item>
+	<item type="checkBox" name="autoPlay">
+		<title><![CDATA[AutoPlay option]]></title>
+		<description><![CDATA[]]></description>
+		<selected>true</selected>
+	</item>
+	<item type="colorPicker" name="property1">
+		<title><![CDATA[Background Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xffffff</selectedColor>
+	</item>
+	<item type="colorPicker" name="property2">
+		<title><![CDATA[Bars Background Color]]></title>
+		<description><![CDATA[Background color for Header bar, Control bar and Spectrum Analyzer bar.]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x3383a7</selectedColor>
+	</item>
+	<item type="colorPicker" name="property3">
+		<title><![CDATA[Main Content Color]]></title>
+		<description><![CDATA[Text, Buttons color.]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xffffff</selectedColor>
+	</item>
+	<item type="colorPicker" name="property4">
+		<title><![CDATA[Buttons Over Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x143646</selectedColor>
+	</item>
+	<item type="colorPicker" name="property5">
+		<title><![CDATA[Track Bg Color]]></title>
+		<description><![CDATA[Play List Track Bg Color]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x77b3ce</selectedColor>
+	</item>
+	<item type="colorPicker" name="property6">
+		<title><![CDATA[Track Bg Over Color]]></title>
+		<description><![CDATA[Play List Track Bg Over Color]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x5e8ca1</selectedColor>
+	</item>
+	<item type="textInput" name="property9">
+		<title><![CDATA[Description Button Text]]></title>
+		<maxChars>0</maxChars>
+		<restrict><![CDATA[]]></restrict>
+		<text><![CDATA[INFO]]></text>
+	</item>
+	<item type="colorPicker" name="property7">
+		<title><![CDATA[Description Part Bg Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xffffff</selectedColor>
+	</item>
+	<item type="colorPicker" name="property8">
+		<title><![CDATA[Description Part Text Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x000000</selectedColor>
+	</item>
+<properties>
+  <property0><![CDATA[opaque]]></property0>
+  <property1>0xffffff</property1>
+  <property2>0x3383a7</property2>
+  <property3>0xffffff</property3>
+  <property4>0x143646</property4>
+  <property5>0x77b3ce</property5>
+  <property6>0x5e8ca1</property6>
+  <property7>0xffffff</property7>
+  <property8>0x000000</property8>
+  <property9><![CDATA[INFO]]></property9>
+  <width><![CDATA[400]]></width>
+  <height><![CDATA[144]]></height>
+  <autoPlay>true</autoPlay>
+</properties>
+</panel>

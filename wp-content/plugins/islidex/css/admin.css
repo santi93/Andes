@@ -1,0 +1,93 @@
+div#admin_islidex {
+	width: 760px;
+	padding-bottom: 40px;
+}
+#admin_islidex h1 {
+	font-family: Georgia, "Times New Roman", Times, Serif;
+	font-weight: normal;
+	font-size: 2.2em;
+}
+#admin_islidex h1.v-trial {
+	float: left;
+	margin: 5px 0 0 0;
+}
+div.islidex_options h3 {
+	margin: 15px 0 0 0;
+	padding: 15px 15px 15px 40px;
+	font-size: 1.2em;
+	color: #4e4c41;
+	background: #f1f1f1 url(../img/toggle.gif) no-repeat 10px 13px;
+	border: 1px solid #e6e6e6;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	cursor: pointer;
+}
+
+h2 {
+	margin: 15px 0 0 0;
+	padding: 15px 15px 15px 40px;
+	font-size: 1.2em;
+	color: #4e4c41;
+	background: #f1f1f1;
+	border: 1px solid #e6e6e6;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	cursor: pointer;
+}
+
+div.islidex_options h3.open {
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	background-position: 10px -27px;
+}
+div.islidex_options h3 span {
+	font-size: .9em;
+	font-weight: normal;
+	float: right;
+	color: #aaa;
+}
+div.islidex_options-body {
+	margin: 0;
+	padding: 15px;
+	background: #fbfbfa;
+	border: 1px solid #e6e6e6;
+	border-top: none;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+}
+
+div.admin-notice, div.admin-info {
+    margin:15px 0 0;
+	padding: 20px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;    
+    padding:10px 2em;
+}
+div.admin-notice{
+	background: #ffcccc;
+	border: 1px solid #ff3366;
+}
+div.admin-info{
+	background: #ccffcc;
+	border: 1px solid #33cc00;
+}
+#nivo, #piecemaker, #greek, #wnivo {
+display:block;
+background: #f0f0f0;
+border: 1px dotted #CECECE;
+}
+
+.support {
+-moz-border-radius: 0 0 6px 6px!important;
+border-top: 0 none!important;
+margin-top: 0!important;
+}
+
+.blu {
+background: none repeat scroll 0 0 #E3F1FE !important;
+border-bottom: 1px solid #7AA6D5 !important;
+border-left: 1px solid #7AA6D5 !important;
+border-right: 1px solid #7AA6D5 !important;
+}

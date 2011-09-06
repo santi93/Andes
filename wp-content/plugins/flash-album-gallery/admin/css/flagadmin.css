@@ -1,0 +1,253 @@
+/*
+** Flash Album Gallery Admin StyleSheet
+*/
+
+/* SETTINGS FOR SKIN PAGE */
+.skins .inactive,
+.skins .inactive th,
+.skins .inactive td {
+	background-color: #ebeeef;
+}
+.skins .active,
+.skins .active th,
+.skins .active td {
+	color: #000;
+}
+.skins .inactive a { 
+	color: #557799; 	
+}
+.skins .inactive a:hover {
+	color: #d54e21;
+}
+.skins tr.first td {border-bottom:1px solid #F9F9F9;}
+.skins tr.second td {border-top:none;}
+
+
+/* SETTINGS FOR Overview Gallery */
+.has-sidebar {
+	clear:left;
+	float:left;
+	margin-right:-340px;
+	width:100%;
+}
+.has-sidebar .has-sidebar-content {
+	margin-right:305px;
+}
+
+.postbox .misc-pub-section .icon { background-position:left top;background-repeat:no-repeat;padding-left:18px;}
+#plugin-home {background-image:url(../images/browser.png)}
+#plugin-comments {background-image:url(../images/notes.png)}
+#rate-plugin {background-image:url(../images/wallpaper.png)}
+#my-plugins {background-image:url(../images/map.png)}
+#contact-me {background-image:url(../images/mail.png)}
+
+#dashboard_server_settings ul.settings span {
+	padding-left : 10px;
+	color:#2583AD;
+	font-weight:bold;
+}
+
+.flag-overview .postbox .handlediv {
+	float:right;
+	height:24px;
+	width:24px;
+}
+
+#dashboard_primary .inside { margin: 0; }
+
+#photogallerycreator .theme > p { margin: 0; padding: 0; }
+#photogallerycreator .theme { overflow: hidden; padding: 7px 0; border-bottom: 1px solid #000000; }
+#photogallerycreator .theme .img { margin-top: 25px; }
+#photogallerycreator .theme .txt > *:first-child { display: block; margin: 0 0 -20px; padding: 0; text-align: center; position: relative; top: -204px; }
+
+/* SETTING FOR UPLOAD PAGE */
+.useflashupload {float:left;}
+.swfupload {
+	position:absolute;
+	z-index:1;
+	vertical-align:top;
+}
+#uploadQueue {}
+#choosegalfirst {position:relative; float:left; margin-left:15px; overflow:hidden;}
+#choosegalfirst .disabledbut {position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%;}
+
+/* SETTINGS FOR THE OPTIONS TABLE */ 
+.flag-options th {
+	width:22%;
+} 
+
+/* SETTINGS FOR MANAGE TABLE */
+
+p#flag-inlinebutton {
+	float:right;
+	margin:0pt;
+	position:relative;
+	top:-25pt;
+}
+
+.flag-tablenav .button-secondary {
+	padding:2px 8px;
+	vertical-align: top;
+}
+
+#flag-listitems td, #flag-listitems th {
+
+}
+
+.fixed tbody th.column-cb {
+	padding:7px 0 22px;
+}
+.fixed .column-cb {
+	padding:0;
+	width:2.2em;
+}
+
+.fixed .column-thumbnail{
+	width:80px;
+}
+
+.fixed .column-thumbnail img{
+	max-height:60px;
+	max-width:80px;
+}
+
+.fixed .column-id {
+	width: 2em;
+}
+
+.fixed .column-alt_title_desc {
+
+}
+
+.fixed .column-exclude, .fixed .column-action, .fixed .column-delete {
+	width: 2.2em; text-align: center;
+}
+.fixed .column-exclude input {
+	margin-top:4px;
+}
+.fixed .column-views {
+	width: 4em; text-align: center;
+}
+
+.flagform .widefat thead th { padding: 7px 0 8px; }
+.flagform .widefat thead th > div, .flagform .widefat thead th > p { margin-left: 7px; padding: 0; }
+.flagform .widefat thead th.cb { width: 54px; text-align: center; }
+.flagform .widefat tfoot th.cb { text-align: center; }
+
+.albums_table { width: 600px; position: relative; background: #ffffff; border: 1px solid #cccccc; border-radius: 4px; margin: 7px 0; padding: 1px 3px; float: left; }
+.albums_table .album { position: relative; background: #f8f8f8; border: 1px solid #cccccc; border-radius: 4px; margin:2px 0; padding: 3px 3px 3px 36px; }
+.albums_table .album form { margin: 0; padding: 0; display: inline; }
+.albums_table .albID { position: absolute; display: block; width: 30px; top: 6px; left: 0px; text-align: right; }
+.albums_table .album_actions { position: absolute; display: block; top: 3px; right: 3px; text-align: right; }
+.albums_table .album_categoties { background: #fefefe; border: 1px solid #cccccc; margin:1px 0; padding: 0px; min-height: 14px; }
+.albums_table .album_categoties .acat { border-top: 1px solid #cccccc; padding: 3px 6px; cursor: move; position: relative; }
+.albums_table .album_categoties .acat .drop { display: none; position: absolute; right: 3px; top: 1px; font-size: 18px; line-height: 100%; color: #ff0000; cursor: pointer; }
+.albums_table .album_categoties .acat:hover { background-color: #FFFFEE; }
+.albums_table .album_categoties .acat:hover .drop { display: block; }
+.albums_table .album_categoties .acat:first-child { border-top: none; }
+
+.alb_msg { font-size: 10px; color: #006600; }
+.flag-ajax-post { cursor: pointer; text-decoration: underline; }
+.flag-ajax-post:hover { color: #ff0000; }
+
+.all_galleries { float: left; white-space: nowrap; margin: 7px 0 0px 50px; }
+.all_galleries .acat { border: 1px solid #cccccc; padding: 3px 6px; margin: 3px 0; background: #fefefe; cursor: move; }
+.all_galleries .acat .drop { display: none; }
+.all_galleries .acat:hover { background-color: #FFFFEE; }
+
+.floatholder { overflow: hidden; }
+/* SETTINGS FOR PROGRESS BAR */
+
+div .progressborder {
+	border: 1px inset ; 
+	display: block; 
+	height: 20px; 
+	background-color: #464646; 
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+div .progressbar {
+	border: medium none ; 
+	display: block; 
+	height: 20px; 
+	background-color: #D54E21; 
+	width: 0%;
+}
+
+div .progressbar span {
+	display: inline; 
+	position: relative; 
+	color: white; 
+	font-weight: bold; 
+	padding-left: 5px;
+}
+
+
+.show_details
+{
+	height: 16px;
+	line-height: 20px; 
+	overflow: hidden;
+	min-width: 8em;
+	padding: 3px;
+	cursor:pointer;
+}
+
+.show_details span
+{
+	border-bottom:1px solid #999;
+	white-space:pre;
+}
+.show_details:hover 
+{
+	height: auto;
+	overflow: visible;
+	border: 1px solid #999;
+}
+
+/* SETTINGS FOR SORT GALLERY */
+#flag-listitems .header p {
+	background-image:url(../images/sortbg.gif);
+	background-position:right center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	margin:0;
+}
+#flag-listitems .headerSortDown p {
+	background-image:url(../images/desc.gif) !important;
+	background-position:right center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	margin:0;
+}
+#flag-listitems .headerSortUp p {
+	background-image:url(../images/asc.gif) !important;
+	background-position:right center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	margin:0;
+}
+
+/* UPGRADE PAGE */
+
+.error_inline {
+	background:#FFEBE8 none repeat scroll 0%;
+	border:1px solid #CC0000;
+	margin:5px auto;
+	padding:10px;
+}
+
+/* MEDIA BOX */
+
+p.row-actions {
+	margin:0px;
+	padding:10px 4px 0;
+}
+
+div#TB_window iframe#TB_iframeContent { width: 100% !important; }
+div.message { background: #ffffee; border: 1px solid #cccccc; border-radius: 4px; padding: 1px 10px; margin: 24px 20px 10px 0; font-size: 12px; }
+div.message .flag_progress { position: relative; height: 18px; width: 400px; border: 1px solid #0066FF; background-color: #ffffff; margin: 7px 0; }
+div.message .flag_progress .txt { position: absolute; left: 10px; top: 0; line-height: 18px; font-weight: bold; height: 18px; z-index: 10; }
+div.message .flag_progress .flag_complete { position: absolute; left: 0; top: 0; height: 18px; width: 0px; overflow: hidden; background: #00FFB7; z-index: 5; }

@@ -1,4 +1,0 @@
-[31-May-2010 10:49:16] PHP Notice:  Undefined variable: swDefaultTld in /home/tribunet/subdomains/dev/httpdocs/wp-content/plugins/wp-whois/vendors/samswhois/samswhois.inc.php on line 138
-[31-May-2010 10:49:16] PHP Notice:  Undefined variable: number in /home/tribunet/subdomains/dev/httpdocs/wp-content/plugins/wp-whois/vendors/samswhois/samswhois.inc.php on line 241
-[31-May-2010 10:49:16] PHP Notice:  Undefined variable: swForm in /home/tribunet/subdomains/dev/httpdocs/wp-content/plugins/wp-whois/vendors/samswhois/samswhois.inc.php on line 246
-[31-May-2010 10:49:16] PHP Notice:  Undefined index:  page in /home/tribunet/subdomains/dev/httpdocs/wp-content/themes/Simplism/functions.php on line 112

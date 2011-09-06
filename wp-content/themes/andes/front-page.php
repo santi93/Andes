@@ -1,14 +1,10 @@
 <? get_header(); ?>
 
-
-
-
 <section id="middle">
+  <?php include (ABSPATH . '/wp-content/plugins/front-slider/front-slider.php');?>
 
 	<div id="content" class="front">
 	
-
-		
 		<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 		
 			<div id="post_<?php the_ID(); ?>" <?php post_class(); ?>>

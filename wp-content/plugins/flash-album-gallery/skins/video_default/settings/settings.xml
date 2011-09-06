@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><panel title="Mini VideoBlog Skin 1.0">	<item type="textInput" name="width">		<title><![CDATA[Width]]></title>		<maxChars>0</maxChars>		<restrict><![CDATA[0-9%]]></restrict>		<text><![CDATA[100%]]></text>	</item>	<item type="textInput" name="height">		<title><![CDATA[Height]]></title>		<maxChars>0</maxChars>		<restrict><![CDATA[0-9%]]></restrict>		<text><![CDATA[350]]></text>	</item>	<item type="comboBox" name="property0">		<title><![CDATA[Flash Object WMode]]></title>		<description><![CDATA[If 'transparent' - "Background Color" option is ignored, but you can position the absolute elements over the flash.]]></description>		<data>			<label name="Window"><![CDATA[window]]></label>			<label name="Transparent"><![CDATA[transparent]]></label>			<label name="Opaque"><![CDATA[opaque]]></label>		</data>		<prompt><![CDATA[]]></prompt>		<rowCount>3</rowCount>		<value><![CDATA[opaque]]></value>	</item>
+	<item type="checkBox" name="swfmousewheel">
+		<title><![CDATA[SWF Mouse Wheel]]></title>
+		<description><![CDATA[Turn On/Off mouse wheel detection over Gallery.]]></description>
+		<selected>false</selected>
+	</item>	<item type="colorPicker" name="property1">		<title><![CDATA[Background Color]]></title>		<description><![CDATA[]]></description>		<showTextField>true</showTextField>		<selectedColor>0x000000</selectedColor>	</item>
+	<item type="colorPicker" name="titleColor">		<title><![CDATA[Video Title Text Color]]></title>		<description><![CDATA[]]></description>		<showTextField>true</showTextField>		<selectedColor>0xff0000</selectedColor>	</item>
+	<item type="colorPicker" name="linkColor">		<title><![CDATA[Links Text Color]]></title>		<description><![CDATA[Text between <a></a> (Description or Title Box)]]></description>		<showTextField>true</showTextField>		<selectedColor>0xff0000</selectedColor>	</item>
+	<item type="colorPicker" name="ggDsTextColor">		<title><![CDATA[Description Text Color]]></title>		<description><![CDATA[Grid Gallery Description Text Color]]></description>		<showTextField>true</showTextField>		<selectedColor>0xffffff</selectedColor>	</item>
+	<item type="colorPicker" name="ggButtoColor1">		<title><![CDATA[Button Color 1]]></title>		<description><![CDATA[Grid Gallery Button Color 1]]></description>		<showTextField>true</showTextField>		<selectedColor>0xffffff</selectedColor>	</item>
+	<item type="colorPicker" name="ggButtoColor2">		<title><![CDATA[Button Color 2]]></title>		<description><![CDATA[Grid Gallery Button Color 2]]></description>		<showTextField>true</showTextField>		<selectedColor>0xff0000</selectedColor>	</item>
+	<item type="colorPicker" name="vmBgColor">		<title><![CDATA[Video Player BG Color]]></title>		<description><![CDATA[Video Player Control Bar Color]]></description>		<showTextField>true</showTextField>		<selectedColor>0x212121</selectedColor>	</item>
+	<item type="colorPicker" name="vmButtoColor1">		<title><![CDATA[Button Color 1]]></title>		<description><![CDATA[Video Player Button Color 1]]></description>		<showTextField>true</showTextField>		<selectedColor>0xffffff</selectedColor>	</item>
+	<item type="colorPicker" name="vmButtoColor2">		<title><![CDATA[Button Color 2]]></title>		<description><![CDATA[Video Player Button Color 2]]></description>		<showTextField>true</showTextField>		<selectedColor>0xff0000</selectedColor>	</item>
+<properties>
+  <property0><![CDATA[opaque]]></property0>
+  <swfmousewheel>false</swfmousewheel>
+  <property1>0xffffff</property1>
+  <width><![CDATA[100%]]></width>
+  <height><![CDATA[400]]></height>
+  <titleColor>0xff0000</titleColor>
+  <linkColor>0xff0000</linkColor>
+  <ggDsTextColor>0x212121</ggDsTextColor>
+  <ggButtoColor1>0xc1c1c1</ggButtoColor1>
+  <ggButtoColor2>0xff0000</ggButtoColor2>
+  <vmBgColor>0x212121</vmBgColor>
+  <vmButtoColor1>0xffffff</vmButtoColor1>
+  <vmButtoColor2>0xff0000</vmButtoColor2>
+</properties></panel>

@@ -1,0 +1,376 @@
+/* Captify styling */
+
+.caption-top, .caption-bottom {
+	color: #ffffff;	
+	padding: 1.2em;	
+	font-weight: bold;
+	font-size: 13px;	
+	font-family: arial;	
+	border: 0px solid #334143;
+	background: #000000;
+	text-shadow: 1px 1px 0 #202020;
+}
+.caption-top {
+   border-width: 0px 0px 8px 0px;
+}
+.caption-bottom {
+   border-width: 8px 0px 0px 0px;
+}
+.caption a, .caption a {
+	border: 0 none;
+	text-decoration: none;
+	background: #000000;
+	padding: 0.3em;
+}
+.caption a:hover, .caption a:hover {
+	background: #202020;
+	text-decoration:none;
+	cursor:pointer;
+}
+.caption-wrapper {
+	float: left;
+}
+br.c { clear: both; }
+
+/* End of Captify */
+
+
+/* Timeline Style */
+
+.timeline{
+	background: none repeat scroll 0 0 #000000;
+    border: 10px solid #DBCECE;
+    display: block;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.fbar{
+	/* The left-most vertical bar, next to the first thumbnail */
+	width:1px!important;
+	background:url(divider.png) no-repeat right;
+	float:left;
+}
+
+
+#times{
+	/* This is the time area */
+	height:400px;
+	
+	/* jQuery changes the width later on to the sum of the widths of all the times. */
+	width:920px;
+	overflow:hidden;
+}
+
+.time{
+	float:left;
+}
+
+#times_menu{
+	background: none repeat scroll 0 0 #7E95A4;
+    height: 28px;
+	/* for IE7 */
+	position:relative;
+	float:left;
+}
+
+#times_menu ul{
+	float: left;
+    height: 28px;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+#times_menu li{
+	/* Every thumbnail is a li element */
+	display:inline-block;
+	list-style:none;
+	height:28px;
+	overflow:hidden;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+	float:left;
+	text-align:center;
+}
+
+#times_menu li a, #times_menu li a:hover, #times_menu li a:visited, #times_menu span{
+color:#fff;
+text-decoration:none;
+padding-left: 5px;
+padding-right: 5px;
+height:28px;
+display:inline;
+}
+
+#times_menu span { 
+float:left;
+padding-top: 3px;
+}
+
+ #times_menu li a:hover {
+ }
+
+#times_menu li.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background:url(pic_bg.png) repeat;
+	height:28px;
+}
+
+#times_menu li.act, #times_menu li.act:hover{
+	/* The active state of the thumb */
+	background:url(pic_bg.png) repeat;
+	height:28px;
+}
+
+#times_menu li.act a{
+	cursor:default;
+}
+
+
+#times_menu li a{
+	display:inline;
+	border-right: 1px solid #FFFFFF;
+	height:28px;
+	padding-top:3px;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+	float:left;
+}
+
+#times_menu a img{
+	border:none!important;
+}
+
+
+/* ---------------- CUSTOM */
+
+.timelinec {
+	background: none repeat scroll 0 0 #000000;
+    border: 10px solid #DBCECE;
+    display: block;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.fbarc {
+	/* The left-most vertical bar, next to the first thumbnail */
+	width:1px!important;
+	background:url(divider.png) no-repeat right;
+	float:left;
+}
+
+
+#timesc {
+	/* This is the time area */
+	height:400px;
+	
+	/* jQuery changes the width later on to the sum of the widths of all the times. */
+	width:920px;
+	overflow:hidden;
+}
+
+.timec {
+	float:left;
+}
+
+#times_menuc {
+	background: none repeat scroll 0 0 #7E95A4;
+    height: 28px;
+	/* for IE7 */
+	position:relative;
+	float:left;
+}
+
+#times_menuc ul{
+	float: left;
+    height: 28px;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+#times_menuc li{
+	/* Every thumbnail is a li element */
+	display:inline-block;
+	list-style:none;
+	height:28px;
+	overflow:hidden;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+	float:left;
+	text-align:center;
+}
+
+#times_menuc li a, #times_menuc li a:hover, #times_menuc li a:visited, #times_menuc span{
+color:#fff;
+text-decoration:none;
+padding-left: 5px;
+padding-right: 5px;
+display:inline;
+}
+
+#times_menuc span { 
+float:left;
+padding-top: 3px;
+}
+
+ #times_menuc li a:hover {
+ }
+
+#times_menuc li.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background:url(pic_bg.png) repeat;
+	height:28px;
+}
+
+#times_menuc li.act, #times_menuc li.act:hover{
+	/* The active state of the thumb */
+	background:url(pic_bg.png) repeat;
+	height:28px;
+}
+
+#times_menuc li.act a{
+	cursor:default;
+}
+
+
+#times_menuc li a{
+	display:inline;
+	border-right: 1px solid #FFFFFF;
+	height:28px;
+	padding-top:3px;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+	float:left;
+}
+
+#times_menuc a img{
+	border:none!important;
+}
+
+/* ---------------- WIDGET */
+
+.timelinew {
+	background: none repeat scroll 0 0 #000000;
+    border: 10px solid #DBCECE;
+    display: block;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.fbarw {
+	/* The left-most vertical bar, next to the first thumbnail */
+	width:1px!important;
+	background:url(divider.png) no-repeat right;
+	float:left;
+}
+
+
+#timesw {
+	/* This is the time area */
+	height:400px;
+	
+	/* jQuery changes the width later on to the sum of the widths of all the times. */
+	width:920px;
+	overflow:hidden;
+}
+
+.timew {
+	float:left;
+}
+
+#times_menuw {
+	background: none repeat scroll 0 0 #7E95A4;
+    height: 28px;
+	/* for IE7 */
+	position:relative;
+	float:left;
+}
+
+#times_menuw ul{
+	float: left;
+    height: 28px;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+#times_menuw li{
+	/* Every thumbnail is a li element */
+	display:inline-block;
+	list-style:none;
+	height:28px;
+	overflow:hidden;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+	float:left;
+	text-align:center;
+}
+
+#times_menuw li a, #times_menuw li a:hover, #times_menuw li a:visited, #times_menuw span{
+color:#fff;
+text-decoration:none;
+padding-left: 5px;
+padding-right: 5px;
+display:inline;
+}
+
+#times_menuw span { 
+float:left;
+padding-top: 3px;
+}
+
+ #times_menuw li a:hover {
+ }
+
+#times_menuw li.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background:url(pic_bg.png) repeat;
+	height:28px;
+}
+
+#times_menuw li.act, #times_menuw li.act:hover{
+	/* The active state of the thumb */
+	background:url(pic_bg.png) repeat;
+	height:28px;
+}
+
+#times_menuw li.act a{
+	cursor:default;
+}
+
+#times_menuw li a{
+	display:inline;
+	border-right: 1px solid #FFFFFF;
+	height:28px;
+	padding-top:3px;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+	float:left;
+}
+
+#times_menuw a img{
+	border:none!important;
+}

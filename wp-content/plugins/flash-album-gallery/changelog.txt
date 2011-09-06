@@ -1,0 +1,258 @@
+GRAND FlAGallery
+by Sergey Pasyuk & CodEasily DEV Team
+
+= v1.48 - 30.08.2011 =
+* Fixed : iPhone/iPad alternative for music and video default players
+
+= v1.47 - 29.08.2011 =
+* Added : Support mp3 for iPhone/iPad
+* Added : Alternative for video and music for non-flash browsers
+* Added : Widget Option for fancybox size
+* Fixed : music and video default players
+
+= v1.45 - 23.08.2011 =
+* Added : Widget for Album Gallery
+* Added : Lithuanian language
+* Fixed : Minor bugs
+
+= v1.44 - 18.08.2011 =
+* Fixed : Widget for Banner Rotator
+
+= v1.43 - 17.08.2011 =
+* Added : Widget for Banner Rotator
+* Fixed : Change playlist options
+* Fixed : PHP4 Compatibility
+
+= v1.42 - 08.08.2011 = 
+* Major Bugfix
+* Fixed : Banner Rotator (update skins, please)
+
+= v1.41 - 25.07.2011 = 
+* Fixed : Bug fix for WP v3.0.*
+* Fixed : Shortcode generator in Visual Editor mode
+* Fixed : Banner Rotator skin for WP v3.0
+* Added : Ukrainian translation
+
+= v1.40 - 18.07.2011 = 
+* Added : Video playlist creation
+* Added : Video blog skin
+* Added : Banner box page
+* Added : Banner Rotator skin
+* Added : Facebook link generator for Video and Banner
+* Added : Album creation
+* Added : Option to disable jQuery alternative gallery for iPad/iPhone
+* Updated : swf files for skin options, mp3 mini.swf, video_mini.swf
+
+= v1.33 - 13.07.2011 =
+* Major Update
+* Fixed : Bug with music and video sorting in playlists
+
+= v1.32 - 12.07.2011 =
+* Fixed : Bug with Shortcode insertion via TinyMCE button
+* Updated : video player (new version)
+* Updated : Wordpress v.3.2 compatibility 
+
+= v1.31 - 04.07.2011 =
+* Added : Creating Multicategorized albums
+* Added : Options for Single MP3 Player
+* Fixed : Skins settings changing
+* Fixed : Bug with Database capitalized prefix
+
+= v1.23 - 20.06.2011 =
+* Added : Video Box page (list of video from WP Media Library)
+* Added : FLV Video Player and shortcode for it
+* Added : Import mp3 files from server folder to WP Media Library
+* Added : Import flv files from server folder to WP Media Library
+
+= v1.22 - 11.06.2011 =
+* Fixed : Facebook template (you should copy facebook.php in the root directory again if you did it before)
+* Fixed : php4 compatibility
+* Added : Autoplay option to Music player (you should update skins)
+* Fixed : alternate gallery show only if no flash
+
+= v1.21 - 07.06.2011 =
+* Fixed : javascript for Alternative gallery
+* Fixed : php4 unexpected T_STATIC error
+
+= v1.20 - 06.06.2011 =
+* Updated : Music skin (added autoplay option)
+* Added : Alternate jQuery gallery for iPad, iPhone
+* Added : Options for alternate gallery
+* Added : additional javascript for flash
+* Changed : swfObject output for all galleries
+* Updated : cPanel.swf for skin optoins
+
+= v1.13 - 26.05.2011 =
+* Fixed : Refresh Skin button make aktive skin broken (reinstall broken skin please)
+
+= v1.12 - 24.05.2011 =
+* Added : Roles for Music and Facebook pages
+* Updated : Midnight Skin v3.0
+* Fixed : Facebook generator javascript on Mac browsers
+
+= v1.11 - 23.05.2011 =
+* Added : Music gallery 'Music Box'
+* Added : Flash Gallery for Facebook page
+* Fixed : small fixes
+
+= v0.61 - 22.05.2011 =
+* Added : Azerbaijani translation
+
+= v0.60 - 11.04.2011 =
+* Fixed : Security fix in two files
+
+= v0.59 - 23.03.2011 =
+* Fixed : Fix for default skins - don't load empty galleries
+* Fixed : Fix for edit big thumbs
+* Notice : New skin released today
+
+= v0.58pl1 - 19.02.2011 =
+* Changed : Fix for compatibility with new skin
+* Notice : new skin released today
+
+= v0.58 - 17.02.2011 =
+* Changed : core files for skins swfobject
+* Notice : all feature skins require plugin v0.58 or higher
+
+= v0.57 - 16.02.2011 =
+* Added : js for feature skin
+* Fixed : small fixes
+
+= v0.56 - 16.02.2011 =
+* Fixed : transparent and bg color for skins
+* Added : functionality for feature skin
+
+= v0.55 - 18.01.2011 =
+* Removed : disablescroll.js - very buggy
+
+= v0.54 - 18.01.2011 =
+* Added : javascript - flash scroll without html scroll
+* Added : Dutch language
+
+= v0.52 - 5.10.2010 =
+* Added : Polish language
+
+= v0.50 - 19.07.2010 =
+* Fixed : Metadata to description wrong tag
+
+= v0.49 - 28.06.2010 =
+* Added : Bulk action: copy image metadata to image description
+* Added : Russian translation
+* Bug fixes and CSS fixes
+
+= v0.46 - 03.05.2010 =
+
+* Added : Belorussian language
+
+= v0.45 - 22.04.2010 =
+
+* Added : WordPress MU support
+* Small bug fixes
+
+= v0.44 - 12.04.2010 =
+
+* Added : Turkish language
+* Small bug fixes
+
+= v0.43 - 28.03.2010 =
+
+* Added : More informative error messages on plugin upgrade
+* Bugfix : Conflicted with NGG JWPlayer
+* Bugfix : Help screen replaced on all admin pages
+* Bugfix : Wrong pager calculate
+* Changed : swfobject js for compability with older version of js library
+
+= v0.42 - 25.03.2010 =
+
+* Changed : Replaced all php short_open_tag from '<?=...?>' to '<?php echo ...; ?>'
+
+= v0.41 - 25.03.2010 =
+
+* Bugfix : Skin options didn't save colors
+
+= v0.40 - 24.03.2010 =
+
+* Change : DataBase structure 
+* Change : Skin options now on skins page 
+* Change : Skins now in separate folder outside of plugin folder 
+* Added : Each skin has own color settings saved in file
+* Added : Hide image for unregistered users option
+* Added : SWFaddress for deeplinking in flash
+* Added : Meta data for Images
+* Added : Action popup for Resize image... and Create new thumbnails
+* Added : New Action - Import Meta data
+* Added : Actions on Manage Galleries page
+* Added : Search Images on Manage Galleries page
+
+= v0.39pl3 - 12.02.2010 =
+
+* Bugfix : Image uploader fix (Error 'no valid image') 
+* Added : German translation
+
+= v0.39pl2 - 04.02.2010 =
+
+* Bugfix : TinyMCE button insert wrong shortcode 
+* Bugfix : Color tab and color settings not showing 
+
+= v0.39pl1 - 31.01.2010 =
+
+* Added : Portuguese  translation 
+* Added : Traditional Chinese  translation 
+
+= v0.39 - 25.12.2009 =
+
+* Added : Spanish translation 
+* Bugfix : bugfixes for WP2.9  
+
+= v0.38 - 08.12.2009 =
+
+* Added : Shortcode parameters (orderby=gid | title | random, order=DESC | ASC, exclude, skin) 
+* Added : Popup tabs for additional shortcode parameters 
+* Added : Ability to add more flash albums in post/posts with different skins 
+* Added : Ability set default skin colors or leave your own 
+* Bugfix : small fixes  
+
+= v0.37 - 13.11.2009 =
+
+* Added : French translation 
+* Bugfix : Fix for Skin page (blank page)  
+
+= v0.36 - 5.11.2009 =
+ 
+* Added : Italian translation 
+* Update : Little fixes of text  
+ 
+= v0.35 - 22.10.2009 =
+ 
+* Added : Confirmation popup for delete skin option 
+* Bugfix: Fix for included skins with WP 2.7.1 and PHP 4 
+* Update : Update for Wordpress v.2.8.5 
+ 
+= v0.34 - 19.10.2009 =
+ 
+* Added : Delete skin option 
+* Added : Capability for 'delete skin' 
+* Bugfix : Fix for flag.ajax.js (conflict with wp-security-scan plugin) 
+ 
+= v0.33 - 5.10.2009 =
+ 
+* Bugfix : Fix for skins upload 
+* Bugfix : Fix editor buttons in IE 
+ 
+= v0.32 - 30.09.2009 =
+ 
+* Added : Skin "PhotoGallery PRO 1.0 DEMO" 
+* Bugfix : Fix for image date & time 
+* Bugfix : Fixed html special chars in description of image 
+* Changed : Database structure 
+ 
+= v0.29 - 17.08.2009 =
+ 
+* NEW : Import images from folder 
+* Added : Button "FlAGallery" on HTML Editor panel, even if Visual Editor is disabled 
+* Added : International Skin to display any language in the flash 
+* Added : Loader for News Box on Overview page 
+* Added : To display all galleries in the album, added parameter value "all", e.g.: gid=all 
+* Changed : Shortcode 'album' replaced with 'flagallery', becouse of conflict with NextGEN Gallery 
+* Bugfix : Fix for Upload Images button on Overview page 
+* Bugfix : Fixed conflict with NextGEN Gallery (creating thumbnails cause error) 

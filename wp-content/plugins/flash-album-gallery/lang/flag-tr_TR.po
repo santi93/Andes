@@ -1,0 +1,2019 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flash Album Gallery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-30 21:31+0200\n"
+"PO-Revision-Date: 2010-03-31 17:44+0200\n"
+"Last-Translator: \n"
+"Language-Team: Weeebdesign & Hosting <admin@weeebdizayn.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: flag.php:124
+#: flag.php:126
+msgid "GRAND FlAGallery skins upgraded/installed incorrectly. Go to"
+msgstr "GRAND FlAGallery dış görünüm güncelleme / yükleme yanlış. Git"
+
+#: flag.php:124
+#: flag.php:126
+msgid "Overview page"
+msgstr "Genel bakış sayfası"
+
+#: flag.php:124
+#: flag.php:126
+msgid "and click \"Reset settings\" button"
+msgstr "tıkla \"Ayarları Sıfırla\" düğme"
+
+#: flag.php:154
+msgid "Sorry, GRAND Flash Album Gallery works only with a Memory Limit of 16 MB higher"
+msgstr "Üzgünüz, GRAND Flash Albüm Galerisi 16 MB ve daha yüksek bir bellek sınırı ile çalışır"
+
+#: widgets/widgets.php:28
+msgid "Add recent or random images from the galleries"
+msgstr "Galerilerinden son veya rastgele resimler ekleyin"
+
+#: widgets/widgets.php:30
+msgid "FlAGallery Widget"
+msgstr "FlAGallery Widget"
+
+#: widgets/widgets.php:130
+msgid "Title :"
+msgstr "Başlık:"
+
+#: widgets/widgets.php:136
+msgid "Show :"
+msgstr "Göster :"
+
+#: widgets/widgets.php:141
+msgid "Thumbnails"
+msgstr "Küçük Resimler"
+
+#: widgets/widgets.php:142
+msgid "Original images"
+msgstr "Orijinal Resim"
+
+#: widgets/widgets.php:149
+msgid "random"
+msgstr "Rastgele"
+
+#: widgets/widgets.php:150
+msgid "recent added "
+msgstr "son eklenen"
+
+#: widgets/widgets.php:156
+msgid "Enable IE8 Web Slices"
+msgstr "Enable IE8 Web Slices"
+
+#: widgets/widgets.php:161
+msgid "Width x Height :"
+msgstr "Genişlik x Yükseklik :"
+
+#: widgets/widgets.php:168
+msgid "Select :"
+msgstr "Seç:"
+
+#: widgets/widgets.php:170
+msgid "All galleries"
+msgstr "Tüm Galeriler"
+
+#: widgets/widgets.php:171
+msgid "Only which are not listed"
+msgstr "Tekbaşına listelenmez"
+
+#: widgets/widgets.php:172
+msgid "Only which are listed"
+msgstr "Sadece listelenen"
+
+#: widgets/widgets.php:178
+msgid "Gallery ID :"
+msgstr "Galeri ID :"
+
+#: widgets/widgets.php:180
+msgid "Gallery IDs, separated by commas."
+msgstr "Galeri ID leri, virgül ile ayrılmış."
+
+#: xml/media-rss.php:39
+msgid "No galleries have been yet created."
+msgstr "henüz galeri oluşturulmamış."
+
+#: xml/media-rss.php:58
+#, php-format
+msgid "The gallery ID=%s does not exist."
+msgstr "The gallery ID=%s does not exist."
+
+#: xml/media-rss.php:85
+#, php-format
+msgid "Invalid MediaRSS command (%s)."
+msgstr "Invalid MediaRSS command (%s)."
+
+#: lib/class.swfobject.php:60
+msgid "GRAND Flash Album Gallery"
+msgstr "GRAND Flash Album Gallery"
+
+#: lib/class.swfobject.php:61
+msgid "Skins for GRAND FlAGallery, Photo Galleries, Video Galleries"
+msgstr "GRAND FlAGallery için dış görünümler, REsim ve video galerileri"
+
+#: lib/class.swfobject.php:62
+msgid "developed by CodEasily.com - WordPress Flash Templates, WordPress Themes and WordPress plugins"
+msgstr "CodEasily.com tarafından geliştirilen - WordPress Flash temaları, WordPress Temaları ve WordPress eklentileri"
+
+#: lib/class.swfobject.php:63
+#: lib/swfobject.php:33
+msgid "The <a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> and a browser with Javascript support are needed."
+msgstr "<a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> ve javascript desteği olan bir tarayıcıya ihtiyaç vardır."
+
+#: lib/meta.php:115
+msgid " mm"
+msgstr " mm"
+
+#: lib/meta.php:121
+msgid " sec"
+msgstr "saniye"
+
+#: lib/meta.php:125
+msgid "Fired"
+msgstr "Ateşlenmiş"
+
+#: lib/meta.php:125
+msgid "Not fired"
+msgstr "Not fired"
+
+#: lib/meta.php:386
+msgid "Aperture"
+msgstr "Diyafram"
+
+#: lib/meta.php:387
+#: lib/meta.php:412
+msgid "Credit"
+msgstr "Credit"
+
+#: lib/meta.php:388
+msgid "Camera"
+msgstr "Kamera"
+
+#: lib/meta.php:389
+msgid "Caption"
+msgstr "Başlık"
+
+#: lib/meta.php:390
+msgid "Date/Time"
+msgstr "Tarih/Saat"
+
+#: lib/meta.php:391
+msgid "Copyright"
+msgstr "Telif hakkı"
+
+#: lib/meta.php:392
+msgid "Focal length"
+msgstr "Odak uzaklığı"
+
+#: lib/meta.php:393
+msgid "ISO"
+msgstr "ISO"
+
+#: lib/meta.php:394
+msgid "Shutter speed"
+msgstr "Çekim hızı"
+
+#: lib/meta.php:395
+#: admin/manage-galleries.php:150
+msgid "Title"
+msgstr "Başlık"
+
+#: lib/meta.php:396
+#: admin/manage-galleries.php:152
+msgid "Author"
+msgstr "Yazar"
+
+#: lib/meta.php:397
+msgid "Tags"
+msgstr "Etiket"
+
+#: lib/meta.php:398
+msgid "Subject"
+msgstr "Konu"
+
+#: lib/meta.php:399
+msgid "Make"
+msgstr "Oluşturan"
+
+#: lib/meta.php:400
+msgid "Edit Status"
+msgstr "Açıklamayı Düzenle"
+
+#: lib/meta.php:401
+msgid "Category"
+msgstr "Kategori"
+
+#: lib/meta.php:402
+msgid "Keywords"
+msgstr "Anahtar kelimeler"
+
+#: lib/meta.php:403
+msgid "Date Created"
+msgstr "Oluşturma Tarihi"
+
+#: lib/meta.php:404
+msgid "Time Created"
+msgstr "Oluşturma Saati"
+
+#: lib/meta.php:405
+msgid "Author Position"
+msgstr "Author Position"
+
+#: lib/meta.php:406
+msgid "City"
+msgstr "Şehir"
+
+#: lib/meta.php:407
+msgid "Location"
+msgstr "Konum"
+
+#: lib/meta.php:408
+msgid "Province/State"
+msgstr "Province/State"
+
+#: lib/meta.php:409
+msgid "Country code"
+msgstr "Ülke kodu"
+
+#: lib/meta.php:410
+msgid "Country"
+msgstr "Ülke"
+
+#: lib/meta.php:411
+msgid "Headline"
+msgstr "Başlık"
+
+#: lib/meta.php:413
+msgid "Source"
+msgstr "Kaynak"
+
+#: lib/meta.php:414
+msgid "Copyright Notice"
+msgstr "Telif hakkı bilgisi"
+
+#: lib/meta.php:415
+msgid "Contact"
+msgstr "İletişim"
+
+#: lib/meta.php:416
+msgid "Last modified"
+msgstr "Son değiştirilme"
+
+#: lib/meta.php:417
+msgid "Program tool"
+msgstr "Program tool"
+
+#: lib/meta.php:418
+msgid "Format"
+msgstr "Biçim"
+
+#: lib/meta.php:419
+msgid "Image Width"
+msgstr "Resim genişliği"
+
+#: lib/meta.php:420
+msgid "Image Height"
+msgstr "Resim yüksekliği"
+
+#: lib/meta.php:421
+msgid "Flash"
+msgstr "Flash"
+
+#: lib/shortcodes.php:84
+#: lib/shortcodes.php:99
+msgid "[Gallery not found]"
+msgstr "[Galeri Bulunamadı]"
+
+#: lib/shortcodes.php:93
+#, php-format
+msgid "[Gallery %s not found]"
+msgstr "[Galeri %s bulunamadı]"
+
+#: lib/core.php:99
+msgid "Unable to create directory "
+msgstr "Unable to create directory "
+
+#: lib/core.php:199
+#, php-format
+msgid "Note : Based on your server memory limit you should not upload larger images then <strong>%d x %d</strong> pixel"
+msgstr "Not: Sunucu bellek limiti geçerlidir.Bu limitten daha büyük resim yüklememeniz gerekir.<strong>%d x %d</strong>"
+
+#: lib/core.php:279
+msgid "Can't create/open file '"
+msgstr "Can't create/open file '"
+
+#: lib/core.php:285
+msgid "Can't write data to file '"
+msgstr "Can't write data to file '"
+
+#: admin/manage-galleries.php:21
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: admin/manage-galleries.php:22
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: admin/manage-galleries.php:63
+msgid "No images selected"
+msgstr "Seçili resim yok"
+
+#: admin/manage-galleries.php:80
+#, php-format
+msgid ""
+"You are about to start the bulk edit for %s galleries \n"
+" \n"
+" 'Cancel' to stop, 'OK' to proceed."
+msgstr ""
+"You are about to start the bulk edit for %s galleries \n"
+" \n"
+" 'Cancel' to stop, 'OK' to proceed."
+
+#: admin/manage-galleries.php:105
+msgid "Gallery Overview"
+msgstr "Flash Resim Galerisi"
+
+#: admin/manage-galleries.php:108
+#: admin/manage-galleries.php:111
+msgid "Search Images"
+msgstr "Resim Ara"
+
+#: admin/manage-galleries.php:123
+msgid "No action"
+msgstr "Eylem Yok"
+
+#: admin/manage-galleries.php:124
+msgid "Create new thumbnails"
+msgstr "Yeni küçük resimler oluştur"
+
+#: admin/manage-galleries.php:125
+msgid "Resize images"
+msgstr "Resimleri boyutlandır"
+
+#: admin/manage-galleries.php:126
+msgid "Import metadata"
+msgstr "Meta verilerini dışa aktar"
+
+#: admin/manage-galleries.php:128
+msgid "Apply"
+msgstr "Uygula"
+
+#: admin/manage-galleries.php:133
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Görüntüleniyor %s&#8211;%s of %s"
+
+#: admin/manage-galleries.php:149
+msgid "ID"
+msgstr "ID"
+
+#: admin/manage-galleries.php:151
+msgid "Description"
+msgstr "Açıklama"
+
+#: admin/manage-galleries.php:153
+msgid "Quantity"
+msgstr "İçerik"
+
+#: admin/manage-galleries.php:154
+msgid "Action"
+msgstr "Eylem"
+
+#: admin/manage-galleries.php:175
+msgid "Edit"
+msgstr "Düzenle"
+
+#: admin/manage-galleries.php:187
+msgid "Delete this gallery ?"
+msgstr "Galeriyi silmek istiyor musunuz?"
+
+#: admin/manage-galleries.php:187
+msgid "Delete"
+msgstr "Sil"
+
+#: admin/manage-galleries.php:194
+msgid "No entries found"
+msgstr "Hiçbir kayıt bulunamadı..."
+
+#: admin/manage-galleries.php:212
+msgid "Resize Images to"
+msgstr "Resize Images to"
+
+#: admin/manage-galleries.php:216
+msgid "Width x height (in pixel). FlAGallery will keep ratio size"
+msgstr "Genişlik x Yükseklik  piksel değeri ). FlAGallery boyu oranını koruyacak"
+
+#: admin/manage-galleries.php:221
+#: admin/manage-galleries.php:251
+msgid "OK"
+msgstr "TAMAM"
+
+#: admin/manage-galleries.php:223
+#: admin/manage-galleries.php:253
+msgid "Cancel"
+msgstr "Vazgeç"
+
+#: admin/manage-galleries.php:240
+msgid "Width x height (in pixel)"
+msgstr "Genişlik x Yükseklik (piksel olarak)"
+
+#: admin/manage-galleries.php:242
+msgid "These values are maximum values "
+msgstr "Bu değerler maksimum değerler"
+
+#: admin/manage-galleries.php:245
+msgid "Set fix dimension"
+msgstr "Set fix dimension"
+
+#: admin/manage-galleries.php:247
+msgid "Ignore the aspect ratio, no portrait thumbnails"
+msgstr "Küçük resimde en boy oranını yoksay"
+
+#: admin/skins.php:23
+msgid "Install info"
+msgstr "Yükleme bilgisi"
+
+#: admin/skins.php:34
+msgid "No skin Specified"
+msgstr "No skin Specified"
+
+#: admin/skins.php:37
+#, php-format
+msgid "Installing Skin from file: %s"
+msgstr "Installing Skin from file: %s"
+
+#: admin/skins.php:46
+#, php-format
+msgid "The uploaded file could not be moved to %s."
+msgstr "%s yüklenen dosya taşınamz."
+
+#: admin/skins.php:56
+#, php-format
+msgid "Failed to copy and rename %1$s to %2$s"
+msgstr "Failed to copy and rename %1$s to %2$s"
+
+#: admin/skins.php:118
+#: admin/skins.php:138
+#: admin/settings.php:30
+msgid "Update Successfully"
+msgstr "Güncelleme Başarılı"
+
+#: admin/skins.php:151
+#: admin/skins.php:172
+#: admin/skins.php:233
+#: admin/skins.php:241
+msgid "Skin"
+msgstr "Dış Görünüm"
+
+#: admin/skins.php:151
+#: admin/manage.php:89
+#: admin/manage.php:107
+msgid "deleted successfully"
+msgstr "başarıyla silindi"
+
+#: admin/skins.php:153
+msgid "Can't find skin directory "
+msgstr "Dış görünüm klasörü bulunamıyor"
+
+#: admin/skins.php:153
+msgid ". Try delete it manualy via ftp"
+msgstr ". Manuel olarak FTP den silmeyi deneyin"
+
+#: admin/skins.php:157
+msgid "You need activate another skin before delete it"
+msgstr "Bunu silmeden önce başka bir dış görünüm etkinleştirmeniz gerekir"
+
+#: admin/skins.php:160
+msgid "You do not have sufficient permissions to delete skins of GRAND FlAGallery."
+msgstr "Bu işlemi yapmak için yterli izine sahip değilsiniz."
+
+#: admin/skins.php:172
+msgid "activated successfully"
+msgstr "başarıyla etkinleştirildi"
+
+#: admin/skins.php:179
+#: admin/skins.php:185
+msgid "Add new skin"
+msgstr "Yeni Dış Görünüm Dosyası Ekle"
+
+#: admin/skins.php:180
+msgid "Want more skins?"
+msgstr "Daha fazla dış görünüm?"
+
+#: admin/skins.php:181
+#: admin/skins.php:208
+msgid "Skin Options"
+msgstr "Dış Görünüm Seçenekleri"
+
+#: admin/skins.php:187
+msgid "Install a skin in .zip format"
+msgstr ".zip biçimli dış görünüm dosyası yükle"
+
+#: admin/skins.php:188
+msgid "If you have a skin in a .zip format, You may install it by uploading it here."
+msgstr "Eğer dış görünüm dosyanız zip biçiminde sıkıştırılmış dosyada ise buradan yükleyerek onu kurabilirsiniz."
+
+#: admin/skins.php:192
+msgid "Install Now"
+msgstr "Şimdi Kur"
+
+#: admin/skins.php:198
+msgid "You do not have sufficient permissions to install skin through admin page. You can install it by uploading via ftp to /flagallery-skins/ folder."
+msgstr "Bu sayfadan dış görünüm yükleme yetkiniz yok. İsterseniz ftp ile  /flagallery-skins/ klasörüne olmak şartı ile dış görünüm yükleyebilirsiniz."
+
+#: admin/skins.php:203
+msgid "More skins"
+msgstr "More skins"
+
+#: admin/skins.php:204
+msgid "If you want more skins, You may get it at."
+msgstr "Eğer daha fazla dış görünüm  istiyorsanız, yandaki adresten alabilirsiniz."
+
+#: admin/skins.php:223
+#: admin/admin.php:46
+msgid "Skins"
+msgstr "Dış Görünümler"
+
+#: admin/skins.php:252
+msgid "No skins to show"
+msgstr "Görüntülenecek dış görünüm yok"
+
+#: admin/skins.php:263
+#, php-format
+msgid "Version %s"
+msgstr "Versyion %s"
+
+#: admin/skins.php:267
+msgid "Visit author homepage"
+msgstr "Yazarın sitesini ziyarat et"
+
+#: admin/skins.php:268
+#, php-format
+msgid "By %s"
+msgstr "%s tarafından"
+
+#: admin/skins.php:271
+msgid "Visit skin site"
+msgstr "Visit skin site"
+
+#: admin/skins.php:277
+msgid "Activate this skin"
+msgstr "Activate this skin"
+
+#: admin/skins.php:277
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: admin/skins.php:279
+msgid "Activated"
+msgstr "Etkin"
+
+#: admin/skins.php:291
+#: admin/manage-images.php:374
+#, php-format
+msgid "Delete \"%s\""
+msgstr "Sil \"%s\""
+
+#: admin/skins.php:291
+msgid "Delete this skin"
+msgstr "Bu dış görünüm dosyasını sil"
+
+#: admin/media-upload.php:9
+msgid "FlAG Gallery"
+msgstr "FlAG Gallery"
+
+#: admin/media-upload.php:126
+msgid "No gallery"
+msgstr "Galeri yok"
+
+#: admin/media-upload.php:138
+msgid "Select &#187;"
+msgstr "Select &#187;"
+
+#: admin/media-upload.php:169
+msgid "Show"
+msgstr "Show"
+
+#: admin/media-upload.php:170
+msgid "Hide"
+msgstr "Gizle"
+
+#: admin/media-upload.php:175
+msgid "Image ID:"
+msgstr "Resim ID:"
+
+#: admin/media-upload.php:181
+msgid "Alt/Title text"
+msgstr "Alt/Title text"
+
+#: admin/media-upload.php:189
+msgid "Alignment"
+msgstr "Alignment"
+
+#: admin/media-upload.php:192
+msgid "None"
+msgstr "Hiçbiri"
+
+#: admin/media-upload.php:194
+msgid "Left"
+msgstr "Sol"
+
+#: admin/media-upload.php:196
+msgid "Center"
+msgstr "Ortala"
+
+#: admin/media-upload.php:198
+msgid "Right"
+msgstr "Sağ"
+
+#: admin/media-upload.php:202
+msgid "Size"
+msgstr "Boyut"
+
+#: admin/media-upload.php:206
+#: admin/manage-images.php:545
+msgid "Thumbnail"
+msgstr "Küçük Resim"
+
+#: admin/media-upload.php:208
+msgid "Full size"
+msgstr "Gerçek boyut"
+
+#: admin/media-upload.php:216
+msgid "Insert into Post"
+msgstr "Sayfa içine ekle"
+
+#: admin/media-upload.php:226
+msgid "Save all changes"
+msgstr "Tüm değişiklikleri kaydet"
+
+#: admin/manage-sort.php:31
+msgid "Sort order changed"
+msgstr "Sıralama düzeni güncellendi"
+
+#: admin/manage-sort.php:53
+msgid "Sort Gallery"
+msgstr "Resimleri Sırala"
+
+#: admin/manage-sort.php:57
+msgid "Back to gallery"
+msgstr "Galeriye geri dön"
+
+#: admin/manage-sort.php:63
+#: admin/manage-sort.php:146
+msgid "Update Sort Order"
+msgstr "Sıralama Düzenini Güncelle"
+
+#: admin/manage-sort.php:100
+#: admin/manage-sort.php:109
+msgid "Thumb"
+msgstr "Thumb"
+
+#: admin/manage-sort.php:101
+#: admin/manage-sort.php:110
+#: admin/manage-images.php:546
+msgid "Filename"
+msgstr "Dosya Adı"
+
+#: admin/manage-sort.php:102
+#: admin/manage-sort.php:111
+msgid "Date"
+msgstr "Tarih"
+
+#: admin/manage-sort.php:103
+#: admin/manage-sort.php:112
+#: admin/manage-images.php:547
+msgid "Alt &amp; Title Text"
+msgstr "Alt &amp; Başlık Metni"
+
+#: admin/manage-images.php:31
+msgid "Gallery not found."
+msgstr "Galeri bulunamadı."
+
+#: admin/manage-images.php:37
+msgid "Sorry, you have no access here"
+msgstr "Üzgünüm, buraya erişim yetkiniz yok"
+
+#: admin/manage-images.php:157
+#, php-format
+msgid ""
+"You are about to start the bulk edit for %s images \n"
+" \n"
+" 'Cancel' to stop, 'OK' to proceed."
+msgstr ""
+"Seçili olan eylem için %s resim üzerinde toplu işlem yapmak üzeresiniz \n"
+" \n"
+"İşlemi durdurmak için  'Vazgeç', devam etmek için 'Tamam' ı tıklayın."
+
+#: admin/manage-images.php:172
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Aranan  &#8220;%s&#8221; için bulunan sonuçlar"
+
+#: admin/manage-images.php:192
+msgid "Choose another gallery"
+msgstr "Başka bir galeri seçin"
+
+#: admin/manage-images.php:213
+msgid "Gallery settings"
+msgstr "Galeri Ayarları"
+
+#: admin/manage-images.php:225
+msgid "Path"
+msgstr "Yol"
+
+#: admin/manage-images.php:244
+msgid "Scan Folder for new images"
+msgstr "Yeni resimler için klasörü tara"
+
+#: admin/manage-images.php:245
+#: admin/manage-images.php:281
+#: admin/manage-images.php:429
+#: admin/settings.php:95
+#: admin/settings.php:119
+#: admin/settings.php:149
+#: admin/db_skin_color_scheme.php:120
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: admin/manage-images.php:268
+msgid "Delete images"
+msgstr "Resim(leri) sil"
+
+#: admin/manage-images.php:270
+msgid "Copy to..."
+msgstr "Resim(leri) kopyala..."
+
+#: admin/manage-images.php:271
+msgid "Move to..."
+msgstr "Resim(leri) taşı..."
+
+#: admin/manage-images.php:276
+msgid "Sort gallery"
+msgstr "Galerideki resimleri sırala"
+
+#: admin/manage-images.php:279
+msgid "Add Images"
+msgstr "Resim Ekle"
+
+#: admin/manage-images.php:362
+#: admin/manage-images.php:366
+msgid "Size: "
+msgstr "Boyut:"
+
+#: admin/manage-images.php:362
+#: admin/manage-images.php:366
+msgid "pixel"
+msgstr "piksel"
+
+#: admin/manage-images.php:371
+#, php-format
+msgid "View \"%s\""
+msgstr "Görüntülenen \"%s\""
+
+#: admin/manage-images.php:371
+msgid "View"
+msgstr "Görünüm"
+
+#: admin/manage-images.php:372
+msgid "Show Meta data"
+msgstr "Meta verisini görüntüle"
+
+#: admin/manage-images.php:372
+msgid "Meta"
+msgstr "Meta"
+
+#: admin/manage-images.php:373
+msgid "Customize thumbnail"
+msgstr "Küçük resmi özelleştir"
+
+#: admin/manage-images.php:373
+msgid "Edit thumb"
+msgstr "Küçük resimi düzenle"
+
+#: admin/manage-images.php:444
+msgid "Select the destination gallery:"
+msgstr "İşlem için hedef galeri seçin:"
+
+#: admin/manage-images.php:484
+msgid "Width x height (in pixel). GRAND FlAGallery will keep ratio size"
+msgstr "Genişlik x Yükseklik piksel (olarak). GRAND FlAGallery boyutu oranını koruyacak"
+
+#: admin/manage-images.php:548
+msgid "Only for logged in users"
+msgstr "Sadece giriş yapmış kullanıcılar için"
+
+#: admin/addgallery.php:37
+msgid "Upload failed!"
+msgstr "Upload failed!"
+
+#: admin/addgallery.php:49
+#: admin/functions.php:537
+msgid "No gallery selected !"
+msgstr "No gallery selected !"
+
+#: admin/addgallery.php:118
+msgid "Image Files"
+msgstr "Resim Dosyası"
+
+#: admin/addgallery.php:137
+#: admin/addgallery.php:167
+msgid "remove"
+msgstr "Kaldır"
+
+#: admin/addgallery.php:138
+msgid "Browse..."
+msgstr "Gözat..."
+
+#: admin/addgallery.php:139
+#: admin/addgallery.php:209
+#: admin/addgallery.php:265
+msgid "Upload images"
+msgstr "Resim Yükle"
+
+#: admin/addgallery.php:178
+msgid "Add new gallery"
+msgstr "Yeni Galeri Ekle"
+
+#: admin/addgallery.php:179
+msgid "Upload Images"
+msgstr "Resim Yükle"
+
+#: admin/addgallery.php:181
+#: admin/addgallery.php:273
+msgid "Import image folder"
+msgstr "Resim Klasörü Yükle"
+
+#: admin/addgallery.php:187
+msgid "Create a new gallery"
+msgstr "Yeni Galeri Oluştur"
+
+#: admin/addgallery.php:192
+msgid "New Gallery"
+msgstr "Yeni Galeri"
+
+#: admin/addgallery.php:197
+msgid "Create a new , empty gallery below the folder"
+msgstr "Yukarıdaki alana oluşturmak istediğiniz resim galerisinin ismi giriniz... "
+
+#: admin/addgallery.php:199
+msgid "Allowed characters for file and folder names are"
+msgstr "Galeri ismini harfler, rakamlar veya her ikiside olabilir. Dikkat! İsim verirken Türkçe karekterler kullanmayınız"
+
+#: admin/addgallery.php:201
+msgid "Add gallery"
+msgstr "Galeri Ekle"
+
+#: admin/addgallery.php:236
+msgid "Upload image(s):"
+msgstr "Resim(leri) Yükle:"
+
+#: admin/addgallery.php:240
+msgid "in to"
+msgstr "Resim yüklemek için"
+
+#: admin/addgallery.php:242
+msgid "Choose gallery"
+msgstr "Galeri seç"
+
+#: admin/addgallery.php:260
+msgid "The batch upload requires Adobe Flash 10, disable it if you have problems"
+msgstr "Eğer toplu yüklemede sorun varsa  Flash yükleyicisini devre dışı bırakmanız gerektirir"
+
+#: admin/addgallery.php:260
+msgid "Disable flash upload"
+msgstr "Flash Yükleyicisini Devredışı Bırak"
+
+#: admin/addgallery.php:262
+msgid "Upload multiple files at once by ctrl/shift-selecting in dialog"
+msgstr "Aynı anda birden fazla dosya seçmek için ctrl+sift tuş kombinasyonunu kullanabilirsiniz."
+
+#: admin/addgallery.php:262
+msgid "Enable flash based upload"
+msgstr "Flash Yükleyicisini Etkinleştir"
+
+#: admin/addgallery.php:278
+msgid "Import from Server path:"
+msgstr "İthalat sunucusu yolu seçin:"
+
+#: admin/addgallery.php:279
+msgid "Toggle DIR Browser"
+msgstr "Toggle Dizin Tarayıcısı"
+
+#: admin/addgallery.php:282
+msgid " Please note : For safe-mode = ON you need to add the subfolder thumbs manually"
+msgstr "Lütfen dikkat: safe-mode=ON için küçük resim klasörünü manuel oluşturmanız gerekir."
+
+#: admin/addgallery.php:285
+msgid "Import folder"
+msgstr "Klasör Yükle"
+
+#: admin/manage_thumbnail.php:17
+#: admin/manage_thumbnail.php:20
+#: admin/showmeta.php:10
+#: admin/showmeta.php:13
+msgid "Cheatin&#8217; uh?"
+msgstr "Cheatin&#8217; uh?"
+
+#: admin/manage_thumbnail.php:104
+msgid "Select with the mouse the area for the new thumbnail."
+msgstr "Fare ile küçük resim alanı belirleyin."
+
+#: admin/manage_thumbnail.php:118
+msgid "Thumbnail updated"
+msgstr "güncellendi."
+
+#: admin/manage_thumbnail.php:123
+msgid "Error updating thumbnail."
+msgstr "Error updating thumbnail."
+
+#: admin/manage_thumbnail.php:140
+msgid "Select the area for the thumbnail from the picture on the left."
+msgstr "Soldaki resimden küçük resim alanı seçin."
+
+#: admin/manage_thumbnail.php:155
+#: admin/wpmu.php:64
+msgid "Update"
+msgstr "Güncelle"
+
+#: admin/wpmu.php:32
+msgid "Update successfully"
+msgstr "Update successfully"
+
+#: admin/wpmu.php:41
+msgid "General WordPress MU Settings"
+msgstr "General WordPress MU Settings"
+
+#: admin/wpmu.php:47
+#: admin/settings.php:75
+msgid "Gallery path"
+msgstr "Galeri veri yolu"
+
+#: admin/wpmu.php:49
+msgid "This is the default path for all blogs. With the placeholder %BLOG_ID% you can organize the folder structure better. The path must end with a /."
+msgstr "This is the default path for all blogs. With the placeholder %BLOG_ID% you can organize the folder structure better. The path must end with a /."
+
+#: admin/wpmu.php:52
+msgid "Enable upload quota check"
+msgstr "Yükleme kota kontrolü etkin"
+
+#: admin/wpmu.php:54
+msgid "Should work if the gallery is bellow the blog.dir"
+msgstr "Should work if the gallery is bellow the blog.dir"
+
+#: admin/wpmu.php:58
+msgid "Enable roles/capabilities"
+msgstr "Enable roles/capabilities"
+
+#: admin/wpmu.php:60
+msgid "Allow users to change the roles for other blog authors."
+msgstr "Diğer site kullanıcılarına yetkileri değiştirmek için izin ver."
+
+#: admin/admin.php:25
+#: admin/admin.php:27
+msgid "(and above) use a different database structure than in previous versions - this was to support new features. You must update your database in order for this version to work - <strong>backup your database first</strong> then"
+msgstr "(ve üzeri) önceki sürümlere göre daha farklı veritabanı yapısı kullanabilirsiniz - bu yeni özellikleri destekleyen oldu. Bu sürüm için veritabanını güncellemek gerekir - İşe ilk önce <strong>veritabanının yedeğini</strong> almakla başlayın"
+
+#: admin/admin.php:25
+#: admin/admin.php:27
+msgid "click here"
+msgstr "buraya tıkla"
+
+#: admin/admin.php:25
+#: admin/admin.php:27
+msgid "to run the update script"
+msgstr "güncelleme komutunu çalıştırmak için"
+
+#: admin/admin.php:43
+#: admin/admin.php:44
+#, fuzzy
+msgid "GRAND Flash Album Gallery overview"
+msgstr "Ana Flash Album Galerisi özeti"
+
+#: admin/admin.php:43
+msgid "FlAGallery"
+msgstr "FlAGallery"
+
+#: admin/admin.php:44
+msgid "Overview"
+msgstr "Genel Bakış"
+
+#: admin/admin.php:45
+msgid "FlAG Manage gallery"
+msgstr "FlAG Manage gallery"
+
+#: admin/admin.php:45
+msgid "Manage Galleries"
+msgstr "Galerileri Yönet"
+
+#: admin/admin.php:46
+msgid "FlAG Manage skins"
+msgstr "FlAG Manage skins"
+
+#: admin/admin.php:47
+msgid "FlAG Change options"
+msgstr "FlAG seçeneklerini değiştir."
+
+#: admin/admin.php:47
+msgid "Options"
+msgstr "Seçenekler"
+
+#: admin/admin.php:49
+msgid "GRAND FlAGallery"
+msgstr "GRAND FlAGallery"
+
+#: admin/admin.php:112
+msgid "You do not have the correct permission"
+msgstr "Doğru izin yok"
+
+#: admin/admin.php:113
+msgid "Unexpected Error"
+msgstr "Beklenmeyen Hata"
+
+#: admin/admin.php:114
+msgid "A failure occurred"
+msgstr "Bir hata oluştu"
+
+#: admin/admin.php:186
+msgid "Get help with GRAND FlAGallery"
+msgstr "GRAND FlAGallery ile ilgili yardım alın"
+
+#: admin/admin.php:190
+msgid "More Help & Info"
+msgstr "Daha fazla Yardım & Bilgi"
+
+#: admin/admin.php:192
+#, fuzzy
+msgid "GRAND FlAGallery Video Tutorial"
+msgstr "GRAND FlAGallery için dış görünümler"
+
+#: admin/admin.php:193
+msgid "FAQ"
+msgstr "SSS"
+
+#: admin/admin.php:194
+msgid "GRAND FlAGallery Review"
+msgstr "GRAND FlAGallery Değerlendirmesi"
+
+#: admin/admin.php:195
+msgid "Get your language pack"
+msgstr "Get your language pack"
+
+#: admin/admin.php:196
+msgid "Skins for GRAND FlAGallery"
+msgstr "GRAND FlAGallery için dış görünümler"
+
+#: admin/functions.php:34
+msgid "No valid gallery name!"
+msgstr "Geçerli bir galeri adı değil!"
+
+#: admin/functions.php:41
+#: admin/functions.php:50
+#: admin/functions.php:64
+#: admin/functions.php:141
+#: admin/functions.php:148
+msgid "Directory"
+msgstr "Klasör"
+
+#: admin/functions.php:41
+msgid "didn't exist. Please create first the main gallery folder "
+msgstr "yok. Lütfen önce galeri ana klasörünü  oluşturun"
+
+#: admin/functions.php:42
+#: admin/functions.php:51
+msgid "Check this link, if you didn't know how to set the permission :"
+msgstr "İzinleri nasıl ayarlayacağınızı bilmiyorsanız bu bağlantıyı takip edin:"
+
+#: admin/functions.php:50
+#: admin/functions.php:64
+msgid "is not writeable !"
+msgstr "yazılabilir değil!"
+
+#: admin/functions.php:73
+msgid "The server setting Safe-Mode is on !"
+msgstr "Sunucu ayarları Safe-Mode=ON olmalı!"
+
+#: admin/functions.php:74
+msgid "If you have problems, please create directory"
+msgstr "Eğer sorun yaşıyorsanız, lütfen klasör oluşturun"
+
+#: admin/functions.php:75
+msgid "and the thumbnails directory"
+msgstr "and the thumbnails directory"
+
+#: admin/functions.php:75
+msgid "with permission 777 manually !"
+msgstr "İzni manuel 777 olarak ayarlayın!"
+
+#: admin/functions.php:93
+msgid "already exists"
+msgstr "zaten var"
+
+#: admin/functions.php:107
+#, php-format
+msgid "Gallery '%1$s' successfully created.<br/>You can show this gallery with the tag %2$s.<br/>"
+msgstr "' %1$s ' isimli galeri oluşturuldu.<br/>Galeriyi yayınlamak için ' %2$s ' etiketini kullanın.<br/>"
+
+#: admin/functions.php:110
+msgid "Edit gallery"
+msgstr "Galeriyi Düzenle"
+
+#: admin/functions.php:141
+msgid "doesn&#96;t exist!"
+msgstr "doesn&#96;t exist!"
+
+#: admin/functions.php:148
+msgid "contains no pictures"
+msgstr "hiç bir resim içermiyor"
+
+#: admin/functions.php:166
+msgid "Database error. Could not add gallery!"
+msgstr "Veritabanı hatası. Galeri eklenemedi."
+
+#: admin/functions.php:169
+msgid "successfully created!"
+msgstr "başarıyla oluşturuldu!"
+
+#: admin/functions.php:201
+msgid " picture(s) successfully added"
+msgstr " resim(ler) başarıyla eklendi."
+
+#: admin/functions.php:246
+#: admin/functions.php:319
+msgid "Object didn't contain correct data"
+msgstr "Nesne doğru veri içermiyor"
+
+#: admin/functions.php:251
+msgid " is not writeable "
+msgstr "yazılabilir değil"
+
+#: admin/functions.php:329
+msgid " is not writeable"
+msgstr "yazılabilir değil"
+
+#: admin/functions.php:423
+msgid "(Error : Couldn't not update data base)"
+msgstr "(Hata: Veritabanı güncellenemed)"
+
+#: admin/functions.php:430
+msgid "(Error : Couldn't not update meta data)"
+msgstr "(Hata: meta verisi güncel değil)"
+
+#: admin/functions.php:432
+msgid "(Error : Couldn't not find image)"
+msgstr "(Hata: Resim bulunamadı )"
+
+#: admin/functions.php:545
+#: admin/functions.php:662
+msgid "Failure in database, no gallery path set !"
+msgstr "Veritabanında hata,galeri yolu ayarlanamadı!"
+
+#: admin/functions.php:569
+#: admin/functions.php:656
+msgid "is no valid image file!"
+msgstr "geçerli bir resim dosyası yok!"
+
+#: admin/functions.php:583
+#: admin/functions.php:822
+#: admin/functions.php:895
+#, php-format
+msgid "Unable to write to directory %s. Is this directory writable by the server?"
+msgstr "%s klasöre yazılamıyor. Bu klasör sunucu tarafından yazılabilir mi?"
+
+#: admin/functions.php:590
+#: admin/functions.php:679
+msgid "Error, the file could not moved to : "
+msgstr "Hata, Bu dosyayı taşıyamazsınız:"
+
+#: admin/functions.php:595
+#: admin/functions.php:683
+#, fuzzy
+msgid "Error, the file permissions could not set"
+msgstr "Hata, Bu dosyayı taşıyamazsınız:"
+
+#: admin/functions.php:616
+msgid " Image(s) successfully added"
+msgstr "Resim(ler) başarıyla eklendi"
+
+#: admin/functions.php:636
+msgid "No gallery selected!"
+msgstr "Galeri seçilmedi!"
+
+#: admin/functions.php:697
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "Yüklenen dosya php.ini de belirtilen upload_max_filesize değerini aşıyor"
+
+#: admin/functions.php:699
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"
+msgstr "Yüklenen dosya belirtilmiş MAX_FILE_SIZE direktifini aşıyor"
+
+#: admin/functions.php:701
+msgid "The uploaded file was only partially uploaded"
+msgstr "Yüklemeye çalıştığınız dosyalar kısmen yüklenemedi."
+
+#: admin/functions.php:703
+msgid "No file was uploaded"
+msgstr "No file was uploaded"
+
+#: admin/functions.php:705
+msgid "Missing a temporary folder"
+msgstr "Geçici bir klasöre yok"
+
+#: admin/functions.php:707
+msgid "Failed to write file to disk"
+msgstr "Failed to write file to disk"
+
+#: admin/functions.php:709
+msgid "File upload stopped by extension"
+msgstr "Dosya uzantısı sebebi ile yükleme durduruldu"
+
+#: admin/functions.php:711
+msgid "Unknown upload error"
+msgstr "Unknown upload error"
+
+#: admin/functions.php:725
+msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
+msgstr "Üzgünüz,  Lütfen daha fazla dosya yüklemek için bazı dosyaları siliniz."
+
+#: admin/functions.php:765
+#, php-format
+msgid "SAFE MODE Restriction in effect! You need to create the folder <strong>%s</strong> manually"
+msgstr "SAFE MODE Eylem yürütme kısıtlaması! Bu <strong>%s</strong> isimli klasörü manuel oluşturmanız gerekiyor"
+
+#: admin/functions.php:766
+#, php-format
+msgid "When safe_mode is on, PHP checks to see if the owner (%s) of the current script matches the owner (%s) of the file to be operated on by a file function or its directory"
+msgstr "When safe_mode is on, PHP checks to see if the owner (%s) of the current script matches the owner (%s) of the file to be operated on by a file function or its directory"
+
+#: admin/functions.php:816
+#: admin/functions.php:889
+msgid "The destination gallery does not exist"
+msgstr "The destination gallery does not exist"
+
+#: admin/functions.php:847
+#, php-format
+msgid "Failed to move image %1$s to %2$s"
+msgstr "Failed to move image %1$s to %2$s"
+
+#: admin/functions.php:865
+#, php-format
+msgid "Moved %1$s picture(s) to gallery : %2$s ."
+msgstr "Seçmiş olduğunuz  %1$s resim(ler)  %2$s isimli galeriye taşındı."
+
+#: admin/functions.php:922
+#, php-format
+msgid "Failed to copy image %1$s to %2$s"
+msgstr "Failed to copy image %1$s to %2$s"
+
+#: admin/functions.php:934
+#, php-format
+msgid "Failed to copy database row for picture %s"
+msgstr "Resim için veritabanına  %s kopyalanamadı"
+
+#: admin/functions.php:939
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s) &raquo; The file already existed in the destination gallery."
+msgstr "%1$s ID numaralı (%2$s) resim dosyası, hedef galeride aynı isimli resim dosyası olduğu için isimleri (%4$s) olacak şekilde değiştirilerek %3$s ID numarası ile kopyalandı &raquo; Aynı isimde resim dosyası hedef galeride zaten var..."
+
+#: admin/functions.php:942
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s)"
+msgstr "%1$s ID numaralı (%2$s) resim dosyası hedef galeriye %3$s ID numarası ile (%4$s) resim dosyası olarak kopyalandı."
+
+#: admin/functions.php:951
+#, php-format
+msgid "Copied %1$s picture(s) to gallery: %2$s ."
+msgstr "Seçmiş olduğunuz %1$s resim(ler) %2$s isimli galeriye kopyalandı."
+
+#: admin/settings.php:49
+#, fuzzy
+msgid "Updated capabilities"
+msgstr "Yekileri Güncelle"
+
+#: admin/settings.php:60
+#: admin/settings.php:69
+msgid "General Options"
+msgstr "Genel Seçenekler"
+
+#: admin/settings.php:61
+msgid "Images"
+msgstr "Resim"
+
+#: admin/settings.php:62
+#: admin/settings.php:126
+msgid "Sorting"
+msgstr "Sırala"
+
+#: admin/settings.php:63
+msgid "Roles"
+msgstr "Roller"
+
+#: admin/settings.php:77
+msgid "This is the default path for all galleries"
+msgstr "Bu, tüm galeriler için varsayılan yol"
+
+#: admin/settings.php:80
+msgid "Default flash size (W x H)"
+msgstr "Varsayılan flash boyutu<br/> (W x H)"
+
+#: admin/settings.php:85
+msgid "Delete image files"
+msgstr "Resim dosyalarını sil"
+
+#: admin/settings.php:87
+msgid "Delete files, when removing a gallery in the database"
+msgstr "Veritabanından bir galeri silindiği zaman buna bağlı olan resimleride sil."
+
+#: admin/settings.php:90
+msgid "Activate Media RSS feed"
+msgstr "Medya RSS beslemesi aktif"
+
+#: admin/settings.php:92
+msgid "A RSS feed will be added to you blog header."
+msgstr "Bir RSS beslemesine size başlık günlüğü ekleyecektir."
+
+#: admin/settings.php:102
+msgid "Image settings"
+msgstr "Image settings"
+
+#: admin/settings.php:108
+msgid "Resize Images"
+msgstr "Resimleri yeniden boyutlandır"
+
+#: admin/settings.php:111
+msgid "Width x Height (in pixel). Flash Album Gallery will keep ratio size"
+msgstr "Genişlik x Yükseklik ( piksel değeri ). Flash Album Gallery boyut oranını koruyacaktır"
+
+#: admin/settings.php:114
+msgid "Image quality"
+msgstr "Resim kalitesi"
+
+#: admin/settings.php:130
+msgid "Sort options"
+msgstr "Sort options"
+
+#: admin/settings.php:133
+msgid "Sort thumbnails"
+msgstr "Küçük resim sıralama"
+
+#: admin/settings.php:135
+msgid "Custom order"
+msgstr "Genel düzen"
+
+#: admin/settings.php:136
+msgid "Image ID"
+msgstr "Resim ID"
+
+#: admin/settings.php:137
+msgid "File name"
+msgstr "Dosya Adı"
+
+#: admin/settings.php:138
+msgid "Alt / Title text"
+msgstr "Alt / Başlık yazısı"
+
+#: admin/settings.php:139
+msgid "Date / Time"
+msgstr "Tarih / Saat"
+
+#: admin/settings.php:143
+msgid "Sort direction"
+msgstr "Sıralama yönü"
+
+#: admin/settings.php:144
+msgid "Ascending"
+msgstr "Yükselen"
+
+#: admin/settings.php:145
+msgid "Descending"
+msgstr "Azalan"
+
+#: admin/settings.php:158
+msgid "Roles / capabilities"
+msgstr "Roller / Yetenekler"
+
+#: admin/settings.php:159
+msgid "Select the lowest role which should be able to access the follow capabilities. Flash Album Gallery supports the standard roles from WordPress."
+msgstr "Kullanıcı rollerinin yetkilerini aşağıda düzenleyebilirsiniz. Flash Albüm Galeri WP nin standart rollerini destekler."
+
+#: admin/settings.php:162
+msgid "Main Flash Album Gallery overview"
+msgstr "Ana Flash Album Galerisi özeti"
+
+#: admin/settings.php:166
+msgid "Use TinyMCE Button / Upload tab"
+msgstr "TinyMCE Düğmesi kullan / Yükleme sekmesi"
+
+#: admin/settings.php:170
+msgid "Add gallery / Upload images"
+msgstr "Galeri Ekle / Resim Yükle"
+
+#: admin/settings.php:174
+msgid "Import images folder"
+msgstr "Resim Klasörü Yükle"
+
+#: admin/settings.php:178
+msgid "Manage gallery"
+msgstr "Galeri Yöneticisi"
+
+#: admin/settings.php:182
+msgid "Manage others gallery"
+msgstr "Diğer galerileri yönet"
+
+#: admin/settings.php:186
+msgid "Change skin"
+msgstr "Dış görünüm değiştir"
+
+#: admin/settings.php:190
+msgid "Add skins"
+msgstr "Dış görünüm ekle"
+
+#: admin/settings.php:194
+msgid "Delete skins"
+msgstr "Dış görünüm sil"
+
+#: admin/settings.php:198
+msgid "Change options"
+msgstr "Seçenekleri Düzenle"
+
+#: admin/settings.php:202
+msgid "Update capabilities"
+msgstr "Yekileri Güncelle"
+
+#: admin/manage.php:107
+msgid "Picture"
+msgstr "Resim"
+
+#: admin/manage.php:116
+msgid "Operation successful. Please clear your browser cache."
+msgstr "İşlem başarılı. Lütfen tarayıcınızın önbelleğini temizleyin"
+
+#: admin/manage.php:208
+msgid "Pictures deleted successfully "
+msgstr "Pictures deleted successfully "
+
+#: admin/manage.php:286
+msgid "Update successful"
+msgstr "Update successful"
+
+#: admin/flag_install.php:24
+msgid "Sorry, Flash Album Gallery works only with a role called administrator"
+msgstr "Üzgünüz, Flash Albüm Galeri yönetici yetkisi ile çalışır."
+
+#: admin/flag_install.php:123
+msgid "Flash Album Gallery : Tables could not created, please check your database settings"
+msgstr "Flash Albüm Galeri : Tablo oluşturulamadı, Lütfen veritabanı ayarlarınızı kontrol edin."
+
+#: admin/upgrade.php:20
+msgid "Upgrade database structure..."
+msgstr "Upgrade database structure..."
+
+#: admin/upgrade.php:53
+#: admin/upgrade.php:63
+msgid "finished"
+msgstr "bitti"
+
+#: admin/upgrade.php:61
+msgid "Import date and time information..."
+msgstr "İthalat tarih ve zaman bilgileri ..."
+
+#: admin/upgrade.php:134
+#: admin/upgrade.php:153
+msgid "Upgrade GRAND FlAGallery"
+msgstr "GRAND FlAGalleryi Güncelle"
+
+#: admin/upgrade.php:135
+msgid "The script detect that you upgrade from a older version."
+msgstr "Komut dosyası, yeni bir yükseltme sürümü algıladı."
+
+#: admin/upgrade.php:136
+msgid "Your database tables for GRAND FlAGallery is out-of-date, and must be upgraded before you can continue."
+msgstr "Devam etmeden önce veritabanınızı güncellemeniz önerilir."
+
+#: admin/upgrade.php:137
+msgid "If you would like to downgrade later, please make first a complete backup of your database and the images."
+msgstr "Eski versiyona dönmeden önce verita<banının tam bir yedeğini alınız."
+
+#: admin/upgrade.php:138
+msgid "The upgrade process may take a while, so please be patient."
+msgstr "Bu yükseltme işlemi biraz zaman alabilir. Bunun için lütfen biraz sabırlı olunuz."
+
+#: admin/upgrade.php:139
+msgid "Start upgrade now"
+msgstr "Start upgrade now"
+
+#: admin/upgrade.php:155
+msgid "Upgrade sucessful"
+msgstr "Güncelleme başarılı"
+
+#: admin/upgrade.php:156
+msgid "Continue"
+msgstr "Continue"
+
+#: admin/db_skin_color_scheme.php:51
+msgid "Color Settings"
+msgstr "Renk Ayarları"
+
+#: admin/db_skin_color_scheme.php:54
+msgid "Background Color"
+msgstr "Arkaplan Rengi"
+
+#: admin/db_skin_color_scheme.php:58
+msgid "Buttons Background Color"
+msgstr "Buttons Background Color"
+
+#: admin/db_skin_color_scheme.php:62
+msgid "Buttons Text Color"
+msgstr "Düğme Metin Rengi"
+
+#: admin/db_skin_color_scheme.php:71
+msgid "Category Buttons Color"
+msgstr "Kategori Düğme Rengi"
+
+#: admin/db_skin_color_scheme.php:80
+msgid "Category Buttons Text Color"
+msgstr "Kategori Düğme Yazı Rengi"
+
+#: admin/db_skin_color_scheme.php:89
+msgid "Thumbs Rollover Color"
+msgstr "Küçük Resim Rollover Rengi"
+
+#: admin/db_skin_color_scheme.php:98
+msgid "Main Title"
+msgstr "Ana Başlık"
+
+#: admin/db_skin_color_scheme.php:102
+msgid "Category Title"
+msgstr "Kategori Başlığı"
+
+#: admin/db_skin_color_scheme.php:106
+msgid "Item Background"
+msgstr "Öğe Arka plan"
+
+#: admin/db_skin_color_scheme.php:110
+msgid "Item Title"
+msgstr "Öğe Başlığı"
+
+#: admin/db_skin_color_scheme.php:114
+msgid "Item Description"
+msgstr "Öğe Açıklaması"
+
+#: admin/showmeta.php:28
+msgid "Meta Data"
+msgstr "Meta Verisi"
+
+#: admin/showmeta.php:33
+#: admin/showmeta.php:59
+#: admin/showmeta.php:84
+#: admin/showmeta.php:108
+msgid "Tag"
+msgstr "Etiket"
+
+#: admin/showmeta.php:34
+#: admin/showmeta.php:60
+#: admin/showmeta.php:85
+#: admin/showmeta.php:109
+msgid "Value"
+msgstr "Değer"
+
+#: admin/showmeta.php:48
+msgid "No meta data saved"
+msgstr "Meta verileri kaydedilemedi."
+
+#: admin/showmeta.php:54
+msgid "EXIF Data"
+msgstr "EXIF Verisi"
+
+#: admin/showmeta.php:73
+msgid "No exif data"
+msgstr "No exif data"
+
+#: admin/showmeta.php:80
+msgid "IPTC Data"
+msgstr "IPTC Data"
+
+#: admin/showmeta.php:104
+msgid "XMP Data"
+msgstr "XMP Data"
+
+#: admin/tuning.php:18
+#: admin/tuning.php:22
+msgid "Directory <strong>\""
+msgstr "Directory <strong>\""
+
+#: admin/tuning.php:18
+msgid "\"</strong> doesn't exist. Please create first the <strong>\"flagallery-skins\"</strong> folder!"
+msgstr "\"</strong> klasörü yok. Lütfen <strong>\"flagallery-skins\"</strong> isimli bir klasör oluşturun!"
+
+#: admin/tuning.php:22
+msgid "\"</strong> is not writeable!"
+msgstr "\"</strong> yazılabilir değil!"
+
+#: admin/tuning.php:36
+#, php-format
+msgid "Failed to move file %1$s to %2$s"
+msgstr "Failed to move file %1$s to %2$s"
+
+#: admin/tuning.php:59
+#, php-format
+msgid "Failed to rename %1$s to %2$s"
+msgstr "Failed to rename %1$s to %2$s"
+
+#: admin/overview.php:13
+msgid "FlAG Gallery Overview"
+msgstr "FlAG Gallery Genel Bakış"
+
+#: admin/overview.php:118
+msgid "Reset all settings to default parameter"
+msgstr "Tüm ayarları varsayılan parametrelere sıfırla"
+
+#: admin/overview.php:129
+msgid "Uninstall sucessful ! Now delete the plugin and enjoy your life ! Good luck !"
+msgstr "Eklentiyi kaldırma işlemi başarı ile tamamlandı! Şimdi eklentiyi silin ve hayatın tadını çıkarın! Iyi şanslar!"
+
+#: admin/overview.php:137
+msgid "Plugin Home"
+msgstr "Plugin Home"
+
+#: admin/overview.php:142
+msgid "Plugin Comments"
+msgstr "Eklenti Yorumları"
+
+#: admin/overview.php:147
+msgid "Rate Plugin"
+msgstr "Rate Plugin"
+
+#: admin/overview.php:152
+msgid "My Plugins"
+msgstr "My Plugins"
+
+#: admin/overview.php:157
+msgid "Contact Me"
+msgstr "Contact Me"
+
+#: admin/overview.php:168
+msgid "Reset settings"
+msgstr "Ayarları Sıfırla"
+
+#: admin/overview.php:168
+msgid ""
+"Reset all options to default settings ?\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Tüm seçenekler varsayılan ayarlar ile değştirilecektir. Emin misiniz?\\n"
+"\\n"
+"İşlemi iptal etmek için [Vazgeç], devam etmek için[Tamam] ı tıklayın.\\n"
+
+#: admin/overview.php:171
+msgid "Uninstall plugin"
+msgstr "Eklentiyi Kaldır"
+
+#: admin/overview.php:171
+msgid ""
+"You are about to Uninstall this plugin from WordPress.\\n"
+"This action is not reversible.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to Uninstall.\\n"
+msgstr ""
+"Bu eklentiyi kaldırmak üzeresiniz.\\n"
+"Bu işlem asla geri alınamaz.\\n"
+"\\n"
+"İptal etmek için [Vazgeç], Devam etmek için [Tamam] a basın.\\n"
+
+#: admin/overview.php:198
+msgid "What's new at PhotoGalleryCreator.com"
+msgstr "PhotoGalleryCreator.com da neler yeni?"
+
+#: admin/overview.php:222
+msgid "At a Glance"
+msgstr "Bir Bakışta"
+
+#: admin/overview.php:243
+msgid "Upload pictures"
+msgstr "Resim Yükle"
+
+#: admin/overview.php:244
+msgid "Here you can control your images and galleries."
+msgstr "Burada resimlerinizi ve galerilerinizi kontrol edebilirsiniz."
+
+#: admin/overview.php:246
+msgid "Gallery Administrator"
+msgstr "Galeri Yöneticisi"
+
+#: admin/overview.php:246
+msgid "Gallery Editor"
+msgstr "Gallery Editor"
+
+#: admin/overview.php:247
+#, php-format
+msgid "You currently have %s rights."
+msgstr "Şu anda %s haklarına sahip."
+
+#: admin/overview.php:253
+msgid "Setup Box"
+msgstr "Kur ( Yükleme ) Kutusu"
+
+#: admin/overview.php:254
+msgid "News Box"
+msgstr "Haber Kutusu"
+
+#: admin/overview.php:255
+msgid "Welcome to FlAG Gallery !"
+msgstr "FlAG Galeriye Hoş Geldiniz!"
+
+#: admin/overview.php:256
+msgid "Server Settings"
+msgstr "Sunucu Ayarları"
+
+#: admin/overview.php:257
+msgid "Graphic Library"
+msgstr "Medya Kitaplığı"
+
+#: admin/overview.php:277
+msgid "No GD support"
+msgstr "No GD support"
+
+#: admin/overview.php:289
+#: admin/overview.php:333
+#: admin/overview.php:336
+#: admin/overview.php:339
+msgid "Yes"
+msgstr "Evet"
+
+#: admin/overview.php:291
+#: admin/overview.php:334
+#: admin/overview.php:337
+#: admin/overview.php:340
+msgid "No"
+msgstr "Hayır"
+
+#: admin/overview.php:307
+msgid "Not set"
+msgstr "Not set"
+
+#: admin/overview.php:309
+#: admin/overview.php:312
+msgid "On"
+msgstr "Açık"
+
+#: admin/overview.php:310
+#: admin/overview.php:313
+msgid "Off"
+msgstr "Kapalı"
+
+#: admin/overview.php:316
+#: admin/overview.php:319
+#: admin/overview.php:322
+#: admin/overview.php:325
+#: admin/overview.php:328
+#: admin/overview.php:331
+msgid "N/A"
+msgstr "N/A"
+
+#: admin/overview.php:330
+msgid " MByte"
+msgstr " MBayt"
+
+#: admin/overview.php:342
+msgid "Operating System"
+msgstr "Operating System"
+
+#: admin/overview.php:343
+msgid "Server"
+msgstr "Sunucu"
+
+#: admin/overview.php:344
+msgid "Memory usage"
+msgstr "Memory usage"
+
+#: admin/overview.php:345
+msgid "MYSQL Version"
+msgstr "MYSQL Version"
+
+#: admin/overview.php:346
+msgid "SQL Mode"
+msgstr "SQL Mode"
+
+#: admin/overview.php:347
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: admin/overview.php:348
+msgid "PHP Safe Mode"
+msgstr "PHP Safe Mode"
+
+#: admin/overview.php:349
+msgid "PHP Allow URL fopen"
+msgstr "PHP Allow URL fopen"
+
+#: admin/overview.php:350
+msgid "PHP Memory Limit"
+msgstr "PHP Memory Limit"
+
+#: admin/overview.php:351
+msgid "PHP Max Upload Size"
+msgstr "PHP Max Upload Size"
+
+#: admin/overview.php:352
+msgid "PHP Max Post Size"
+msgstr "PHP Max Post Size"
+
+#: admin/overview.php:353
+msgid "PHP Output Buffer Size"
+msgstr "PHP Output Buffer Size"
+
+#: admin/overview.php:354
+msgid "PHP Max Script Execute Time"
+msgstr "PHP Max Script Execute Time"
+
+#: admin/overview.php:355
+msgid "PHP Exif support"
+msgstr "PHP Exif support"
+
+#: admin/overview.php:356
+msgid "PHP IPTC support"
+msgstr "PHP IPTC support"
+
+#: admin/overview.php:357
+msgid "PHP XML support"
+msgstr "PHP XML support"
+
+#: admin/overview.php:415
+msgid "Storage Space"
+msgstr "Storage Space"
+
+#: admin/overview.php:418
+msgid "Upload Space Used:"
+msgstr "Upload Space Used:"
+
+#: admin/overview.php:424
+msgid "Upload Space Remaining:"
+msgstr "Upload Space Remaining:"
+
+#: admin/skin_install.php:39
+msgid "Installation Failed"
+msgstr "Installation Failed"
+
+#: admin/skin_install.php:42
+msgid "The skin installed successfully."
+msgstr "The skin installed successfully."
+
+#: admin/skin_install.php:45
+msgid "Activate Skin"
+msgstr "Activate Skin"
+
+#: admin/skin_install.php:46
+msgid "Goto skin overview"
+msgstr "Goto skin overview"
+
+#: admin/skin_install.php:46
+msgid "Skin overview"
+msgstr "Skin overview"
+
+#: admin/skin_install.php:49
+msgid "Actions:"
+msgstr "Eylemler:"
+
+#: admin/skin_install.php:69
+msgid "Could not access filesystem."
+msgstr "Could not access filesystem."
+
+#: admin/skin_install.php:72
+msgid "Filesystem error"
+msgstr "Filesystem error"
+
+#: admin/skin_install.php:78
+msgid "Unable to locate FlAGallery Skin directory."
+msgstr "FlAGallery dış görünüm klasörü bulunamadı"
+
+#: admin/skin_install.php:83
+msgid "Unable to locate WordPress Content directory (wp-content)."
+msgstr "WP içerik dizini bulunamadı (wp-content)."
+
+#: admin/skin_install.php:89
+msgid "Install package not available."
+msgstr "Install package not available."
+
+#: admin/skin_install.php:97
+msgid "Unpacking the skin package"
+msgstr "Unpacking the skin package"
+
+#: admin/skin_install.php:114
+msgid "Folder already exists."
+msgstr "Folder already exists."
+
+#: admin/skin_install.php:117
+msgid "Installing the skin"
+msgstr "Installing the skin"
+
+#: admin/tinymce/tinymce.php:114
+#: admin/tinymce/window.php:19
+#: admin/tinymce/window.php:30
+msgid "Insert Flash Album with one or more galleries"
+msgstr "Bir veya daha fazla Flash Albüm Ekle"
+
+#: admin/tinymce/window.php:9
+msgid "You are not allowed to be here"
+msgstr "Senin burada olmaya yetkin yok"
+
+#: admin/tinymce/window.php:44
+msgid "Galleries"
+msgstr "Galeriler"
+
+#: admin/tinymce/window.php:45
+msgid "Sort"
+msgstr "Sırala"
+
+#: admin/tinymce/window.php:55
+msgid "Album Name"
+msgstr "Albüm Adı"
+
+#: admin/tinymce/window.php:59
+msgid "Select galleries"
+msgstr "Galeri seç"
+
+#: admin/tinymce/window.php:59
+msgid "(album categories)"
+msgstr "(albüm kategorisi)"
+
+#: admin/tinymce/window.php:61
+msgid "all galleries"
+msgstr "tüm galeriler"
+
+#: admin/tinymce/window.php:75
+msgid "custom settings"
+msgstr "özel ayarlar"
+
+#: admin/tinymce/window.php:84
+msgid "Choose skin"
+msgstr "Dış görünüm seç"
+
+#: admin/tinymce/window.php:86
+msgid "choose custom skin"
+msgstr "Özel dış görünüm seç"
+
+#: admin/tinymce/window.php:95
+msgid "Skin size"
+msgstr "Boyut"
+
+#: admin/tinymce/window.php:95
+msgid "blank for default"
+msgstr "blank for default"
+
+#: admin/tinymce/window.php:96
+msgid "width"
+msgstr "en (w)"
+
+#: admin/tinymce/window.php:96
+msgid "height"
+msgstr "boy (h)"
+
+#: admin/tinymce/window.php:105
+msgid "Order by"
+msgstr "Derleyen: "
+
+#: admin/tinymce/window.php:107
+msgid "Gallery IDs (default)"
+msgstr "Galeri ID (varsayılan)"
+
+#: admin/tinymce/window.php:108
+msgid "Gallery Title"
+msgstr "Galeri Başlığı"
+
+#: admin/tinymce/window.php:109
+msgid "User Defined"
+msgstr "Kullanıcı Tanımlı"
+
+#: admin/tinymce/window.php:110
+msgid "Randomly"
+msgstr "Rasgele"
+
+#: admin/tinymce/window.php:114
+msgid "Order"
+msgstr "Sıra"
+
+#: admin/tinymce/window.php:116
+msgid "DESC (default)"
+msgstr "DESC (varsayılan)"
+
+#: admin/tinymce/window.php:117
+msgid "ASC"
+msgstr "ASC"
+
+#: admin/tinymce/window.php:121
+msgid "Exclude Gallery"
+msgstr "Galeriyi Dışla"
+
+#: admin/tinymce/window.php:132
+#: admin/tinymce/window.php:198
+msgid "Insert"
+msgstr "Ekle"
+

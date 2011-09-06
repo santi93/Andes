@@ -1,0 +1,304 @@
+/* Captify styling */
+
+.caption-top, .caption-bottom {
+	color: #ffffff;	
+	padding: 1.2em;	
+	font-weight: bold;
+	font-size: 13px;	
+	font-family: arial;	
+	border: 0px solid #334143;
+	background: #000000;
+	text-shadow: 1px 1px 0 #202020;
+}
+.caption-top {
+   border-width: 0px 0px 8px 0px;
+}
+.caption-bottom {
+   border-width: 8px 0px 0px 0px;
+}
+.caption a, .caption a {
+	border: 0 none;
+	text-decoration: none;
+	background: #000000;
+	padding: 0.3em;
+}
+.caption a:hover, .caption a:hover {
+	background: #202020;
+	text-decoration:none;
+	cursor:pointer;
+}
+.caption-wrapper {
+	float: left;
+}
+br.c { clear: both; }
+
+/* End of Captify */
+
+
+/* Apple Style */
+
+.gallery{
+	/* CSS3 Box Shadow */
+	-moz-box-shadow:0 0 3px #AAAAAA;
+	-webkit-box-shadow:0 0 3px #AAAAAA;
+	box-shadow:0 0 3px #AAAAAA;
+	
+	/* CSS3 Rounded Corners */
+	
+	-moz-border-radius-bottomleft:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+	
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+	
+	border:1px solid white;
+	text-align:center;
+	margin:20px auto;
+	background:url(panel.jpg) repeat-x bottom center #ffffff;
+	display:block;
+	
+	/* The width of the gallery */
+	/*width:920px; Let's assign this from WP admin panel, otherwise it will be too big for most sites */
+	overflow:hidden;
+}
+
+.fbar{
+	/* The left-most vertical bar, next to the first thumbnail */
+	width:2px!important;
+	background:url(divider.png) no-repeat right;
+	/*float:left;*/
+}
+
+
+#slides{
+	/* This is the slide area */
+	height:400px;
+	
+	/* jQuery changes the width later on to the sum of the widths of all the slides. */
+	width:920px;
+	overflow:hidden;
+}
+
+.slide{
+	float:left;
+}
+
+#slides_menu{
+	/* This is the container for the thumbnails */
+	height:45px;
+	/* for IE7 */
+	position:relative;
+}
+
+#slides_menu ul{
+	margin:0px;
+	padding:0px;
+	list-style-image: none;
+}
+
+#slides_menu li{
+	/* Every thumbnail is a li element */
+	width:60px;
+	display:inline-block;
+	list-style:none;
+	height:45px;
+	overflow:hidden;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+	/*float:left;*/
+	text-align:center;
+}
+
+#slides_menu li.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background:url(pic_bg.png) repeat;
+}
+
+#slides_menu li.act, #slides_menu li.act:hover{
+	/* The active state of the thumb */
+	background:url(active_bg.png) no-repeat;
+}
+
+#slides_menu li.act a{
+	cursor:default;
+}
+
+
+#slides_menu li a{
+	display:block;
+	background:url(divider.png) no-repeat right;
+	height:35px;
+	padding-top:10px;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+}
+
+#slides_menu a img{
+	border:none!important;
+}
+
+
+.main{
+	/* The main container */
+	margin:15px auto;
+	text-align:center;
+}
+
+/* ---------------- WIDGET */
+
+#slidesw{
+	/* This is the slide area */
+	height:400px;
+	
+	/* jQuery changes the width later on to the sum of the widths of all the slides. */
+	width:920px;
+	overflow:hidden;
+}
+
+.slidew{
+	float:left;
+}
+
+#slidesw_menu{
+	/* This is the container for the thumbnails */
+	height:45px;
+	/* for IE7 */
+	position:relative;
+}
+
+#slidesw_menu ul{
+	margin:0px;
+	padding:0px;
+	list-style-image: none;
+}
+
+#slidesw_menu li{
+	/* Every thumbnail is a li element */
+	width:60px;
+	display:inline-block;
+	list-style:none;
+	height:45px;
+	overflow:hidden;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+	/*float:left;*/
+	text-align:center;
+}
+
+#slidesw_menu li.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background:url(pic_bg.png) repeat;
+}
+
+#slidesw_menu li.act, #slidesw_menu li.act:hover{
+	/* The active state of the thumb */
+	background:url(active_bg.png) no-repeat;
+}
+
+#slidesw_menu li.act a{
+	cursor:default;
+}
+
+
+#slidesw_menu li a{
+	display:block;
+	background:url(divider.png) no-repeat right;
+	height:35px;
+	padding-top:10px;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+}
+
+#slidesw_menu a img{
+	border:none!important;
+}
+
+/* ---------------- CUSTOM */
+
+#slidesc{
+	/* This is the slide area */
+	height:400px;
+	
+	/* jQuery changes the width later on to the sum of the widths of all the slides. */
+	width:920px;
+	overflow:hidden;
+}
+
+.slidec{
+	float:left;
+}
+
+#slides_menuc{
+	/* This is the container for the thumbnails */
+	height:45px;
+	/* for IE7 */
+	position:relative;
+}
+
+#slides_menuc ul{
+	margin:0px;
+	padding:0px;
+	list-style-image: none;
+}
+
+#slides_menuc li{
+	/* Every thumbnail is a li element */
+	width:60px;
+	display:inline-block;
+	list-style:none;
+	height:45px;
+	overflow:hidden;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+	/*float:left;*/
+	text-align:center;
+}
+
+#slides_menuc li.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background:url(pic_bg.png) repeat;
+}
+
+#slides_menuc li.act, #slides_menuc li.act:hover{
+	/* The active state of the thumb */
+	background:url(active_bg.png) no-repeat;
+}
+
+#slides_menuc li.act a{
+	cursor:default;
+}
+
+
+#slides_menuc li a{
+	display:block;
+	background:url(divider.png) no-repeat right;
+	height:35px;
+	padding-top:10px;
+	line-height:none;
+	margin:none;
+	list-style:none;
+	list-style-image: none;
+	padding:none;
+}
+
+#slides_menuc a img{
+	border:none!important;
+}
+

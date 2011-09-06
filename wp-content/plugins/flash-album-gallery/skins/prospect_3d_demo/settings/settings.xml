@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel title="3D Pprospect Gallery v1.4 DEMO">
+	<item type="numericSteper" name="property2">
+		<title><![CDATA[The number of images in a row]]></title>
+		<description><![CDATA[]]></description>
+		<maximum>7</maximum>
+		<minimum>1</minimum>
+		<stepSize>1</stepSize>
+		<value>1</value>
+	</item>
+	<item type="slider" name="property21">
+		<title><![CDATA[Thumbnail Width]]></title>
+		<description><![CDATA[]]></description>
+		<maximum>500</maximum>
+		<minimum>50</minimum>
+		<snapInterval>10</snapInterval>
+		<tickInterval>-1</tickInterval>
+		<value>400</value>
+	</item>
+	<item type="slider" name="property22">
+		<title><![CDATA[Thumbnail Height]]></title>
+		<description><![CDATA[]]></description>
+		<maximum>500</maximum>
+		<minimum>50</minimum>
+		<snapInterval>10</snapInterval>
+		<tickInterval>-1</tickInterval>
+		<value>280</value>
+	</item>
+	<item type="numericSteper" name="property23">
+		<title><![CDATA[Thumnail Border Size]]></title>
+		<description><![CDATA[]]></description>
+		<maximum>30</maximum>
+		<minimum>0</minimum>
+		<stepSize>1</stepSize>
+		<value>5</value>
+	</item>
+	<item type="colorPicker" name="property24">
+		<title><![CDATA[Thumbnail Border Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xffffff</selectedColor>
+	</item>
+	<item type="slider" name="property18">
+		<title><![CDATA[Camera Y-position]]></title>
+		<description><![CDATA[Recomendet -(Thumbnail Height/2)]]></description>
+		<maximum>250</maximum>
+		<minimum>-250</minimum>
+		<snapInterval>10</snapInterval>
+		<tickInterval>-1</tickInterval>
+		<value>-140</value>
+	</item>
+	<item type="numericSteper" name="property3">
+		<title><![CDATA[Slideshow Delay]]></title>
+		<description><![CDATA[]]></description>
+		<maximum>30</maximum>
+		<minimum>0</minimum>
+		<stepSize>1</stepSize>
+		<value>8</value>
+	</item>
+	<item type="checkBox" name="property4">
+		<title><![CDATA[Thumbnails Hint]]></title>
+		<description><![CDATA[Show image Title on mouseover.]]></description>
+		<selected>true</selected>
+	</item>
+	<item type="colorPicker" name="property19">
+		<title><![CDATA[Hint Background Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x292929</selectedColor>
+	</item>
+	<item type="slider" name="property20">
+		<title><![CDATA[Hint Background Alpha]]></title>
+		<description><![CDATA[]]></description>
+		<maximum>100</maximum>
+		<minimum>0</minimum>
+		<snapInterval>5</snapInterval>
+		<tickInterval>10</tickInterval>
+		<value>95</value>
+	</item>
+	<item type="checkBox" name="property25">
+		<title><![CDATA[Facebook]]></title>
+		<description><![CDATA[Show Facebook (f) Button.]]></description>
+		<selected>true</selected>
+	</item>	
+	<item type="checkBox" name="property26">
+		<title><![CDATA[Twitter]]></title>
+		<description><![CDATA[Show Twitter (t) Button.]]></description>
+		<selected>true</selected>
+	</item>
+	<item type="checkBox" name="property27">
+		<title><![CDATA[AddToAny]]></title>
+		<description><![CDATA[Show AddToAny (+) Button.]]></description>
+		<selected>true</selected>
+	</item>	
+	<item type="checkBox" name="property17">
+		<title><![CDATA[FullScreen Mode]]></title>
+		<description><![CDATA[Show FullScreen Button.]]></description>
+		<selected>true</selected>
+	</item>	
+	<item type="comboBox" name="property0">
+		<title><![CDATA[Flash Object WMode]]></title>
+		<description><![CDATA[If 'transparent' - "Background Color" option is ignored, but you can position the absolute elements over the flash.]]></description>
+		<data>
+			<label name="Window"><![CDATA[window]]></label>
+			<label name="Transparent"><![CDATA[transparent]]></label>
+			<label name="Opaque"><![CDATA[opaque]]></label>
+		</data>
+		<prompt><![CDATA[]]></prompt>
+		<rowCount>2</rowCount>
+		<value><![CDATA[opaque]]></value>
+	</item>
+	<item type="checkBox" name="swfmousewheel">
+		<title><![CDATA[SWF Mouse Wheel]]></title>
+		<description><![CDATA[Turn On/Off mouse wheel detection over Gallery.]]></description>
+		<selected>false</selected>
+	</item>
+	<item type="colorPicker" name="property1">
+		<title><![CDATA[Background Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x000000</selectedColor>
+	</item>
+	<item type="colorPicker" name="property5">
+		<title><![CDATA[Buttons Background Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x292929</selectedColor>
+	</item>
+	<item type="colorPicker" name="property6">
+		<title><![CDATA[Buttons Text Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xffffff</selectedColor>
+	</item>
+	<item type="colorPicker" name="property7">
+		<title><![CDATA[Buttons Text Color on Mouseover]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x4a4a4a</selectedColor>
+	</item>
+	<item type="colorPicker" name="property8">
+		<title><![CDATA[Category Buttons Background Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x292929</selectedColor>
+	</item>
+	<item type="colorPicker" name="property9">
+		<title><![CDATA[Category Buttons Background Color on Mouseover]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x737373</selectedColor>
+	</item>
+	<item type="colorPicker" name="property10">
+		<title><![CDATA[Category Buttons Text Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xffffff</selectedColor>
+	</item>
+	<item type="colorPicker" name="property11">
+		<title><![CDATA[Category Buttons Text Color on Mouseover]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xffffff</selectedColor>
+	</item>
+	<item type="colorPicker" name="property12">
+		<title><![CDATA[Scroll Bar Track Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0x4a4a4a</selectedColor>
+	</item>
+	<item type="colorPicker" name="property13">
+		<title><![CDATA[Scroll Bar Button Color]]></title>
+		<description><![CDATA[]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xffffff</selectedColor>
+	</item>
+	<item type="colorPicker" name="property14">
+		<title><![CDATA[Thumbnail BG Color]]></title>
+		<description><![CDATA[Background of the thumbnail placeholder while thumbnail is loading.]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xffffff</selectedColor>
+	</item>
+	<item type="colorPicker" name="property15">
+		<title><![CDATA[Image Title Color]]></title>
+		<description><![CDATA[Color of text for image title in the description.]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xe8e8e8</selectedColor>
+	</item>
+	<item type="colorPicker" name="property16">
+		<title><![CDATA[Image Description Color]]></title>
+		<description><![CDATA[Color of text for image description.]]></description>
+		<showTextField>true</showTextField>
+		<selectedColor>0xcfcfcf</selectedColor>
+	</item>
+<properties>
+  <property0><![CDATA[opaque]]></property0>
+  <swfmousewheel>false</swfmousewheel>
+  <property1>0x000000</property1>
+  <property2>1</property2>
+  <property3>8</property3>
+  <property4>true</property4>
+  <property5>0x292929</property5>
+  <property6>0xffffff</property6>
+  <property7>0x4a4a4a</property7>
+  <property8>0x292929</property8>
+  <property9>0x737373</property9>
+  <property10>0xffffff</property10>
+  <property11>0xffffff</property11>
+  <property12>0x4a4a4a</property12>
+  <property13>0xffffff</property13>
+  <property14>0xffffff</property14>
+  <property15>0xe8e8e8</property15>
+  <property16>0xcfcfcf</property16>
+  <property17>true</property17>
+  <property18>-140</property18>
+  <property19>0x292929</property19>
+  <property20>95</property20>
+  <property21>400</property21>
+  <property22>280</property22>
+  <property23>5</property23>
+  <property24>0xffffff</property24>
+  <property25>true</property25>
+  <property26>true</property26>
+  <property27>true</property27>
+</properties>
+</panel>
